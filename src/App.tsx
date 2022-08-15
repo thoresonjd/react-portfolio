@@ -6,6 +6,7 @@ import {
   Education,
   Experience,
   Projects,
+  About,
   Particles
 } from './components';
 import './App.css';
@@ -20,6 +21,7 @@ const App: React.FC = () => {
           <Route path='/education' element={<Education />} />
           <Route path='/experience' element={<Experience />} />
           <Route path='/projects' element={<Projects />} />
+          <Route path='/about' element={<About />} />
         </Routes>
       </Router>
       <Particles />

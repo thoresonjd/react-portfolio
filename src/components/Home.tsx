@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 
 export const Home: React.FC = () => {
   return (
@@ -14,11 +14,11 @@ export const Home: React.FC = () => {
             transform: 'translate(-50%, -50%)'
         }}
     >
-        <Grid xl={4} textAlign='center' sx={{backgroundColor: 'red'}}>
-            First
+        <Grid xl={4} textAlign='center' sx={{color: 'white'}}>
+            <Typography fontSize={50} fontWeight='bold'>Left</Typography>
         </Grid>
-        <Grid xl={4} textAlign='center' sx={{backgroundColor: 'green'}}>
-            Second
+        <Grid xl={4} textAlign='center' sx={{color: 'white'}}>
+            <Typography fontSize={50} fontWeight='bold'>Right</Typography>
         </Grid>
     </Grid>
   );
