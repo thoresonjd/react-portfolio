@@ -4,9 +4,9 @@ import {
   Navbar,
   Home,
   Education,
-  Experience
+  Experience,
+  Particles
 } from './components';
-import { Particles } from './components/Particles';
 import './App.css';
 
 const App: React.FC = () => {
