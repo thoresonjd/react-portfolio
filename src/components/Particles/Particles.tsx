@@ -1,7 +1,8 @@
 import { useCallback } from "react";
 import { Particles as ReactParticles } from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { particlesConfig } from "./particles-config";
+import { ISourceOptions } from "tsparticles-engine";
+import particlesConfig from "./particles-config.json";
 
 export const Particles: React.FC = () => {
 
@@ -10,6 +11,6 @@ export const Particles: React.FC = () => {
     }, []);
 
     return (
-        <ReactParticles init={initParticles} options={particlesConfig} />
+        <ReactParticles init={initParticles} options={particlesConfig as ISourceOptions} />
     )
 }
