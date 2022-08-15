@@ -9,6 +9,7 @@ export const Navbar: React.FC = () => {
                 <Button component={Link} to='/' variant='contained'>Home</Button>
                 <Button component={Link} to='/education' variant='contained'>Education</Button>
                 <Button component={Link} to='/experience' variant='contained'>Experience</Button>
+                <Button component={Link} to='/projects' variant='contained'>Projects</Button>
             </Toolbar>
         </AppBar>
     );
