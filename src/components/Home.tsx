@@ -1,9 +1,8 @@
 import React from "react";
+import { Particles } from "./Particles";
 
-const Home: React.FC = () => {
+export const Home: React.FC = () => {
     return (
-        <>Hello, world!</>
+        <Particles />
     );
 }
-
-export default Home;
