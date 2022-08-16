@@ -1,0 +1,73 @@
+{
+    "education": [
+        {
+            "level": "high school | undergraduate | graduate",
+            "degree": "value",
+            "majors": [
+                "Computer Science"
+            ],
+            "minors": [
+                "Data Science"
+            ],
+            "institution": "value",
+            "location": "value",
+            "start-date": "date",
+            "end-date": "date",
+            "graduated": "boolean",
+            "gpa": "floating point",
+            "honors": "summa cum laude",
+            "bullet-points": [
+                "Awards",
+                "Academic achievements"
+            ],
+            "references": [
+                {"reference": "link"},
+                {"reference": "link"},
+                {"reference": "link"}
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "title": "value",
+            "employer": "value",
+            "type": "full-time | part-time | internship | seasonal",
+            "location": "value",
+            "start-date": "date",
+            "end-date": "date",
+            "decription": "desc",
+            "bullet-points": [
+                "High-level overview",
+                "Detailed role",
+                "Achievements and accomplishments",
+                "Tools and technologies used"
+            ],
+            "references": [
+                {"reference": "link"},
+                {"reference": "link"},
+                {"reference": "link"}
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "value",
+            "type": "personal | team | company",
+            "location": "value",
+            "start-date": "date",
+            "end-date": "date",
+            "decription": "desc",
+            "bullet-points": [
+                "High-level overview",
+                "Detailed role",
+                "Achievements and accomplishments",
+                "Tools and technologies used"
+            ],
+            "references": [
+                {"reference": "link"},
+                {"reference": "link"},
+                {"reference": "link"}
+            ]
+        }
+    ]
+}
