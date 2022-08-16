@@ -1,43 +1,11 @@
 import React from 'react';
 import Typed from 'react-typed';
 import { Box, Grid, Avatar, Typography } from '@mui/material';
-import { makeStyles } from '@mui/styles';
-import { colors } from '../theme';
-import headshot from '../assets/SU_ID.jpg';
-
-const useStyles = makeStyles(() => ({
-  title: {
-    fontSize: 50,
-    fontWeight: 'bold',
-    fontFamily: 'consolas !important'
-  },
-  subtitle: {
-    color: colors.Green,
-    fontFamily: 'consolas !important'
-  },
-  outerGrid: {
-    position: 'absolute',
-    left: '50%',
-    top: '50%',
-    transform: 'translate(-50%, -50%)',
-    textAlign: 'center',
-    justifyContent: 'center'
-  },
-  typedBox: {
-    color: colors.Lime,
-    margin: 'auto auto'
-  },
-  image: {
-    height: '400px !important',
-    width: '400px !important',
-    left: '50%',
-    top: '50%',
-    transform: 'translate(-50%, -50%)'
-  }
-}));
+import { useHomeStyles } from './home-styles';
+import headshot from '../../assets/SU_ID.jpg';
 
 export const Home: React.FC = () => {
-  const classes = useStyles();
+  const classes = useHomeStyles();
 
   return (
     <Grid container columnGap={10} className={classes.outerGrid}>

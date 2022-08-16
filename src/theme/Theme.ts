@@ -14,7 +14,4 @@ export const theme = createTheme({
       main: colors.Red
     }
   },
-  // typography: {
-  //   fontFamily: 'consolas'
-  // },  
 });
