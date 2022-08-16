@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box, Grid, Avatar, Typography } from '@mui/material';
 import Typed from 'react-typed';
+import { Box, Grid, Avatar, Typography } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import { colors } from '../theme';
 import headshot from '../assets/SU_ID.jpg';
@@ -9,12 +9,11 @@ const useStyles = makeStyles(() => ({
   title: {
     fontSize: 50,
     fontWeight: 'bold',
-    fontFamily: 'consolas'
+    fontFamily: 'consolas !important'
   },
   subtitle: {
     color: colors.Green,
-    textTransform: 'uppercase',
-    fontFamily: 'consolas'
+    fontFamily: 'consolas !important'
   },
   outerGrid: {
     position: 'absolute',
