@@ -2,7 +2,7 @@ import { makeStyles } from '@mui/styles';
 
 export const useNavbarStyles = makeStyles(() => ({
     appbar: {
-        boxShadow: 'none'
+        boxShadow: 'none !important'
     },
     toolbar: {
         margin: 'auto'
