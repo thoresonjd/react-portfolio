@@ -18,6 +18,7 @@ export const useEducationStyles = makeStyles(() => ({
         transform: 'translateY(-50%)',
     },
     image: {
-        maxWidth: 250
+        maxWidth: 250,
+        maxHeight: 250
     }
 }));
