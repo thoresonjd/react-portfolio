@@ -20,6 +20,7 @@
                 "Awards",
                 "Academic achievements"
             ],
+            "image-path": "value",
             "references": [
                 {"reference": "link"},
                 {"reference": "link"},
@@ -42,6 +43,7 @@
                 "Achievements and accomplishments",
                 "Tools and technologies used"
             ],
+            "image-path": "value",
             "references": [
                 {"reference": "link"},
                 {"reference": "link"},
