@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardContent, CardMedia, Typography } from '@mui/material';
+import SchoolIcon from '@mui/icons-material/School';
 import { 
   Timeline, 
   TimelineItem,
@@ -26,7 +27,9 @@ export const Education: React.FC = () => {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector /> 
-            <TimelineDot />
+            <TimelineDot>
+              <SchoolIcon />
+            </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
