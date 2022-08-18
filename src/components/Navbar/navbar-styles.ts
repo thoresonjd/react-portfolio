@@ -4,6 +4,16 @@ export const useNavbarStyles = makeStyles(() => ({
     appbar: {
         boxShadow: 'none !important'
     },
+    transparent: {
+        transition: 'all 0.3s ease-out 0s !important',
+        boxShadow: 'none !important'
+    },
+    blurred: {
+        position: 'fixed',
+        transition: 'all 0.3s ease-out 0s !important',
+        boxShadow: 'none !important',
+        backdropFilter: 'blur(15px) !important'
+    },
     toolbar: {
         margin: 'auto'
     },
