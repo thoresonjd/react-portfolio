@@ -15,7 +15,8 @@ export const useEducationStyles = makeStyles(() => ({
         margin: 0,
         position: 'relative',
         top: '50%',
-        transform: 'translateY(-50%)'
+        transform: 'translateY(-50%)',
+        color: 'white'
     },
     image: {
         maxWidth: 250,

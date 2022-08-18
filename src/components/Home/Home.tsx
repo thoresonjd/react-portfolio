@@ -2,7 +2,7 @@ import React from 'react';
 import Typed from 'react-typed';
 import { Box, Grid, Avatar, Typography } from '@mui/material';
 import { useHomeStyles } from './home-styles';
-import headshot from '../../assets/SU_ID.jpg';
+import headshot from '../../assets/images/SU_ID.jpg';
 
 export const Home: React.FC = () => {
   const classes = useHomeStyles();
