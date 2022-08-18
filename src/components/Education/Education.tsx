@@ -34,41 +34,23 @@ export const Education: React.FC = () => {
           </TimelineSeparator>
           <TimelineContent>
             <Card className={index % 2 === 0 ? classes.educationCardRHS : classes.educationCardLHS}>
-              {index % 2 === 0 ? (
-                <>
-                  <CardContent>
-                    <Typography>{edu.institution}</Typography>
-                    <Typography>{edu.degree}</Typography>
-                    <Typography>{edu.majors[0]}</Typography>
-                    <Typography>{edu.minors[0]}</Typography> 
-                    <Typography>GPA: {edu.gpa}</Typography> 
-                    <Typography>Honors: {edu.honors}</Typography> 
-                  </CardContent>
-                  <CardMedia
-                    className={classes.image}
-                    component='img'
-                    image={require(`../../${edu['image-path']}`)}
-                    alt='education'
-                  />
-                </>
-              ) : (
-                <>
-                  <CardMedia
-                    className={classes.image}
-                    component='img'
-                    image={require(`../../${edu['image-path']}`)}
-                    alt='education'
-                  />
-                  <CardContent>
-                    <Typography>{edu.institution}</Typography>
-                    <Typography>{edu.degree}</Typography>
-                    <Typography>{edu.majors[0]}</Typography>
-                    <Typography>{edu.minors[0]}</Typography> 
-                    <Typography>GPA: {edu.gpa}</Typography> 
-                    <Typography>Honors: {edu.honors}</Typography> 
-                  </CardContent>
-                </>
-              )}
+              <CardMedia
+                className={classes.image}
+                component='img'
+                image={require(`../../${edu['image-path']}`)}
+                alt='education'
+              />
+              <CardContent>
+                <Typography>{edu.institution}</Typography>
+                <Typography>{edu.degree}</Typography>
+                {edu.majors.length > 0 ? (<Typography>Major(s): {edu.majors.join(', ')}</Typography>) : <></>}
+                {edu.minors.length > 0 ? (<Typography>Minor(s): {edu.minors.join(', ')}</Typography>) : <></>}
+                {edu.gpa >= 0 ? (<Typography>GPA: {edu.gpa}</Typography>) : <></>} 
+                {edu.honors !== '' ? (<Typography>Honors: {edu.honors}</Typography> ) : <></>}
+                {edu['bullet-points'].map((bullet, index) => (
+                  <Typography>{bullet}</Typography>
+                ))}
+              </CardContent>
             </Card>
           </TimelineContent>
         </TimelineItem>
