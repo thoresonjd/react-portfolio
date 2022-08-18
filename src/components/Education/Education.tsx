@@ -26,11 +26,11 @@ export const Education: React.FC = () => {
             </Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector /> 
-            <TimelineDot>
-              <SchoolIcon />
+            <TimelineConnector className={classes.timelineConnector} /> 
+            <TimelineDot className={classes.timelineDot}>
+              <SchoolIcon className={classes.icon} fontSize='large' />
             </TimelineDot>
-            <TimelineConnector />
+            <TimelineConnector className={classes.timelineConnector} />
           </TimelineSeparator>
           <TimelineContent>
             <Card className={index % 2 === 0 ? classes.educationCardRHS : classes.educationCardLHS}>
