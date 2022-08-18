@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/react-portfolio/static/js/main.db1a3529.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/thd-logo.png": "/react-portfolio/static/media/thd-logo.fd5f64d12f2864878896.png",
+    "static/media/SU_ID.jpg": "/react-portfolio/static/media/SU_ID.8674ca252d4fb7530fb7.jpg",
+    "static/media/evcc-logo.jpg": "/react-portfolio/static/media/evcc-logo.ba569ee4113fbeeabecd.jpg",
+    "static/media/su-logo.jpg": "/react-portfolio/static/media/su-logo.4d0558aa2230f4f26d14.jpg",
+    "static/media/tmo-logo.jpg": "/react-portfolio/static/media/tmo-logo.508d90a1811b03aba830.jpg",
+    "static/media/gfsd-logo.jpg": "/react-portfolio/static/media/gfsd-logo.cb27ad2c68679cb9b183.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.073c9b0a.css.map": "/react-portfolio/static/css/main.073c9b0a.css.map",
+    "main.db1a3529.js.map": "/react-portfolio/static/js/main.db1a3529.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.db1a3529.js"
+  ]
+}
