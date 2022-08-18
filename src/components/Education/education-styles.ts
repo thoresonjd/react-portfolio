@@ -19,6 +19,12 @@ export const useEducationStyles = makeStyles(() => ({
         margin: '0 0 0 auto'
     },
     opposite: {
-    
+        
+    },
+    timeFrame: {
+        margin: 0,
+        position: 'relative',
+        top: '50%',
+        transform: 'translateY(-50%)',
     }
 }));

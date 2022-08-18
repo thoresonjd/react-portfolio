@@ -18,7 +18,7 @@ export const Education: React.FC = () => {
     <Timeline className={classes.educationTimeline} position='alternate'>
       <TimelineItem className={classes.educationItem}>
         <TimelineOppositeContent >
-          <Typography>Time frame</Typography>
+          <Typography className={classes.timeFrame}>Time frame</Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector /> 
@@ -37,7 +37,6 @@ export const Education: React.FC = () => {
             </CardContent>
             <CardMedia
               component='img'
-              sx={{ height: 'auto', width: 200}}
               image={require('../../assets/SU_ID.jpg')}
               alt='Live from space album cover'
             />
@@ -46,19 +45,18 @@ export const Education: React.FC = () => {
       </TimelineItem>
       <TimelineItem className={classes.educationItem}>
         <TimelineOppositeContent className={classes.opposite}>
-          Time frame
+          <Typography className={classes.timeFrame}>Time frame</Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{display: 'flex', textAlign: 'right'}}>
+        <TimelineContent>
           <Card className={classes.educationCardLHS}>
             <CardContent>Code</CardContent>
             <CardMedia
               component='img'
-              sx={{ width: 200 }}
               image={require('../../assets/SU_ID.jpg')}
               alt='Live from space album cover'
             />
@@ -67,7 +65,7 @@ export const Education: React.FC = () => {
       </TimelineItem>
       <TimelineItem className={classes.educationItem}>
         <TimelineOppositeContent className={classes.opposite}>
-          Time frame
+          <Typography className={classes.timeFrame}>Time frame</Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -79,7 +77,6 @@ export const Education: React.FC = () => {
             <CardContent>Sleep</CardContent>
             <CardMedia
               component='img'
-              sx={{ width: 200 }}
               image={require('../../assets/SU_ID.jpg')}
               alt='Live from space album cover'
             />
@@ -88,7 +85,7 @@ export const Education: React.FC = () => {
       </TimelineItem>
       <TimelineItem className={classes.educationItem}>
         <TimelineOppositeContent className={classes.opposite}>
-          Time frame
+          <Typography className={classes.timeFrame}>Time frame</Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -100,7 +97,6 @@ export const Education: React.FC = () => {
             <CardContent>Repeat</CardContent>
             <CardMedia
               component='img'
-              sx={{ width: 200 }}
               image={require('../../assets/SU_ID.jpg')}
               alt='Live from space album cover'
             />
