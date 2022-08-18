@@ -1,0 +1,75 @@
+[
+    {
+        "level": "Graduate",
+        "degree": "Master of Science",
+        "majors": [
+            "Computer Science"
+        ],
+        "minors": [],
+        "institution": "Seattle University",
+        "location": "Seattle, WA",
+        "start-date": "June 2022",
+        "end-date": "June 2023",
+        "graduated": false,
+        "gpa": -1,
+        "honors": "",
+        "bullet-points": [],
+        "image-path": "assets/su-logo.jpg",
+        "references": []
+    },
+    {
+        "level": "Undergraduate",
+        "degree": "Bachelor of Science",
+        "majors": [
+            "Computer Science"
+        ],
+        "minors": [
+            "Data Science"
+        ],
+        "institution": "Seattle University",
+        "location": "Seattle, WA",
+        "start-date": "September 2019",
+        "end-date": "June 2022",
+        "graduated": true,
+        "gpa": 3.955,
+        "honors": "Summa Cum Laude",
+        "bullet-points": [
+            "Outstanding Computer Science Undergraduate Student Award 2022",
+            "President's List 8x, Dean's List 9x"
+        ],
+        "image-path": "assets/su-logo.jpg",
+        "references": []
+    },
+    {
+        "level": "Undergraduate",
+        "degree": "Running Start",
+        "majors": [],
+        "minors": [],
+        "institution": "Everett Community College",
+        "location": "Everett, WA",
+        "start-date": "September 2017",
+        "end-date": "June 2019",
+        "graduated": false,
+        "gpa": 3.74,
+        "honors": "",
+        "bullet-points": [],
+        "image-path": "assets/evcc-logo.jpg",
+        "references": []
+    },
+    {
+        "level": "High School",
+        "degree": "High School Diploma",
+        "majors": [],
+        "minors": [],
+        "institution": "Granite Falls High School",
+        "location": "Granite Falls, WA",
+        "start-date": "September 2015",
+        "end-date": "June 2019",
+        "graduated": true,
+        "gpa": 3.71,
+        "honors": "",
+        "bullet-points": [],
+        "image-path": "assets/gfsd-logo.jpg",
+        "references": []
+    }
+]
