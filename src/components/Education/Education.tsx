@@ -22,7 +22,7 @@ export const Education: React.FC = () => {
         <TimelineItem>
           <TimelineOppositeContent className={classes.content}>
             <Typography className={classes.timeFrame}>
-              {edu.graduated ? 'Graduated' : `${edu['start-date']} -`} {edu['end-date']}
+              {edu.graduated ? 'Graduated' : `${edu.from} -`} {edu.to}
             </Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>

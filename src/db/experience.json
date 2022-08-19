@@ -1,0 +1,53 @@
+[
+    {
+        "position": "Software Engineer Intern",
+        "employer": "T-Mobile",
+        "type": "Internship",
+        "location": "Bellevue, WA",
+        "from": "June 2022",
+        "to": "Present",
+        "decription": "",
+        "bullet-points": [
+            "High-level overview",
+            "Detailed role",
+            "Achievements and accomplishments",
+            "Tools and technologies used"
+        ],
+        "image-path": "assets/images/tmo-logo.jpg",
+        "references": []
+    },
+    {
+        "position": "Tutor, TA, Grader - CSSE",
+        "employer": "Seattle University",
+        "type": "Part-time",
+        "location": "Seattle, WA",
+        "from": "June 2021",
+        "to": "June 2022",
+        "decription": "",
+        "bullet-points": [
+            "High-level overview",
+            "Detailed role",
+            "Achievements and accomplishments",
+            "Tools and technologies used"
+        ],
+        "image-path": "assets/images/su-logo.jpg",
+        "references": []
+    },
+    {
+        "position": "Sales Associate",
+        "employer": "The Home Depot",
+        "type": "Seasonal",
+        "location": "Snohomish, WA",
+        "from": "July 2020",
+        "to": "June 2022",
+        "decription": "",
+        "bullet-points": [
+            "High-level overview",
+            "Detailed role",
+            "Achievements and accomplishments",
+            "Tools and technologies used"
+        ],
+        "image-path": "assets/images/thd-logo.png",
+        "references": []
+    }
+]
