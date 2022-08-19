@@ -17,10 +17,10 @@ export const Education: React.FC = () => {
   const classes = useEducationStyles();
 
   return (
-    <Timeline position='alternate'>
+    <Timeline className={classes.educationTimeline} position='alternate'>
       {education.map((edu, index) => (
         <TimelineItem>
-          <TimelineOppositeContent >
+          <TimelineOppositeContent className={classes.content}>
             <Typography className={classes.timeFrame}>
               {edu.graduated ? 'Graduated' : `${edu['start-date']} -`} {edu['end-date']}
             </Typography>
@@ -32,7 +32,7 @@ export const Education: React.FC = () => {
             </TimelineDot>
             <TimelineConnector className={classes.timelineConnector} />
           </TimelineSeparator>
-          <TimelineContent>
+          <TimelineContent className={classes.content}>
             <Card className={index % 2 === 0 ? classes.educationCardRHS : classes.educationCardLHS}>
               <CardMedia
                 className={classes.image}
