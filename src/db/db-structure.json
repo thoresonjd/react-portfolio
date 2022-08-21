@@ -52,24 +52,19 @@
         }
     ],
     "projects": [
-        {
-            "title": "value",
-            "type": "personal | team | company",
-            "location": "value",
-            "start-date": "date",
-            "end-date": "date",
-            "decription": "desc",
-            "bullet-points": [
-                "High-level overview",
-                "Detailed role",
-                "Achievements and accomplishments",
-                "Tools and technologies used"
-            ],
-            "references": [
-                {"reference": "link"},
-                {"reference": "link"},
-                {"reference": "link"}
-            ]
-        }
+      {
+        "title": "value",
+        "for": "personal | team | company | school",
+        "from": "date",
+        "to": "date",
+        "description": "desc",
+        "bullet-points": [
+            "High-level overview",
+            "Detailed role",
+            "Achievements and accomplishments",
+            "Tools and technologies used"
+        ],
+        "source": "link"
+      }
     ]
 }

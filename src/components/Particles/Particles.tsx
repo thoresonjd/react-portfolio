@@ -12,5 +12,5 @@ export const Particles: React.FC = () => {
 
   return (
     <ReactParticles init={initParticles} options={particlesConfig as ISourceOptions} />
-  )
+  );
 }
