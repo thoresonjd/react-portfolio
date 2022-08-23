@@ -19,7 +19,8 @@ export const Home: React.FC = () => {
               strings={[
                 'Student',
                 'Developer',
-                'Nerd'
+                'Nerd',
+                'Alien'
               ]}
               typeSpeed={50}
               backSpeed={60}

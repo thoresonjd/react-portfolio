@@ -3,8 +3,6 @@ import { colors } from '../../theme';
 
 export const useHomeStyles = makeStyles(() => ({
     title: {
-      fontSize: 50,
-      fontWeight: 'bold',
       fontFamily: 'consolas !important'
     },
     subtitle: {

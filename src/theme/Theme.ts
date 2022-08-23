@@ -6,12 +6,6 @@ export const theme = createTheme({
     mode: 'dark',
     primary: {
       main: colors.Lime
-    },
-    secondary: {
-      main: colors.White
-    },
-    error: {
-      main: colors.Red
     }
   },
 });
