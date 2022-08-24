@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Avatar } from '@mui/material';
+import { Box, Typography, Avatar, Card, List, ListItem } from '@mui/material';
 import { useAboutStyles } from './about-styles';
 import headshot from '../../assets/images/alien.jpg';
 
@@ -14,7 +14,16 @@ export const About: React.FC = () => {
         className={classes.image}
       />
       <Typography className={classes.title} variant='h4'>Justin Thoreson</Typography>
-
+      <Card className={classes.details}>
+        <List>
+          <ListItem>Stuff</ListItem>
+          <ListItem>Stuff</ListItem>
+          <ListItem>Stuff</ListItem>
+          <ListItem>Stuff</ListItem>
+          <ListItem>Stuff</ListItem>
+          <ListItem>Stuff</ListItem>
+        </List>
+      </Card>
     </Box>
   );
 }
