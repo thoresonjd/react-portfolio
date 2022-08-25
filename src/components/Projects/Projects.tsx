@@ -37,7 +37,6 @@ export const Projects: React.FC = () => {
               <CardContent>
                 <Typography>{proj.title}</Typography>
                 <Typography>{proj.for}</Typography>
-                <Typography>{proj.description}</Typography>
                 {proj['bullet-points'].map((bullet, bIndex) => (
                   <Typography key={bIndex}>{bullet}</Typography>
                 ))}

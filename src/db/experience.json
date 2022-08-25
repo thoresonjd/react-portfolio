@@ -8,10 +8,10 @@
         "to": "Present",
         "decription": "",
         "bullet-points": [
-            "High-level overview",
-            "Detailed role",
-            "Achievements and accomplishments",
-            "Tools and technologies used"
+          "Digital Architecture & CyberSecurity",
+          "Codifying architecture for scalable and automated API authorization assessment",
+          "Filed patent application for API authorization project",
+          "TypeScript, JavaScript, SQL, Postman, VS Code, GitLab"
         ],
         "image-path": "assets/images/tmo-logo.jpg",
         "references": []
@@ -25,10 +25,10 @@
         "to": "June 2022",
         "decription": "",
         "bullet-points": [
-            "High-level overview",
-            "Detailed role",
-            "Achievements and accomplishments",
-            "Tools and technologies used"
+          "Algorithms and Java programming courses",
+          "Tutored and graded 100+ students, formulated grading rubrics alongside several other TAs",
+          "Provided constructive feedback to 100+ students via tutoring and grading",
+          "Java, IntelliJ, Vim, Emacs, GitHub"
         ],
         "image-path": "assets/images/su-logo.jpg",
         "references": []
@@ -42,10 +42,10 @@
         "to": "June 2022",
         "decription": "",
         "bullet-points": [
-            "High-level overview",
-            "Detailed role",
-            "Achievements and accomplishments",
-            "Tools and technologies used"
+          "Front-line service and store maintainability",
+          "Interacted w/ customers and vendors, fulfilled online orders, restocked inventory",
+          "Provided recognizable customer service and consistent help to dozens of coworkers",
+          "Certifications: plumbing department, electric ladder, pipe threader"
         ],
         "image-path": "assets/images/thd-logo.png",
         "references": []
