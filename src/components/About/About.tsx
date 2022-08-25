@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography, Avatar, Card, List, ListItem } from '@mui/material';
 import { useAboutStyles } from './about-styles';
-import headshot from '../../assets/images/alien.jpg';
+import about from '../../db/about.json';
 
 export const About: React.FC = () => {
   const classes = useAboutStyles();
@@ -9,19 +9,16 @@ export const About: React.FC = () => {
   return (
     <Box className={classes.aboutBox}>
       <Avatar
-        src={headshot}
+        src={require(`../../${about['image-path']}`)}
         alt='headshot'
         className={classes.image}
       />
-      <Typography className={classes.title} variant='h4'>Justin Thoreson</Typography>
-      <Card className={classes.details}>
-        <List>
-          <ListItem>Stuff</ListItem>
-          <ListItem>Stuff</ListItem>
-          <ListItem>Stuff</ListItem>
-          <ListItem>Stuff</ListItem>
-          <ListItem>Stuff</ListItem>
-          <ListItem>Stuff</ListItem>
+      <Typography className={classes.title} variant='h4'>{about.name}</Typography>
+      <Card className={classes.information}>
+        <List className={classes.links}>
+          {about.links.map((link, lIndex) => (
+            <ListItem key={lIndex}>{link.title}</ListItem>
+          ))}
         </List>
       </Card>
     </Box>

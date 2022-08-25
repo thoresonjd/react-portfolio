@@ -14,11 +14,14 @@ export const useAboutStyles = makeStyles(() => ({
     fontFamily: 'consolas !important',
     color: colors.Lime
   },
-  details: {
+  information: {
     width: '35vh',
     margin: '2.5vh  auto',
     padding: '1vh',
-    backgroundColor: colors.Green,
     borderRadius: '15px !important'
+  },
+  links: {
+    overflowY: 'auto',
+    maxHeight: '30vh'
   }
 }));

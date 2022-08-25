@@ -1,0 +1,43 @@
+{
+    "name": "Justin Thoreson",
+    "image-path": "assets/images/alien.jpg",
+    "description": "",
+    "links": [
+        {
+            "title": "E-Mail",
+            "value": "thoresonjd@gmail.com",
+            "ref": "",
+            "icon-path": ""
+        },
+        {
+            "title": "LinkedIn",
+            "value": "justinthoreson",
+            "ref": "",
+            "icon-path": ""
+        },
+        {
+            "title": "GitHub",
+            "value": "thoresonjd",
+            "ref": "",
+            "icon-path": ""
+        },
+        {
+            "title": "GitLab",
+            "value": "thoresonjd",
+            "ref": "",
+            "icon-path": ""
+        },
+        {
+            "title": "Instagram",
+            "value": "exulgor",
+            "ref": "",
+            "icon-path": ""
+        },
+        {
+            "title": "SoundCloud",
+            "value": "Exulgor",
+            "ref": "",
+            "icon-path": ""
+        }
+    ]
+}

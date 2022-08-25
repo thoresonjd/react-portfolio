@@ -66,5 +66,16 @@
         ],
         "source": "link"
       }
-    ]
+    ],
+    "about": {
+        "name": "value",
+        "description": "desc",
+        "links": [
+            {
+                "title": "value",
+                "ref": "value",
+                "icon-path": "value"
+            }
+        ]
+    }
 }
