@@ -14,7 +14,7 @@ export const useAboutStyles = makeStyles(() => ({
     fontFamily: 'consolas !important',
     color: colors.Lime
   },
-  information: {
+  informationBox: {
     width: '35vh',
     margin: '2.5vh  auto',
     padding: '1vh',
@@ -23,5 +23,11 @@ export const useAboutStyles = makeStyles(() => ({
   links: {
     overflowY: 'auto',
     maxHeight: '30vh'
+  },
+  linkText: {
+    color: colors.White,
+    '&:hover': {
+      color: colors.Lime
+    }
   }
 }));
