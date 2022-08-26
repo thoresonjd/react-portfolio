@@ -6,38 +6,38 @@
         {
             "title": "E-Mail",
             "value": "thoresonjd@gmail.com",
-            "ref": "",
-            "icon-path": ""
+            "ref": "mailto:thoresonjd@gmail.com",
+            "icon-path": "assets/icons/mail.png"
         },
         {
             "title": "LinkedIn",
             "value": "justinthoreson",
             "ref": "https://www.linkedin.com/in/justinthoreson/",
-            "icon-path": ""
+            "icon-path": "assets/icons/linkedin.png"
         },
         {
             "title": "GitHub",
             "value": "thoresonjd",
             "ref": "https://github.com/thoresonjd",
-            "icon-path": ""
+            "icon-path": "assets/icons/github.png"
         },
         {
             "title": "GitLab",
             "value": "thoresonjd",
             "ref": "https://gitlab.com/thoresonjd",
-            "icon-path": ""
+            "icon-path": "assets/icons/gitlab.png"
         },
         {
             "title": "Instagram",
             "value": "exulgor",
             "ref": "http://instagram.com/exulgor",
-            "icon-path": ""
+            "icon-path": "assets/icons/instagram.png"
         },
         {
             "title": "SoundCloud",
             "value": "Exulgor",
             "ref": "https://soundcloud.com/exulgor",
-            "icon-path": ""
+            "icon-path": "assets/icons/soundcloud.png"
         }
     ]
 }

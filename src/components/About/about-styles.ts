@@ -20,6 +20,11 @@ export const useAboutStyles = makeStyles(() => ({
     padding: '1vh',
     borderRadius: '15px !important'
   },
+  icon: {
+    display: 'flex',
+    height: 'inherit',
+    width: 'inherit'
+  },
   links: {
     overflowY: 'auto',
     maxHeight: '30vh'
