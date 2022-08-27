@@ -14,8 +14,8 @@ export const About: React.FC = () => {
         className={classes.image}
       />
       <Typography className={classes.title} variant='h4'>{about.name}</Typography>
-      <Card className={classes.informationBox}>
-        <List className={classes.links}>
+      <Card className={classes.linksBox}>
+        <List className={classes.linksList}>
           {about.links.map((link, lIndex) => (
             <ListItem key={lIndex}>
               <Icon>
