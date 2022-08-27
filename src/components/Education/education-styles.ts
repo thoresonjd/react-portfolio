@@ -10,7 +10,8 @@ export const useEducationStyles = makeStyles(() => ({
     backgroundColor: `${colors.Lime} !important`,
   },
   timelineDot: {
-    backgroundColor: `${colors.Transparent} !important`
+    backgroundColor: `${colors.Transparent} !important`,
+    boxShadow: 'none !important'
   },
   icon: {
     color: colors.Lime

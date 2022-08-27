@@ -1,7 +1,7 @@
 {
     "background": {
       "color": {
-        "value": "#000000"
+        "value": "transparent"
       },
       "position": "50% 50%",
       "repeat": "no-repeat",
