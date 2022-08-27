@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-portfolio/static/js/main.a738bf70.js",
+    "main.css": "/react-portfolio/static/css/main.4aa122af.css",
+    "main.js": "/react-portfolio/static/js/main.74fc1798.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/thd-logo.png": "/react-portfolio/static/media/thd-logo.fd5f64d12f2864878896.png",
     "static/media/evcc-logo.jpg": "/react-portfolio/static/media/evcc-logo.ba569ee4113fbeeabecd.jpg",
@@ -10,12 +10,12 @@
     "static/media/alien.jpg": "/react-portfolio/static/media/alien.9e18e077542eefb84c5d.jpg",
     "static/media/gfsd-logo.jpg": "/react-portfolio/static/media/gfsd-logo.cb27ad2c68679cb9b183.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.a738bf70.js.map": "/react-portfolio/static/js/main.a738bf70.js.map",
+    "main.4aa122af.css.map": "/react-portfolio/static/css/main.4aa122af.css.map",
+    "main.74fc1798.js.map": "/react-portfolio/static/js/main.74fc1798.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a738bf70.js"
+    "static/css/main.4aa122af.css",
+    "static/js/main.74fc1798.js"
   ]
 }
