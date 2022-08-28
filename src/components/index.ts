@@ -7,11 +7,11 @@ import About from './About';
 import Particles from './Particles';
 
 export {
-    Navbar,
-    Home,
-    Education,
-    Experience,
-    Projects,
-    About,
-    Particles
+  Navbar,
+  Home,
+  Education,
+  Experience,
+  Projects,
+  About,
+  Particles
 }

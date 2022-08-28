@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from '@mui/material';
 import { 
@@ -15,7 +16,10 @@ import './App.css';
 
 const App: React.FC = () => {
   return (
-    <>
+    <HelmetProvider>
+      <Helmet>
+        <title>Justin Thoreson</title>
+      </Helmet>
       <Router>
         <ThemeProvider theme={theme}>
           <Navbar />
@@ -29,7 +33,7 @@ const App: React.FC = () => {
         </ThemeProvider>
       </Router>
       <Particles />
-    </>
+    </HelmetProvider>
   );
 }
 
