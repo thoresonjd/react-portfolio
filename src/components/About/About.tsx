@@ -15,7 +15,7 @@ export const About: React.FC = () => {
       <Box className={classes.aboutBox}>
         <Avatar
           src={require(`../../${about['image-path']}`)}
-          alt='headshot'
+          alt='avatar'
           className={classes.image}
         />
         <Typography className={classes.title} variant='h4'>{about.name}</Typography>

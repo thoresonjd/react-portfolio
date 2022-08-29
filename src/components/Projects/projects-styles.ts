@@ -36,5 +36,5 @@ export const useProjectsStyles = makeStyles(() => ({
     width: 'max-content',
     margin: '0 0 0 auto',
     textAlign: 'left'
-  }
+  },
 }));

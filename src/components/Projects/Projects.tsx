@@ -41,9 +41,8 @@ export const Projects: React.FC = () => {
               <Card className={pIndex % 2 === 0 ? classes.projectsCardRHS : classes.projectsCardLHS}>
                 <CardContent>
                   <Typography>{proj.title}</Typography>
-                  <Typography>{proj.for}</Typography>
                   {proj['bullet-points'].map((bullet, bIndex) => (
-                    <Typography key={bIndex}>{bullet}</Typography>
+                    <Typography key={bIndex}>{`• ${bullet}`}</Typography>
                   ))}
                 </CardContent>
               </Card>

@@ -50,7 +50,7 @@ export const Experience: React.FC = () => {
                   <Typography>{exp.employer}</Typography>
                   <Typography>{exp.type}</Typography>
                   {exp['bullet-points'].map((bullet, bIndex) => (
-                    <Typography key={bIndex}>{bullet}</Typography>
+                    <Typography key={bIndex}>{`• ${bullet}`}</Typography>
                   ))}
                 </CardContent>
               </Card>

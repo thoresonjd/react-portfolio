@@ -50,10 +50,10 @@ export const Education: React.FC = () => {
                   <Typography>{edu.degree}</Typography>
                   {edu.majors.length > 0 ? (<Typography>Major(s): {edu.majors.join(', ')}</Typography>) : <></>}
                   {edu.minors.length > 0 ? (<Typography>Minor(s): {edu.minors.join(', ')}</Typography>) : <></>}
-                  {edu.gpa >= 0 ? (<Typography>GPA: {edu.gpa}</Typography>) : <></>}
+                  {edu.gpa ? (<Typography>GPA: {edu.gpa}</Typography>) : <></>}
                   {edu.honors !== '' ? (<Typography>Honors: {edu.honors}</Typography>) : <></>}
                   {edu['bullet-points'].map((bullet, bIndex) => (
-                    <Typography key={bIndex}>{bullet}</Typography>
+                    <Typography key={bIndex}>{`• ${bullet}`}</Typography>
                   ))}
                 </CardContent>
               </Card>
