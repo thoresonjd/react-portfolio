@@ -27,7 +27,7 @@ export const Projects: React.FC = () => {
           <TimelineItem key={pIndex}>
             <TimelineOppositeContent className={classes.content}>
               <Typography className={classes.timeFrame}>
-                {proj.from} - {proj.to}
+                {proj.from === proj.to ? '' : `${proj.from} -`} {proj.to}
               </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
