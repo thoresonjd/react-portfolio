@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Card, CardContent, Typography } from '@mui/material';
+import { Card, CardContent, Typography, Link } from '@mui/material';
 import BuildIcon from '@mui/icons-material/Build';
 import { 
   Timeline, 
@@ -40,7 +40,13 @@ export const Projects: React.FC = () => {
             <TimelineContent className={classes.content}>
               <Card className={pIndex % 2 === 0 ? classes.projectsCardRHS : classes.projectsCardLHS}>
                 <CardContent>
-                  <Typography>{proj.title}</Typography>
+                  {proj.ref ? (
+                    <Link href={proj.ref} underline='none'>
+                      <Typography className={classes.linkText}>{proj.title}</Typography>
+                    </Link>
+                  ) : (
+                    <Typography>{proj.title}</Typography>
+                  )}
                   {proj['bullet-points'].map((bullet, bIndex) => (
                     <Typography key={bIndex}>{`• ${bullet}`}</Typography>
                   ))}

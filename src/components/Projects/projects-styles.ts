@@ -37,4 +37,10 @@ export const useProjectsStyles = makeStyles(() => ({
     margin: '0 0 0 auto',
     textAlign: 'left'
   },
+  linkText: {
+    color: colors.White,
+    '&:hover': {
+      color: colors.Lime
+    }
+  }
 }));

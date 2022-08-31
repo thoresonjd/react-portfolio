@@ -9,10 +9,10 @@
       "Designing and creating my own personal portfolio website in React",
       "React, TypeScript, GitHub Pages, Material UI, VS Code"
     ],
-    "source": "link"
+    "ref": "https://github.com/thoresonjd/react-portfolio"
   },
   {
-    "title": "Markdown Portfolio Template",
+    "title": "Markdown Portfolio",
     "for": "Personal",
     "from": "July 2022",
     "to": "July 2022",
@@ -21,7 +21,7 @@
       "Created a template to easily construct, customize, and publicize a personal portfolio",
       "Markdown, GitHub, VS Code"
     ],
-    "source": "link"
+    "ref": "https://github.com/thoresonjd/markdown-portfolio"
   },
   {
     "title": "Votegrity SaaS Solution",
@@ -35,7 +35,7 @@
       "Codified election creation functionality for election administrators",
       "React, JavaScript, HTML/CSS, Visual Studio, Agile, Scrum"
     ],
-    "source": ""
+    "ref": ""
   },
   {
     "title": "Image Processor API",
@@ -48,7 +48,7 @@
       "Created with emphasis on architectural design patterns",
       "C#, Python, TypeScript, React, Flask, REST, VS Code"
     ],
-    "source": "link"
+    "ref": "https://github.com/thoresonjd/image-processor-api"
   },
   {
     "title": "K-means via Spark",
@@ -60,7 +60,7 @@
       "Implements K-means clustering in Spark via RDDs",
       "Apache Spark, RDDs, Python, VS Code"
     ],
-    "source": "link"
+    "ref": "https://github.com/thoresonjd/k-means_spark"
   },
   {
     "title": "Predicting Stock Market w/ Sentiment Analysis",
@@ -74,7 +74,7 @@
       "Compared sentiment analysis score w/ stock price changes",
       "Python, VS Code"
     ],
-    "source": "link"
+    "ref": "https://github.com/a-wallen/stm-toolkit"
   },
   {
     "title": "WinPyTools",
@@ -86,7 +86,7 @@
       "Windows shortcuts with hotkey commands",
       "Python, VS Code"
     ],
-    "source": "link"
+    "ref": "https://github.com/thoresonjd/WinPyTools"
   },
   {
     "title": "Portal Illusion",
@@ -98,7 +98,7 @@
       "Created a computer graphics simulation of an illusion of a cube passing through a portal",
       "C++, GLSL, OpenGL, Visual Studio"
     ],
-    "source": "link"
+    "ref": "https://github.com/thoresonjd/ComputerGraphics/tree/main/Apps/PortalIllusion"
   },
   {
     "title": "Depth Spectrum",
@@ -112,7 +112,7 @@
       "Fullstack, designed UX/UI and created camera functionality for image processing",
       "Dart, Flutter, Visual Studio Code"
     ],
-    "source": "link"
+    "ref": "https://github.com/varelandrew/DepthSpectrum"
   },
   {
     "title": "Online Learning Database",
@@ -125,7 +125,7 @@
       "MySQL, PHP, HTML/CSS"
       
     ],
-    "source": "link"
+    "ref": "https://github.com/thoresonjd/online-learning-database"
   },
   {
     "title": "Global Calendar",
@@ -137,7 +137,7 @@
       "SaaS application that provides a convenient way to schedule events across different time zones",
       "TypeScript, HTML/CSS, Angular, MongoDB, WebStorm"
     ],
-    "source": "link"
+    "ref": "https://github.com/Alex-Sheardown/Global-Calendar"
   },
   {
     "title": "ASCII Rocket Launch",
@@ -150,6 +150,6 @@
       "My first personal project and one of my first programs",
       "C++, Visual Studio"
     ],
-    "source": "link"
+    "ref": "https://github.com/thoresonjd/ascii-rocket-launch"
   }
 ]
