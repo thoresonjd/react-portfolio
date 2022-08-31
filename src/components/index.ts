@@ -5,6 +5,7 @@ import Experience from './Experience';
 import Projects from './Projects';
 import About from './About';
 import Particles from './Particles';
+import NotFound from './404';
 
 export {
   Navbar,
@@ -13,5 +14,6 @@ export {
   Experience,
   Projects,
   About,
-  Particles
+  Particles,
+  NotFound
 }
