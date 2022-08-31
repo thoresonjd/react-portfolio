@@ -13,7 +13,7 @@ export const useHomeStyles = makeStyles(() => ({
     position: 'relative',
     height: '100%',
     textAlign: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   typedBox: {
     color: colors.Lime,
