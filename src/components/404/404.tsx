@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Box, Typography } from '@mui/material';
 import { use404Styles } from './404-styles';
+import thisIsFine from '../../assets/images/this-is-fine.png';
 
 export const NotFound: React.FC = () => {
   const classes = use404Styles();
@@ -16,6 +17,7 @@ export const NotFound: React.FC = () => {
           <Typography className={classes.title} variant='h1'>404</Typography>
           <Typography className={classes.subtitle} variant='h3'>Not Found</Typography>
         </Box>
+        <img className={classes.image} src={thisIsFine} alt='404' />
       </Box>
     </>
   );

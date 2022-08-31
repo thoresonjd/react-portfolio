@@ -3,12 +3,10 @@ import { colors } from '../../theme';
 
 export const use404Styles = makeStyles(() => ({
   notFoundBox: {
-    height: '100%',
     textAlign: 'center'
   },
   errorMessage: {
-    position: 'relative',
-    top: '25%'
+    margin: '5vh 0'
   },
   title: {
     fontFamily: 'consolas !important',
@@ -17,5 +15,8 @@ export const use404Styles = makeStyles(() => ({
   subtitle: {
     fontFamily: 'consolas !important',
     color: colors.Green,
+  },
+  image: {
+    borderRadius: '100px'
   }
 }));
