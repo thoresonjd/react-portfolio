@@ -5,20 +5,20 @@ import { useNavbarStyles } from './navbar-styles';
 
 export const Navbar: React.FC = () => {
   const classes = useNavbarStyles();
-  const [navbar, updateNavbar] = useState<boolean>(false);
+  const [blurredNavbar, updateBlurredNavbar] = useState<boolean>(false);
 
   const scrollHandler = () => {
     if (window.scrollY >= 20) {
-      updateNavbar(true);
+      updateBlurredNavbar(true);
     } else {
-      updateNavbar(false);
+      updateBlurredNavbar(false);
     }
   }
 
   window.addEventListener('scroll', scrollHandler);
 
   return (
-    <AppBar className={navbar ? classes.blurred : classes.transparent} position='sticky' color='transparent'>
+    <AppBar className={blurredNavbar ? classes.blurred : classes.transparent} position='sticky' color='transparent'>
       <Toolbar className={classes.toolbar}>
         <Button component={Link} to='/'><Typography className={classes.buttonText}>Home</Typography></Button>
         <Button component={Link} to='/education'><Typography className={classes.buttonText}>Education</Typography></Button>

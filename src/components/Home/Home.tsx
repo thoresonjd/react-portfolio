@@ -1,6 +1,6 @@
 import React from 'react';
 import Typed from 'react-typed';
-import { Box, Grid, Avatar, Typography } from '@mui/material';
+import { Grid, Box, Avatar, Typography } from '@mui/material';
 import { useHomeStyles } from './home-styles';
 import avatar from '../../assets/images/alien.jpg';
 

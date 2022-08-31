@@ -10,7 +10,8 @@ import {
   Projects,
   About,
   Particles,
-  NotFound
+  NotFound,
+  Footer
 } from './components';
 import { theme } from './theme'
 import './App.css';
@@ -21,8 +22,8 @@ const App: React.FC = () => {
       <Helmet>
         <title>Justin Thoreson</title>
       </Helmet>
-      <Router>
-        <ThemeProvider theme={theme}>
+      <ThemeProvider theme={theme}>
+        <Router>
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
@@ -32,9 +33,10 @@ const App: React.FC = () => {
             <Route path='/about' element={<About />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
-        </ThemeProvider>
-      </Router>
-      <Particles />
+          <Footer />
+        </Router>
+        <Particles />
+      </ThemeProvider>
     </HelmetProvider>
   );
 }
