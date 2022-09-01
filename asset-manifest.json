@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.6f8be7e2.css",
-    "main.js": "/react-portfolio/static/js/main.30478c4d.js",
+    "main.js": "/react-portfolio/static/js/main.21f8eea1.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/this-is-fine.png": "/react-portfolio/static/media/this-is-fine.53b667ffefea856019e6.png",
     "static/media/thd-logo.png": "/react-portfolio/static/media/thd-logo.fd5f64d12f2864878896.png",
     "static/media/evcc-logo.jpg": "/react-portfolio/static/media/evcc-logo.ba569ee4113fbeeabecd.jpg",
     "static/media/su-logo.jpg": "/react-portfolio/static/media/su-logo.4d0558aa2230f4f26d14.jpg",
@@ -11,11 +12,11 @@
     "static/media/gfsd-logo.jpg": "/react-portfolio/static/media/gfsd-logo.cb27ad2c68679cb9b183.jpg",
     "index.html": "/react-portfolio/index.html",
     "main.6f8be7e2.css.map": "/react-portfolio/static/css/main.6f8be7e2.css.map",
-    "main.30478c4d.js.map": "/react-portfolio/static/js/main.30478c4d.js.map",
+    "main.21f8eea1.js.map": "/react-portfolio/static/js/main.21f8eea1.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f8be7e2.css",
-    "static/js/main.30478c4d.js"
+    "static/js/main.21f8eea1.js"
   ]
 }
