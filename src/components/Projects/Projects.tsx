@@ -26,8 +26,8 @@ export const Projects: React.FC = () => {
       </Helmet>
       <Timeline className={classes.projectsTimeline} position='alternate'>
         {projects.map((proj, pIndex) => (
-          <Zoom in={true} style={{transitionDelay: `${transitionDelay * pIndex}ms`}}>
-            <TimelineItem key={pIndex}>
+          <Zoom key={pIndex} in={true} style={{transitionDelay: `${transitionDelay * pIndex}ms`}}>
+            <TimelineItem>
               <TimelineOppositeContent className={classes.content}>
                 <Typography className={classes.timeFrame}>
                   {proj.from === proj.to ? '' : `${proj.from} -`} {proj.to}

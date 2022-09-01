@@ -25,8 +25,8 @@ export const Experience: React.FC = () => {
       </Helmet>
       <Timeline className={classes.experienceTimeline} position='alternate'>
         {experience.map((exp, eIndex) => (
-          <Zoom in={true} style={{transitionDelay: `${transitionDelay * eIndex}ms`}}>
-            <TimelineItem key={eIndex}>
+          <Zoom key={eIndex} in={true} style={{transitionDelay: `${transitionDelay * eIndex}ms`}}>
+            <TimelineItem>
               <TimelineOppositeContent className={classes.content}>
                 <Typography className={classes.timeFrame}>
                   {exp.from} - {exp.to}

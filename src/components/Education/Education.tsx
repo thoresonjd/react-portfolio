@@ -25,8 +25,8 @@ export const Education: React.FC = () => {
       </Helmet>
       <Timeline className={classes.educationTimeline} position='alternate'>
         {education.map((edu, eIndex) => (
-          <Zoom in={true} style={{transitionDelay: `${transitionDelay * eIndex}ms`}}>
-            <TimelineItem key={eIndex}>
+          <Zoom key={eIndex} in={true} style={{transitionDelay: `${transitionDelay * eIndex}ms`}}>
+            <TimelineItem>
               <TimelineOppositeContent className={classes.content}>
                 <Typography className={classes.timeFrame}>
                   {edu.graduated ? 'Graduated' : `${edu.from} -`} {edu.to}

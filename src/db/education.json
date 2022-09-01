@@ -13,7 +13,9 @@
         "graduated": false,
         "gpa": "4.0",
         "honors": "",
-        "bullet-points": [],
+        "bullet-points": [
+            "Graduate Representative - Seattle University ACM"
+        ],
         "image-path": "assets/images/su-logo.jpg",
         "references": []
     },
