@@ -111,6 +111,11 @@
       }
     },
     "particles": {
+      "color": {
+        "value": [
+          "ffffff"
+        ]
+      },
       "move": {
         "attract": {
           "rotate": {
