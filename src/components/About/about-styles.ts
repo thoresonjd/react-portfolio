@@ -6,8 +6,8 @@ export const useAboutStyles = makeStyles(() => ({
     textAlign: 'center',
   },
   image: {
-    height: '250px !important',
-    width: '250px !important',
+    height: '30vmin !important',
+    width: '30vmin !important',
     margin: '2.5vh auto'
   },
   title: {
@@ -15,7 +15,7 @@ export const useAboutStyles = makeStyles(() => ({
     color: colors.Lime
   },
   linksBox: {
-    width: '35vh',
+    width: '20%',
     margin: '2.5vh  auto',
     padding: '1vh',
     borderRadius: '15px !important'
@@ -27,7 +27,7 @@ export const useAboutStyles = makeStyles(() => ({
   },
   linksList: {
     overflowY: 'auto',
-    maxHeight: '30vh'
+    maxHeight: '50vh'
   },
   linkText: {
     color: colors.White,

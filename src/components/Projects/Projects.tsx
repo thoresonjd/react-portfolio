@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Card, CardContent, Typography, Link } from '@mui/material';
 import BuildIcon from '@mui/icons-material/Build';
+import LinkIcon from '@mui/icons-material/Link';
 import { 
   Timeline, 
   TimelineItem,
@@ -42,7 +43,10 @@ export const Projects: React.FC = () => {
                 <CardContent>
                   {proj.ref ? (
                     <Link href={proj.ref} underline='none'>
-                      <Typography className={classes.linkText}>{proj.title}</Typography>
+                      <Typography className={classes.linkText}>
+                        {proj.title}&nbsp;
+                        <LinkIcon fontSize='small'/>
+                      </Typography>
                     </Link>
                   ) : (
                     <Typography>{proj.title}</Typography>

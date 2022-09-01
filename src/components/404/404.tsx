@@ -16,8 +16,8 @@ export const NotFound: React.FC = () => {
         <Box className={classes.errorMessage}>
           <Typography className={classes.title} variant='h1'>404</Typography>
           <Typography className={classes.subtitle} variant='h3'>Not Found</Typography>
+          <img className={classes.image} src={thisIsFine} alt='404' />
         </Box>
-        <img className={classes.image} src={thisIsFine} alt='404' />
       </Box>
     </>
   );

@@ -20,8 +20,8 @@ export const useHomeStyles = makeStyles(() => ({
     margin: 'auto auto'
   },
   image: {
-    height: '400px !important',
-    width: '400px !important',
+    height: '50vmin !important',
+    width: '50vmin !important',
     left: '50%',
     top: '50%',
     transform: 'translate(-50%, -50%)'

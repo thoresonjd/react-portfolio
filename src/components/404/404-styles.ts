@@ -6,17 +6,21 @@ export const use404Styles = makeStyles(() => ({
     textAlign: 'center'
   },
   errorMessage: {
-    margin: '5vh 0'
+    margin: '2.5vh auto',
+    padding: '5vh 0',
+    width: '50%',
+    backdropFilter: 'invert()'
   },
   title: {
     fontFamily: 'consolas !important',
-    color: colors.Lime,
+    color: colors.Black,
   },
   subtitle: {
     fontFamily: 'consolas !important',
-    color: colors.Green,
+    color: colors.Black,
   },
   image: {
-    borderRadius: '100px'
+    width: '75%',
+    marginTop: '5vh'
   }
 }));
