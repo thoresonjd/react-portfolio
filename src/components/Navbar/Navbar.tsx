@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Button, Typography } from '@mui/material';
+import { AppBar, Toolbar } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { useNavbarStyles } from './navbar-styles';
 
@@ -20,11 +20,11 @@ export const Navbar: React.FC = () => {
   return (
     <AppBar className={blurredNavbar ? classes.blurred : classes.transparent} position='sticky' color='transparent'>
       <Toolbar className={classes.toolbar}>
-        <Button component={Link} to='/'><Typography className={classes.buttonText}>Home</Typography></Button>
-        <Button component={Link} to='/education'><Typography className={classes.buttonText}>Education</Typography></Button>
-        <Button component={Link} to='/experience'><Typography className={classes.buttonText}>Experience</Typography></Button>
-        <Button component={Link} to='/projects'><Typography className={classes.buttonText}>Projects</Typography></Button>
-        <Button component={Link} to='/about'><Typography className={classes.buttonText}>About</Typography></Button>
+        <Link to='/'><button className={classes.button}>Home</button></Link>
+        <Link to='/education'><button className={classes.button}>Education</button></Link>
+        <Link to='/experience'><button className={classes.button}>Experience</button></Link>
+        <Link to='/projects'><button className={classes.button}>Projects</button></Link>
+        <Link to='/about'><button className={classes.button}>About</button></Link>
       </Toolbar>
     </AppBar>
   );

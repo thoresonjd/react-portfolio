@@ -33,8 +33,8 @@ const App: React.FC = () => {
             <Route path='/about' element={<About />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
-          <Footer />
         </Router>
+        <Footer />
         <Particles />
       </ThemeProvider>
     </HelmetProvider>

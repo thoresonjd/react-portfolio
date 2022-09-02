@@ -8,7 +8,7 @@ export const Home: React.FC = () => {
   const classes = useHomeStyles();
 
   return (
-    <Slide direction="down" in={true} mountOnEnter unmountOnExit>
+    <Slide direction='down' in={true} mountOnEnter unmountOnExit>
       <Grid container columnGap={10} className={classes.outerGrid}>
         <Grid container xl={4}>
           <Box className={classes.typedBox}>

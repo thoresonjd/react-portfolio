@@ -12,7 +12,7 @@ export const About: React.FC = () => {
       <Helmet>
         <title>About</title>
       </Helmet>
-      <Slide direction="down" in={true} mountOnEnter unmountOnExit>
+      <Slide direction='down' in={true} mountOnEnter unmountOnExit>
         <Box className={classes.aboutBox}>
           <Avatar
             src={require(`../../${about['image-path']}`)}
