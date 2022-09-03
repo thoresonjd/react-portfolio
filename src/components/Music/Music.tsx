@@ -21,7 +21,7 @@ export const Music: React.FC = () => {
           playing
           loop
           url='https://soundcloud.com/exulgor/primordial'
-          />
+        />
       </Container>
     </>
   );
