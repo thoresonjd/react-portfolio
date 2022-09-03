@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from '@mui/material';
 import { 
   Navbar,
@@ -11,7 +11,8 @@ import {
   About,
   Particles,
   NotFound,
-  Footer
+  Footer,
+  Music
 } from './components';
 import { theme } from './theme'
 import './App.css';
@@ -31,6 +32,7 @@ const App: React.FC = () => {
             <Route path='/experience' element={<Experience />} />
             <Route path='/projects' element={<Projects />} />
             <Route path='/about' element={<About />} />
+            <Route path='/music' element={<Music />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </Router>
