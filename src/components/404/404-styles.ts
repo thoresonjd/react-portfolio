@@ -6,7 +6,7 @@ export const use404Styles: Function = makeStyles(() => ({
     textAlign: 'center',
     margin: '2.5vh auto',
     padding: '5vh 0',
-    width: '50%',
+    width: '50vw',
     backdropFilter: 'invert()'
   },
   title: {

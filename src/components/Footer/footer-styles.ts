@@ -9,6 +9,6 @@ export const useFooterStyles: Function = makeStyles(() => ({
   copyright: {
     color: colors.Lime,
     fontFamily: 'consolas !important',
-    paddingBottom: '30px'
+    padding: '2.5vh 0'
   }
 }));
