@@ -1,53 +1,71 @@
 [
-    {
-        "position": "Software Engineer Intern",
-        "employer": "T-Mobile",
-        "type": "Internship",
-        "location": "Bellevue, WA",
-        "from": "June 2022",
-        "to": "Present",
-        "decription": "",
-        "bullet-points": [
-          "Digital Architecture & CyberSecurity",
-          "Codifying architecture for scalable and automated API authorization assessment",
-          "Filed patent application for API authorization project",
-          "TypeScript, JavaScript, SQL, Postman, VS Code, GitLab"
-        ],
-        "image-path": "assets/images/tmo-logo.jpg",
-        "references": []
-    },
-    {
-        "position": "Tutor, TA, Grader - CSSE",
-        "employer": "Seattle University",
-        "type": "Part-time",
-        "location": "Seattle, WA",
-        "from": "June 2021",
-        "to": "June 2022",
-        "decription": "",
-        "bullet-points": [
-          "Algorithms and Java programming courses",
-          "Tutored and graded 100+ students, formulated grading rubrics alongside several other TAs",
-          "Provided constructive feedback to 100+ students via tutoring and grading",
-          "Java, IntelliJ, Vim, Emacs, GitHub"
-        ],
-        "image-path": "assets/images/su-logo.jpg",
-        "references": []
-    },
-    {
-        "position": "Sales Associate",
-        "employer": "The Home Depot",
-        "type": "Seasonal",
-        "location": "Snohomish, WA",
-        "from": "July 2020",
-        "to": "June 2022",
-        "decription": "",
-        "bullet-points": [
-          "Front-line service and store maintainability",
-          "Interacted w/ customers and vendors, fulfilled online orders, restocked inventory",
-          "Provided recognizable customer service and consistent help to dozens of coworkers",
-          "Certifications: plumbing department, electric ladder, pipe threader"
-        ],
-        "image-path": "assets/images/thd-logo.png",
-        "references": []
-    }
+  {
+    "position": "Software Engineer",
+    "employer": "Votegrity",
+    "type": "Part-time",
+    "location": "Remote",
+    "from": "July 2022",
+    "to": "Present",
+    "decription": "",
+    "bullet-points": [
+      "Part time software development",
+      "Implementing functionality for election administration tool",
+      "Instantiated new virtual machine by upgrading existing software from scratch",
+      "React, JavaScript, Python, Azure, VS Code"
+
+    ],
+    "image-path": "assets/images/votegrity-branding-dark.jpg",
+    "references": []
+  },
+  {
+    "position": "Software Engineer Intern",
+    "employer": "T-Mobile",
+    "type": "Internship",
+    "location": "Bellevue, WA",
+    "from": "June 2022",
+    "to": "September 2022",
+    "decription": "",
+    "bullet-points": [
+      "Digital Architecture & CyberSecurity",
+      "Codified architecture for scalable and automated API authorization assessment",
+      "Filed patent application for API authorization service",
+      "TypeScript, JavaScript, SQL, Postman, VS Code, GitLab"
+    ],
+    "image-path": "assets/images/tmo-logo.jpg",
+    "references": []
+  },
+  {
+    "position": "Tutor, TA, Grader - CSSE",
+    "employer": "Seattle University",
+    "type": "Part-time",
+    "location": "Seattle, WA",
+    "from": "June 2021",
+    "to": "June 2022",
+    "decription": "",
+    "bullet-points": [
+      "Algorithms and Java programming courses",
+      "Tutored and graded 100+ students, formulated grading rubrics alongside several other TAs",
+      "Provided constructive feedback to 100+ students via tutoring and grading",
+      "Java, IntelliJ, Vim, Emacs, GitHub"
+    ],
+    "image-path": "assets/images/su-logo.jpg",
+    "references": []
+  },
+  {
+    "position": "Sales Associate",
+    "employer": "The Home Depot",
+    "type": "Seasonal",
+    "location": "Snohomish, WA",
+    "from": "July 2020",
+    "to": "June 2022",
+    "decription": "",
+    "bullet-points": [
+      "Front-line service and store maintainability",
+      "Interacted w/ customers and vendors, fulfilled online orders, restocked inventory",
+      "Provided recognizable customer service and consistent help to dozens of coworkers",
+      "Certifications: plumbing department, electric ladder, pipe threader"
+    ],
+    "image-path": "assets/images/thd-logo.png",
+    "references": []
+  }
 ]
