@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { colors } from '../../theme';
 
-export const useExperienceStyles = makeStyles(() => ({
+export const useExperienceStyles: Function = makeStyles(() => ({
   experienceTimeline: {
     minWidth: '100vh',
     overflow: 'auto'

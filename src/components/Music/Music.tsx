@@ -5,7 +5,7 @@ import { Container, Typography } from '@mui/material';
 import { useMusicStyles } from './music-styles';
 
 export const Music: React.FC = () => {
-  const classes = useMusicStyles();
+  const classes: any = useMusicStyles();
 
   return (
     <>

@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { colors } from '../../theme';
 
-export const useProjectsStyles = makeStyles(() => ({
+export const useProjectsStyles: Function = makeStyles(() => ({
   projectsTimeline: {
     minWidth: '100vh',
     overflow: 'auto'

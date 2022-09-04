@@ -16,7 +16,7 @@ import experience from '../../db/experience.json';
 
 export const Experience: React.FC = () => {
   const classes: any = useExperienceStyles();
-  const transitionDelay = 50;
+  const transitionDelay: number = 50;
 
   return (
     <>

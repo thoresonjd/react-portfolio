@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useNavbarStyles } from './navbar-styles';
 
 export const Navbar: React.FC = () => {
-  const classes = useNavbarStyles();
+  const classes: any = useNavbarStyles();
   const [blurredNavbar, updateBlurredNavbar] = useState<boolean>(false);
 
   const scrollHandler = () => {

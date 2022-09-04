@@ -5,7 +5,7 @@ import { useHomeStyles } from './home-styles';
 import avatar from '../../assets/images/alien.jpg';
 
 export const Home: React.FC = () => {
-  const classes = useHomeStyles();
+  const classes: any = useHomeStyles();
 
   return (
     <Slide direction='down' in={true} mountOnEnter unmountOnExit>

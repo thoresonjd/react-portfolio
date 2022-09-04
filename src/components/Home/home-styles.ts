@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { colors } from '../../theme';
 
-export const useHomeStyles = makeStyles(() => ({
+export const useHomeStyles: Function = makeStyles(() => ({
   title: {
     fontFamily: 'consolas !important'
   },

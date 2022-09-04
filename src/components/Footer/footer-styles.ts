@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { colors } from '../../theme';
 
-export const useFooterStyles = makeStyles(() => ({
+export const useFooterStyles: Function = makeStyles(() => ({
   footer: {
     bottom: 0,
     textAlign: 'center'

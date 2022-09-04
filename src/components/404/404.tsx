@@ -5,7 +5,7 @@ import { use404Styles } from './404-styles';
 import thisIsFine from '../../assets/images/this-is-fine.png';
 
 export const NotFound: React.FC = () => {
-  const classes = use404Styles();
+  const classes: any = use404Styles();
 
   return (
     <>

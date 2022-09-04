@@ -17,7 +17,7 @@ import projects from '../../db/projects.json';
 
 export const Projects: React.FC = () => {
   const classes: any = useProjectsStyles();
-  const transitionDelay = 50;
+  const transitionDelay: number = 50;
 
   return (
     <>

@@ -16,7 +16,7 @@ import education from '../../db/education.json';
 
 export const Education: React.FC = () => {
   const classes: any = useEducationStyles();
-  const transitionDelay = 50;
+  const transitionDelay: number = 50;
 
   return (
     <>

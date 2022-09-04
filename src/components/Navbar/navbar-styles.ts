@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { colors } from '../../theme';
 
-export const useNavbarStyles = makeStyles(() => ({
+export const useNavbarStyles: Function = makeStyles(() => ({
   appbar: {
     boxShadow: 'none !important'
   },

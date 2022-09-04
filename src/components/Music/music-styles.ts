@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { colors } from '../../theme';
 
-export const useMusicStyles = makeStyles(() => ({
+export const useMusicStyles: Function = makeStyles(() => ({
   audioPlayer: {
     margin: '5vh auto'
   },

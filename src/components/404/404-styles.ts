@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { colors } from '../../theme';
 
-export const use404Styles = makeStyles(() => ({
+export const use404Styles: Function = makeStyles(() => ({
   errorBox: {
     textAlign: 'center',
     margin: '2.5vh auto',

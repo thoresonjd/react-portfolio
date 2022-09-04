@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { colors } from '../../theme';
 
-export const useEducationStyles = makeStyles(() => ({
+export const useEducationStyles: Function = makeStyles(() => ({
   educationTimeline: {
     minWidth: '100vh',
     overflow: 'auto'

@@ -5,7 +5,7 @@ import { useAboutStyles } from './about-styles';
 import about from '../../db/about.json';
 
 export const About: React.FC = () => {
-  const classes = useAboutStyles();
+  const classes: any = useAboutStyles();
   
   return (
     <>

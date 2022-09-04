@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles';
 import { colors } from '../../theme';
 
-export const useAboutStyles = makeStyles(() => ({
+export const useAboutStyles: Function = makeStyles(() => ({
   aboutBox: {
     textAlign: 'center',
   },
