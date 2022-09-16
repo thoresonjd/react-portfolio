@@ -12,7 +12,8 @@ import {
   Particles,
   NotFound,
   Footer,
-  Music
+  Music,
+  Resume
 } from './components';
 import { theme } from './theme'
 import './App.css';
@@ -31,8 +32,9 @@ const App: React.FC = () => {
             <Route path='/education' element={<Education />} />
             <Route path='/experience' element={<Experience />} />
             <Route path='/projects' element={<Projects />} />
-            <Route path='/about' element={<About />} />
             <Route path='/music' element={<Music />} />
+            <Route path='/resume' element={<Resume />} />
+            <Route path='/about' element={<About />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </Router>

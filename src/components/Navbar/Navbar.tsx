@@ -25,6 +25,7 @@ export const Navbar: React.FC = () => {
         <Link to='/experience'><button className={classes.button}>Experience</button></Link>
         <Link to='/projects'><button className={classes.button}>Projects</button></Link>
         <Link to='/music'><button className={classes.button}>Music</button></Link>
+        <Link to='/resume'><button className={classes.button}>Resume</button></Link>
         <Link to='/about'><button className={classes.button}>About</button></Link>
       </Toolbar>
     </AppBar>

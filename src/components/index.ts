@@ -8,6 +8,7 @@ import Particles from './Particles';
 import NotFound from './404';
 import Footer from './Footer';
 import Music from './Music';
+import Resume from './Resume';
 
 export {
   Navbar,
@@ -19,5 +20,6 @@ export {
   Particles,
   NotFound,
   Footer,
-  Music
+  Music,
+  Resume
 }
