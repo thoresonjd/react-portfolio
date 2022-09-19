@@ -3,7 +3,8 @@ import { colors } from '../../theme';
 
 export const useNavbarStyles: Function = makeStyles(() => ({
   appbar: {
-    boxShadow: 'none !important'
+    boxShadow: 'none !important',
+    zIndex: 50
   },
   transparent: {
     transition: 'all 0.3s ease-out 0s !important',
