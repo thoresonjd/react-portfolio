@@ -29,10 +29,6 @@ export const useHomeStyles: Function = makeStyles(() => ({
     paddingLeft: '2.5vw'
   },
   title: {
-    fontFamily: 'consolas !important'
-  },
-  subtitle: {
-    color: colors.Green,
-    fontFamily: 'consolas !important'
+    fontFamily: 'press-start !important'
   }
 }));

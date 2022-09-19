@@ -12,8 +12,8 @@ export const Music: React.FC = () => {
       <Helmet>
         <title>Music</title>
       </Helmet>
-      <Container>
-        <Typography className={classes.title} variant='h4'>
+      <Container className={classes.container}>
+        <Typography className={classes.title}>
           Listen to some of my music! :)
         </Typography>
         <ReactPlayer

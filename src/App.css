@@ -4,6 +4,12 @@ html, body, #root, .App {
   padding: 0;
 }
 
+/* Fonts */
+@font-face {
+  font-family: 'press-start';
+  src: url(./assets/fonts/press-start.k.ttf);
+}
+
 /* Body */
 body {
   background: black;

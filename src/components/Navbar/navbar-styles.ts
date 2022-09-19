@@ -3,26 +3,17 @@ import { colors } from '../../theme';
 
 export const useNavbarStyles: Function = makeStyles(() => ({
   appbar: {
-    boxShadow: 'none !important',
-    zIndex: 50
-  },
-  transparent: {
     transition: 'all 0.3s ease-out 0s !important',
     boxShadow: 'none !important'
   },
-  blurred: {
-    transition: 'all 0.3s ease-out 0s !important',
-    boxShadow: 'none !important',
-    backdropFilter: 'blur(15px) !important'
-  },
   toolbar: {
     margin: 'auto',
-    width: '50%',
+    width: '90%',
     justifyContent: 'space-evenly'
   },
   button: {
     textTransform: 'lowercase',
-    fontFamily: 'consolas !important',
+    fontFamily: 'press-start !important',
     fontSize: '1rem',
     color: colors.Lime,
     border: 'none',

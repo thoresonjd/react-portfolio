@@ -11,11 +11,11 @@ export const use404Styles: Function = makeStyles(() => ({
     animation: '$upDown 5s ease-in-out infinite'
   },
   title: {
-    fontFamily: 'consolas !important',
+    fontFamily: 'press-start !important',
     color: colors.Black,
   },
   subtitle: {
-    fontFamily: 'consolas !important',
+    fontFamily: 'press-start !important',
     color: colors.Black,
   },
   image: {

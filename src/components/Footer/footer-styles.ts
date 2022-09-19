@@ -8,7 +8,8 @@ export const useFooterStyles: Function = makeStyles(() => ({
   },
   copyright: {
     color: colors.Lime,
-    fontFamily: 'consolas !important',
+    fontFamily: 'press-start !important',
+    fontSize: '1rem',
     padding: '2.5vh 0'
   }
 }));

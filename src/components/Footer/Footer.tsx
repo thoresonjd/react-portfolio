@@ -8,8 +8,8 @@ export const Footer: React.FC = () => {
 
   return (
     <Box className={classes.footer}>
-      <Typography className={classes.copyright} variant='h5'>
-        Copyright © {year} Justin Thoreson
+      <Typography className={classes.copyright}>
+        copyright © {year} justin thoreson
       </Typography>
     </Box>
   );
