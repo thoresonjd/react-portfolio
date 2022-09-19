@@ -184,6 +184,30 @@
           "sync": false
         }
       },
+      "links": {
+        "enable": false,
+        "blink": false,
+        "color": {
+          "value": "#ffffff"
+        },
+        "consent": false,
+        "distance": 50,
+        "frequency": 1,
+        "opacity": 0.4,
+        "shadow": {
+          "blur": 5,
+          "color": {
+            "value": "#000"
+          },
+          "enable": false
+        },
+        "triangles": {
+          "enable": false,
+          "frequency": 1
+        },
+        "width": 2,
+        "warp": false
+      },
       "roll": {
         "darken": {
           "enable": false,
@@ -250,30 +274,6 @@
           "value": 45
         },
         "width": 1
-      },
-      "links": {
-        "enable": false,
-        "blink": false,
-        "color": {
-          "value": "#ffffff"
-        },
-        "consent": false,
-        "distance": 50,
-        "frequency": 1,
-        "opacity": 0.4,
-        "shadow": {
-          "blur": 5,
-          "color": {
-            "value": "#000"
-          },
-          "enable": false
-        },
-        "triangles": {
-          "enable": false,
-          "frequency": 1
-        },
-        "width": 2,
-        "warp": false
       },
       "repulse": {
         "random": {
