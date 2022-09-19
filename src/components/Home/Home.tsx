@@ -1,6 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
-import { Grid, Box, Avatar, Typography, Slide } from '@mui/material';
+import { Avatar, Typography, Slide } from '@mui/material';
+import { Container, Row, Col } from 'react-bootstrap';
 import { useHomeStyles } from './home-styles';
 import avatar from '../../assets/images/alien.jpg';
 
@@ -9,13 +10,30 @@ export const Home: React.FC = () => {
 
   return (
     <Slide direction='down' in={true} mountOnEnter unmountOnExit>
-      <Grid container columnGap={10} className={classes.outerGrid}>
-        <Grid container xl={4}>
-          <Box className={classes.typedBox}>
+      <Container className={classes.container}>
+        <Row className={classes.row}>
+          <Col className={classes.image} md={6}>
+            <Avatar
+              src={avatar}
+              alt='avatar'
+              className={classes.avatar}
+            />
+          </Col>
+          <Col className={classes.typedBox} md={6} >
             <Typography variant='h3' className={classes.title}>
-              <Typed strings={['Justin Thoreson']} typeSpeed={50} />     
+              {'>'}&nbsp;
+              <Typed
+                strings={[
+                  'Justin Thoreson',
+                  'Exulgor'
+                ]}
+                typeSpeed={50}
+                backSpeed={60}
+                loop
+              />     
             </Typography>
             <Typography variant='h4' className={classes.subtitle}>
+              {'>'}&nbsp;&nbsp;
               <Typed
                 strings={[
                   'Student',
@@ -28,16 +46,9 @@ export const Home: React.FC = () => {
                 loop
               />     
             </Typography>
-          </Box>
-        </Grid>
-        <Grid container xl={4}>
-          <Avatar
-            src={avatar}
-            alt='avatar'
-            className={classes.image}
-          />
-        </Grid>
-      </Grid>
+          </Col>
+        </Row>
+      </Container>
     </Slide>
   );
 }
