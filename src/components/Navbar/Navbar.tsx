@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { AppBar, Toolbar } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { useNavbarStyles } from './navbar-styles';
