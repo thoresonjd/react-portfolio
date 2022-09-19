@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.fd3a4891.css",
-    "main.js": "/react-portfolio/static/js/main.dc382289.js",
+    "main.js": "/react-portfolio/static/js/main.1eb8b4d4.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/this-is-fine.png": "/react-portfolio/static/media/this-is-fine.53b667ffefea856019e6.png",
     "static/media/thd-logo.png": "/react-portfolio/static/media/thd-logo.fd5f64d12f2864878896.png",
@@ -16,11 +16,11 @@
     "static/media/press-start.k.ttf": "/react-portfolio/static/media/press-start.k.688e28425c92b8b6e3e3.ttf",
     "index.html": "/react-portfolio/index.html",
     "main.fd3a4891.css.map": "/react-portfolio/static/css/main.fd3a4891.css.map",
-    "main.dc382289.js.map": "/react-portfolio/static/js/main.dc382289.js.map",
+    "main.1eb8b4d4.js.map": "/react-portfolio/static/js/main.1eb8b4d4.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd3a4891.css",
-    "static/js/main.dc382289.js"
+    "static/js/main.1eb8b4d4.js"
   ]
 }
