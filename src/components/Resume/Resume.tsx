@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Document, Page, pdfjs } from 'react-pdf';
 import resume from '../../assets/pdfs/resume.pdf';
 import { useResumeStyles } from './resume-styles';
@@ -10,12 +11,17 @@ export const Resume: React.FC = () => {
   const scale: number = 1.5;
 
   return (
-    <Document
-      className={classes.resume}
-      file={resume}
-      onLoadError={console.error}
-    >
-      <Page pageNumber={1} scale={scale} />
-    </Document>
+    <>
+      <Helmet>
+        <title>Resume</title>
+      </Helmet>
+      <Document
+        className={classes.resume}
+        file={resume}
+        onLoadError={console.error}
+      >
+        <Page pageNumber={1} scale={scale} />
+      </Document>
+    </>
   )
 }

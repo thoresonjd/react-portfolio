@@ -3,12 +3,14 @@ import { colors } from '../../theme';
 
 export const useNavbarStyles: Function = makeStyles(() => ({
   appbar: {
-    transition: 'all 0.3s ease-out 0s !important',
-    boxShadow: 'none !important'
+    boxShadow: 'none !important',
+    height: '64px'
   },
   toolbar: {
     margin: 'auto',
     width: '90%',
+    height: '64px',
+    minHeight: '64px !important',
     justifyContent: 'space-evenly'
   },
   button: {

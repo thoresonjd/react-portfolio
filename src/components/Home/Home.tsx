@@ -25,12 +25,12 @@ export const Home: React.FC = () => {
             {'>'}&nbsp;
             <Typed
               strings={[
-                'justin',
-                'exulgor'
+                'exulgor',
+                'justin'
               ]}
               typeSpeed={50}
               backSpeed={60}
-              backDelay={5000}
+              backDelay={4000}
               loop
             /> 
           </Typography>

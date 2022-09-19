@@ -7,16 +7,15 @@ export const use404Styles: Function = makeStyles(() => ({
     margin: '2.5vh auto',
     padding: '5vh 0',
     width: '50vw',
-    backdropFilter: 'invert()',
     animation: '$upDown 5s ease-in-out infinite'
   },
   title: {
     fontFamily: 'press-start !important',
-    color: colors.Black,
+    color: colors.Lime,
   },
   subtitle: {
     fontFamily: 'press-start !important',
-    color: colors.Black,
+    color: colors.Lime,
   },
   image: {
     width: '75%',

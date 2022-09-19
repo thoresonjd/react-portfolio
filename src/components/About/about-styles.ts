@@ -11,14 +11,15 @@ export const useAboutStyles: Function = makeStyles(() => ({
     margin: '2.5vh auto'
   },
   title: {
-    fontFamily: 'consolas !important',
-    color: colors.Lime
+    fontFamily: 'press-start !important',
+    fontSize: '1.5rem',
+    color: colors.Lime,
+    marginTop: '5vh'
   },
   linksBox: {
-    width: '20%',
-    margin: '2.5vh  auto',
-    padding: '1vh',
-    borderRadius: '15px !important'
+    width: '300px',
+    margin: '2.5vh auto',
+    padding: '10px'
   },
   icon: {
     display: 'flex',
@@ -30,24 +31,26 @@ export const useAboutStyles: Function = makeStyles(() => ({
     maxHeight: '50vh'
   },
   linkText: {
+    fontFamily: 'press-start !important',
+    fontSize: '0.75rem',
     color: colors.White,
     
     // Animation
     display: 'inline-block',
     backgroundColor: colors.Transparent,
     backgroundImage: `linear-gradient(${colors.Lime} 0 0)`,
-    backgroundPosition: '5px 100%',
-    backgroundSize: '0 2px',
+    backgroundPosition: '10px 100%',
+    backgroundSize: '0 1px',
     backgroundRepeat: 'no-repeat',
-    transition: 'color 0.3s, background-size 0.3s',
+    transition: 'background-size 0.3s',
     '&:hover': {
       color: colors.Lime,
-      backgroundSize: '100% 2px',
+      backgroundSize: '100% 1px',
       cursor: 'pointer'
     },
     '&:active': {
-      color: colors.Lime,
-      backgroundSize: '100% 2px',
+      color: colors.Green,
+      backgroundSize: '100% 1px',
       backgroundImage: `linear-gradient(${colors.Green} 0 0)`
     }
   }

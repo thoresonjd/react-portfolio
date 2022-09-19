@@ -11,7 +11,6 @@ import {
   About,
   Particles,
   NotFound,
-  Footer,
   Music,
   Resume
 } from './components';
@@ -38,7 +37,6 @@ const App: React.FC = () => {
             <Route path='*' element={<NotFound />} />
           </Routes>
         </Router>
-        <Footer />
         <Particles />
       </ThemeProvider>
     </HelmetProvider>

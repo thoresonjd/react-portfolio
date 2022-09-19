@@ -3,7 +3,7 @@ import { colors } from '../../theme';
 
 export const useHomeStyles: Function = makeStyles(() => ({
   container: {
-    height: '75%'
+    height: 'calc(100% - 64px)'
   },
   row: {
     position: 'relative',
