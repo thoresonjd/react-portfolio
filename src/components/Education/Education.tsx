@@ -23,6 +23,9 @@ export const Education: React.FC = () => {
       <Helmet>
         <title>Education</title>
       </Helmet>
+      <Typography variant='h4' className={classes.title}>
+        education
+      </Typography>
       <Timeline className={classes.educationTimeline} position='alternate'>
         {education.map((edu, eIndex) => (
           <Zoom key={eIndex} in={true} style={{transitionDelay: `${transitionDelay * eIndex}ms`}}>

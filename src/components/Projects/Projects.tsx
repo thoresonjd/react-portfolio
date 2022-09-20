@@ -24,6 +24,9 @@ export const Projects: React.FC = () => {
       <Helmet>
         <title>Projects</title>
       </Helmet>
+      <Typography variant='h4' className={classes.title}>
+        Projects
+      </Typography>
       <Timeline className={classes.projectsTimeline} position='alternate'>
         {projects.map((proj, pIndex) => (
           <Zoom key={pIndex} in={true} style={{transitionDelay: `${transitionDelay * pIndex}ms`}}>

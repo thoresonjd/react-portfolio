@@ -23,6 +23,9 @@ export const Experience: React.FC = () => {
       <Helmet>
         <title>Experience</title>
       </Helmet>
+      <Typography variant='h4' className={classes.title}>
+        Experience
+      </Typography>
       <Timeline className={classes.experienceTimeline} position='alternate'>
         {experience.map((exp, eIndex) => (
           <Zoom key={eIndex} in={true} style={{transitionDelay: `${transitionDelay * eIndex}ms`}}>

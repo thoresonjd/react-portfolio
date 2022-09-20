@@ -2,6 +2,13 @@ import { makeStyles } from '@mui/styles';
 import { colors } from '../../theme';
 
 export const useEducationStyles: Function = makeStyles(() => ({
+  title: {
+    color: colors.Lime,
+    fontFamily: 'press-start !important',
+    textAlign: 'center',
+    textTransform: 'lowercase',
+    padding: '30px 0'
+  },
   educationTimeline: {
     minWidth: '100vh',
     overflow: 'auto'

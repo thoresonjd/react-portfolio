@@ -29,6 +29,7 @@ export const useHomeStyles: Function = makeStyles(() => ({
     paddingLeft: '2.5vw'
   },
   title: {
-    fontFamily: 'press-start !important'
+    fontFamily: 'press-start !important',
+    textTransform: 'capitalize'
   }
 }));
