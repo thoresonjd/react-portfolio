@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.fb5366dd.css",
-    "main.js": "/react-portfolio/static/js/main.c8919b48.js",
+    "main.js": "/react-portfolio/static/js/main.783df196.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/this-is-fine.png": "/react-portfolio/static/media/this-is-fine.53b667ffefea856019e6.png",
     "static/media/thd-logo.png": "/react-portfolio/static/media/thd-logo.fd5f64d12f2864878896.png",
+    "static/media/justin-jitter.gif": "/react-portfolio/static/media/justin-jitter.f9ba1359ccf0f935b0a6.gif",
+    "static/media/exulgor-jitter.gif": "/react-portfolio/static/media/exulgor-jitter.1f247a8543f4a199989c.gif",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.0387ab094c821cce361f.pdf",
     "static/media/votegrity-branding-dark.jpg": "/react-portfolio/static/media/votegrity-branding-dark.7dcb75124cd7bf610b5e.jpg",
     "static/media/press-start-2p-regular.ttf": "/react-portfolio/static/media/press-start-2p-regular.21503c6a5385ab41dde9.ttf",
@@ -17,11 +19,11 @@
     "static/media/press-start-k.ttf": "/react-portfolio/static/media/press-start-k.688e28425c92b8b6e3e3.ttf",
     "index.html": "/react-portfolio/index.html",
     "main.fb5366dd.css.map": "/react-portfolio/static/css/main.fb5366dd.css.map",
-    "main.c8919b48.js.map": "/react-portfolio/static/js/main.c8919b48.js.map",
+    "main.783df196.js.map": "/react-portfolio/static/js/main.783df196.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb5366dd.css",
-    "static/js/main.c8919b48.js"
+    "static/js/main.783df196.js"
   ]
 }
