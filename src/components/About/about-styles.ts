@@ -10,11 +10,9 @@ export const useAboutStyles: Function = makeStyles(() => ({
     width: '30vmin !important',
     margin: '2.5vh auto'
   },
-  title: {
-    fontFamily: 'press-start !important',
-    fontSize: '1.5rem',
-    color: colors.Lime,
-    marginTop: '5vh'
+  name: {
+    marginTop: '5vh',
+    height: '40px'
   },
   linksBox: {
     width: '300px',

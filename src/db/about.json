@@ -1,6 +1,7 @@
 {
   "name": "Justin Thoreson",
-  "image-path": "assets/images/alien.jpg",
+  "avatar-path": "assets/images/alien.jpg",
+  "name-gif-path": "assets/gifs/exulgor-jitter.gif",
   "description": "",
   "links": [
     {

@@ -7,7 +7,7 @@ import about from '../../db/about.json';
 
 export const About: React.FC = () => {
   const classes: any = useAboutStyles();
-  
+
   return (
     <>
       <Helmet>
@@ -16,11 +16,15 @@ export const About: React.FC = () => {
       <Slide direction='down' in={true} mountOnEnter unmountOnExit>
         <div className={classes.aboutBox}>
           <Avatar
-            src={require(`../../${about['image-path']}`)}
+            src={require(`../../${about['avatar-path']}`)}
             alt='avatar'
             className={classes.image}
           />
-          <div className={classes.title}>{about.name}</div>
+          <img
+            className={classes.name}
+            alt='name'
+            src={require(`../../${about['name-gif-path']}`)}
+          />
           <div className={classes.linksBox}>
             <List className={classes.linksList}>
               {about.links.map((link, lIndex) => (
