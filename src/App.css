@@ -1,3 +1,5 @@
+/* Reset */
+
 html, body, #root, .App {
   height: 100%;
   margin: 0;
@@ -5,17 +7,19 @@ html, body, #root, .App {
 }
 
 /* Fonts */
+
 @font-face {
   font-family: 'press-start';
   src: url(./assets/fonts/press-start-2p-regular.ttf);
 }
 
 /* Body */
+
 body {
   background: black;
 }
 
-  /* Scanlines */
+  /* Cathode-ray tube monitor scanlines */
   body::before {
     content: " ";
     display: block;
@@ -51,6 +55,8 @@ body {
     animation: flicker 0.15s infinite;
   }
 
+/* Keyframes */
+
 @keyframes flicker {
   0% { opacity: 0.27861; }
   5% { opacity: 0.34769; }
@@ -76,6 +82,7 @@ body {
 }
 
 /* Scrollbar */
+
 ::-webkit-scrollbar {
   width: 0.5vw;
   height: 1vh;
@@ -92,11 +99,11 @@ body {
   border-radius: 10px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555; 
-}
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
+/* Corner */
 ::-webkit-scrollbar-corner {
   background: transparent;
 }

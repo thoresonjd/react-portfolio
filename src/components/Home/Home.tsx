@@ -14,14 +14,14 @@ export const Home: React.FC = () => {
         <Col className={classes.image} md={6}>
           <Zoom in={true} mountOnEnter unmountOnExit>
             <Avatar
+              className={classes.avatar}
               src={avatar}
               alt='avatar'
-              className={classes.avatar}
             />
           </Zoom>
         </Col>
         <Col className={classes.typedBox} md={6} >
-          <Typography variant='h3' className={classes.title}>
+          <Typography className={classes.title} variant='h3'>
             {'>'}&nbsp;
             <Typed
               strings={[
