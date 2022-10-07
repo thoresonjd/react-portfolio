@@ -51,11 +51,14 @@ export const Experience: React.FC = () => {
                     alt='experience'
                   />
                   <CardContent>
-                    <Typography>{exp.position}</Typography>
-                    <Typography>{exp.employer}</Typography>
-                    <Typography>{exp.type}</Typography>
+                    <Typography className={classes.experienceHeaderText}>{exp.position}</Typography>
+                    <Typography className={classes.experienceHeaderText}>{exp.employer}</Typography>
+                    {/* <Typography className={classes.experienceHeaderText}>{exp.type}</Typography> */}
                     {exp['bullet-points'].map((bullet, bIndex) => (
-                      <Typography key={bIndex}>{`• ${bullet}`}</Typography>
+                      <span key={bIndex} style={{display: 'flex'}}>
+                        <Typography className={classes.experienceBodyText}>•&nbsp;</Typography>
+                        <Typography className={classes.experienceBodyText}>{bullet}</Typography>
+                      </span>
                     ))}
                   </CardContent>
                 </Card>
