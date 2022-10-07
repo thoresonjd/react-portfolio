@@ -51,14 +51,33 @@ export const Education: React.FC = () => {
                     alt='education'
                   />
                   <CardContent>
-                    <Typography>{edu.institution}</Typography>
-                    <Typography>{edu.degree}</Typography>
-                    {edu.majors.length > 0 ? (<Typography>Major(s): {edu.majors.join(', ')}</Typography>) : <></>}
-                    {edu.minors.length > 0 ? (<Typography>Minor(s): {edu.minors.join(', ')}</Typography>) : <></>}
-                    {edu.gpa ? (<Typography>GPA: {edu.gpa}</Typography>) : <></>}
-                    {edu.honors !== '' ? (<Typography>Honors: {edu.honors}</Typography>) : <></>}
+                    <Typography className={classes.educationHeaderText}>{edu.institution}</Typography>
+                    <Typography className={classes.educationHeaderText}>{edu.degree}</Typography>
+                    {edu.majors.length > 0 ? (
+                      <Typography className={classes.educationBodyText}>
+                        Major(s): {edu.majors.join(', ')}
+                      </Typography>
+                    ) :<></>}
+                    {edu.minors.length > 0 ? (
+                      <Typography className={classes.educationBodyText}>
+                        Minor(s): {edu.minors.join(', ')}
+                      </Typography>
+                    ) : <></>}
+                    {edu.gpa ? (
+                      <Typography className={classes.educationBodyText}>
+                        GPA: {edu.gpa}
+                      </Typography>
+                    ) : <></>}
+                    {edu.honors !== '' ? (
+                      <Typography className={classes.educationBodyText}>
+                        Honors: {edu.honors}
+                      </Typography>
+                    ) : <></>}
                     {edu['bullet-points'].map((bullet, bIndex) => (
-                      <Typography key={bIndex}>{`• ${bullet}`}</Typography>
+                      <span key={bIndex} style={{display: 'flex'}}>
+                        <Typography className={classes.educationBodyText}>•&nbsp;</Typography>
+                        <Typography className={classes.educationBodyText}>{bullet}</Typography>
+                      </span>
                     ))}
                   </CardContent>
                 </Card>
