@@ -27,24 +27,41 @@ export const useProjectsStyles: Function = makeStyles(() => ({
     overflow: 'auto'
   },
   timeFrame: {
+    fontFamily: 'press-start !important',
+    fontSize: '0.75rem !important',
+    color: colors.Lime,
     margin: 0,
     position: 'relative',
     top: '50%',
-    transform: 'translateY(-50%)',
-    color: colors.Lime,
-    fontFamily: 'consolas !important',
+    transform: 'translateY(-50%)'
   },
   projectsCardRHS: {
-    display: 'flex',
-    width: 'max-content'
+    display: 'inline-block',
+    width: '750px',
+    border: `2px solid ${colors.Lime}`,
+    background: `${colors.Transparent} !important`
   },
   projectsCardLHS: {
-    display: 'flex',
-    width: 'max-content',
+    display: 'inline-block',
+    width: '750px',
     margin: '0 0 0 auto',
-    textAlign: 'left'
+    textAlign: 'left',
+    border: `2px solid ${colors.Lime}`,
+    background: `${colors.Transparent} !important`
+  },
+  projectHeaderText: {
+    fontFamily: 'press-start !important',
+    fontSize: '0.9rem !important',
+    color: colors.White,
+  },
+  projectBodyText: {
+    fontFamily: 'press-start !important',
+    fontSize: '0.75rem !important',
+    color: colors.White,
   },
   linkText: {
+    fontFamily: 'press-start !important',
+    fontSize: '0.9rem !important',
     color: colors.White,
     
     // Animation

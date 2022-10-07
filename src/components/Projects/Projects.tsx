@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Card, CardContent, Typography, Link, Zoom } from '@mui/material';
+import { Card, CardContent, Typography, Link, Zoom, CardHeader } from '@mui/material';
 import BuildIcon from '@mui/icons-material/Build';
 import LinkIcon from '@mui/icons-material/Link';
 import { 
@@ -54,10 +54,13 @@ export const Projects: React.FC = () => {
                         </Typography>
                       </Link>
                     ) : (
-                      <Typography>{proj.title}</Typography>
+                      <Typography className={classes.projectHeaderText}>{proj.title}</Typography>
                     )}
                     {proj['bullet-points'].map((bullet, bIndex) => (
-                      <Typography key={bIndex}>{`• ${bullet}`}</Typography>
+                      <span key={bIndex} style={{display: 'flex'}}>
+                        <Typography className={classes.projectBodyText}>•&nbsp;</Typography>
+                        <Typography className={classes.projectBodyText}>{bullet}</Typography>
+                      </span>
                     ))}
                   </CardContent>
                 </Card>
