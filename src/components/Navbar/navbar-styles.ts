@@ -11,7 +11,7 @@ export const useNavbarStyles: Function = makeStyles(() => ({
     margin: 'auto'
   },
   image: {
-    height: '1.2em !important'
+    height: '3em !important'
   },
   navbarToggler: {
     position: 'relative',

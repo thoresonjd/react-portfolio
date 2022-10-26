@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar as NavigationBar, Nav, Container } from 'react-bootstrap';
 import { useNavbarStyles } from './navbar-styles';
+import brand from '../../assets/images/exulgor-drawing.png';
 
 export const Navbar: React.FC = () => {
   const classes: any = useNavbarStyles();
@@ -9,11 +10,11 @@ export const Navbar: React.FC = () => {
   return (
     <NavigationBar className={classes.navbar} expand='lg'>
       <Container>
-        <NavigationBar.Brand href="/" className="d-flex">
+        <NavigationBar.Brand href='/'>
           <img
-            src={require('../../assets/gifs/exulgor-jitter.gif')}
             className={classes.image}
-            alt="brand"
+            src={brand}
+            alt='brand'
           />
         </NavigationBar.Brand>
         <NavigationBar.Toggle className={classes.navbarToggler} aria-controls='basic-navbar-nav'>

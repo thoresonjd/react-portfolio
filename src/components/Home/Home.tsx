@@ -1,41 +1,20 @@
 import React from 'react';
-import Typed from 'react-typed';
-import { Avatar, Typography, Zoom } from '@mui/material';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Zoom } from '@mui/material';
 import { useHomeStyles } from './home-styles';
-import avatar from '../../assets/images/alien.jpg';
+import name from '../../assets/gifs/justin-jitter.gif';
 
 export const Home: React.FC = () => {
   const classes: any = useHomeStyles();
 
   return (
-    <Container className={classes.container} fluid>
-      <Row className={classes.row}>
-        <Col className={classes.image}>
-          <Zoom in={true} mountOnEnter unmountOnExit>
-            <Avatar
-              className={classes.avatar}
-              src={avatar}
-              alt='avatar'
-            />
-          </Zoom>
-        </Col>
-        <Col className={classes.typedBox}>
-          <Typography className={classes.title} variant='h3'>
-            {'>'}&nbsp;
-            <Typed
-              strings={[
-                'Exulgor',
-                'Justin'
-              ]}
-              typeSpeed={50}
-              backSpeed={60}
-              backDelay={2000}
-              loop
-            /> 
-          </Typography>
-        </Col>
-      </Row>
-    </Container>
+    <div className={classes.container}>
+      <Zoom in={true}>
+        <img
+          className={classes.name}
+          src={name}
+          alt='name'
+        />
+      </Zoom>
+    </div>
   );
 }
