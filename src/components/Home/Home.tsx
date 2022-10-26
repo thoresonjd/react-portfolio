@@ -9,9 +9,9 @@ export const Home: React.FC = () => {
   const classes: any = useHomeStyles();
 
   return (
-    <Container className={classes.container}>
+    <Container className={classes.container} fluid>
       <Row className={classes.row}>
-        <Col className={classes.image} md={6}>
+        <Col className={classes.image}>
           <Zoom in={true} mountOnEnter unmountOnExit>
             <Avatar
               className={classes.avatar}
@@ -20,7 +20,7 @@ export const Home: React.FC = () => {
             />
           </Zoom>
         </Col>
-        <Col className={classes.typedBox} md={6} >
+        <Col className={classes.typedBox}>
           <Typography className={classes.title} variant='h3'>
             {'>'}&nbsp;
             <Typed

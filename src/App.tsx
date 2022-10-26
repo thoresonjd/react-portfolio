@@ -16,6 +16,7 @@ import {
 } from './components';
 import { theme } from './theme'
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App: React.FC = () => {
   return (

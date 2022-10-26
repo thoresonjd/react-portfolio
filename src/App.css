@@ -16,7 +16,7 @@ html, body, #root, .App {
 /* Body */
 
 body {
-  background: black;
+  background: black !important;
 }
 
   /* Cathode-ray tube monitor scanlines */

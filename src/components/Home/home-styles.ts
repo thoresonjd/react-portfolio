@@ -8,14 +8,14 @@ export const useHomeStyles: Function = makeStyles(() => ({
   row: {
     position: 'relative',
     height: '100%',
-    display: 'flex',
+    display: 'flex !important',
   },
   image: {
     display: 'flex',
     justifyContent: 'right',
     width: '50vw',
-    margin: 'auto 0',
-    paddingRight: '2.5vw'
+    margin: 'auto 0 !important',
+    paddingRight: '2.5vw !important'
   },
   avatar: {
     height: '50vmin !important',
@@ -23,10 +23,10 @@ export const useHomeStyles: Function = makeStyles(() => ({
   },
   typedBox: {
     color: colors.Lime,
-    margin: 'auto 0',
+    margin: 'auto 0 !important',
     justifyContent: 'right',
     width: '50vw',
-    paddingLeft: '2.5vw'
+    paddingLeft: '2.5vw !important'
   },
   title: {
     fontFamily: 'press-start !important',
