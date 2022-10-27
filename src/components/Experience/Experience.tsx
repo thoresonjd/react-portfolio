@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Card, CardContent, CardMedia, Typography, Zoom } from '@mui/material';
+import { Card, CardContent, Typography, Zoom } from '@mui/material';
 import WorkIcon from '@mui/icons-material/Work';
 import { 
   Timeline, 
@@ -8,8 +8,7 @@ import {
   TimelineSeparator,
   TimelineDot,
   TimelineConnector,
-  TimelineContent,
-  TimelineOppositeContent
+  TimelineContent
 } from '@mui/lab';
 import { useExperienceStyles } from './experience-styles'; 
 import experience from '../../db/experience.json';
@@ -26,31 +25,20 @@ export const Experience: React.FC = () => {
       <Typography variant='h4' className={classes.title}>
         Experience
       </Typography>
-      <Timeline className={classes.experienceTimeline} position='alternate'>
+      <Timeline className={classes.experienceTimeline}>
         {experience.map((exp, eIndex) => (
           <Zoom key={eIndex} in={true} style={{transitionDelay: `${transitionDelay * eIndex}ms`}}>
-            <TimelineItem>
-              <TimelineOppositeContent className={classes.content}>
-                <Typography className={classes.timeFrame}>
-                  {exp.from} - {exp.to}
-                </Typography>
-              </TimelineOppositeContent>
+            <TimelineItem className={classes.timelineItem}>
               <TimelineSeparator>
-                <TimelineConnector className={classes.timelineConnector} />
                 <TimelineDot className={classes.timelineDot}>
                   <WorkIcon className={classes.icon} fontSize='large' />
                 </TimelineDot>
                 <TimelineConnector className={classes.timelineConnector} />
               </TimelineSeparator>
               <TimelineContent className={classes.content}>
-                <Card className={eIndex % 2 === 0 ? classes.experienceCardRHS : classes.experienceCardLHS}>
-                  <CardMedia
-                    className={classes.image}
-                    component='img'
-                    image={require(`../../${exp['image-path']}`)}
-                    alt='experience'
-                  />
+                <Card className={classes.experienceCard}>
                   <CardContent>
+                    <Typography className={classes.experienceTimeframe}>{exp.from} - {exp.to}</Typography>
                     <Typography className={classes.experienceHeaderText}>{exp.position}</Typography>
                     <Typography className={classes.experienceHeaderText}>{exp.employer}</Typography>
                     {/* <Typography className={classes.experienceHeaderText}>{exp.type}</Typography> */}

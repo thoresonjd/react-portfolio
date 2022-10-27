@@ -13,9 +13,7 @@
       "Instantiated new virtual machine by upgrading existing software from scratch",
       "React, JavaScript, Python, Azure, VS Code"
 
-    ],
-    "image-path": "assets/images/votegrity-branding-dark.jpg",
-    "references": []
+    ]
   },
   {
     "position": "Software Engineer Intern",
@@ -30,9 +28,7 @@
       "Codified architecture for scalable and automated API authorization assessment",
       "Filed patent application for API authorization service",
       "TypeScript, JavaScript, SQL, Postman, VS Code, GitLab"
-    ],
-    "image-path": "assets/images/tmo-logo.jpg",
-    "references": []
+    ]
   },
   {
     "position": "Tutor, TA, Grader - CSSE",
@@ -47,9 +43,7 @@
       "Tutored and graded 100+ students, formulated grading rubrics alongside several other TAs",
       "Provided constructive feedback to 100+ students via tutoring and grading",
       "Java, IntelliJ, Vim, Emacs, GitHub"
-    ],
-    "image-path": "assets/images/su-logo.jpg",
-    "references": []
+    ]
   },
   {
     "position": "Sales Associate",
@@ -64,8 +58,6 @@
       "Interacted w/ customers and vendors, fulfilled online orders, restocked inventory",
       "Provided recognizable customer service and consistent help to dozens of coworkers",
       "Certifications: plumbing department, electric ladder, pipe threader"
-    ],
-    "image-path": "assets/images/thd-logo.png",
-    "references": []
+    ]
   }
 ]
