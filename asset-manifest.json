@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d3e7b01e.css",
-    "main.js": "/react-portfolio/static/js/main.8fb08426.js",
+    "main.js": "/react-portfolio/static/js/main.71670924.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/this-is-fine.png": "/react-portfolio/static/media/this-is-fine.53b667ffefea856019e6.png",
     "static/media/justin-jitter.gif": "/react-portfolio/static/media/justin-jitter.f9ba1359ccf0f935b0a6.gif",
     "static/media/exulgor-jitter.gif": "/react-portfolio/static/media/exulgor-jitter.1f247a8543f4a199989c.gif",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.0387ab094c821cce361f.pdf",
     "static/media/press-start-2p-regular.ttf": "/react-portfolio/static/media/press-start-2p-regular.21503c6a5385ab41dde9.ttf",
+    "static/media/alien-lime.png": "/react-portfolio/static/media/alien-lime.86a657e80b5146bb76c2.png",
     "static/media/exulgor-drawing.png": "/react-portfolio/static/media/exulgor-drawing.2bef19387385ae7e0cd5.png",
-    "static/media/alien.jpg": "/react-portfolio/static/media/alien.9e18e077542eefb84c5d.jpg",
     "static/media/press-start-regular.ttf": "/react-portfolio/static/media/press-start-regular.f22a5be077b22a25731a.ttf",
     "static/media/press-start-k.ttf": "/react-portfolio/static/media/press-start-k.688e28425c92b8b6e3e3.ttf",
     "static/media/gitlab.svg": "/react-portfolio/static/media/gitlab.a207b55957056446a203.svg",
@@ -20,11 +20,11 @@
     "static/media/soundcloud.svg": "/react-portfolio/static/media/soundcloud.9e071a5294ed50cc3d41.svg",
     "index.html": "/react-portfolio/index.html",
     "main.d3e7b01e.css.map": "/react-portfolio/static/css/main.d3e7b01e.css.map",
-    "main.8fb08426.js.map": "/react-portfolio/static/js/main.8fb08426.js.map",
+    "main.71670924.js.map": "/react-portfolio/static/js/main.71670924.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3e7b01e.css",
-    "static/js/main.8fb08426.js"
+    "static/js/main.71670924.js"
   ]
 }
