@@ -3,7 +3,7 @@
     "level": "Graduate",
     "degree": "Master of Science",
     "majors": [
-        "Computer Science"
+      "Computer Science"
     ],
     "minors": [],
     "institution": "Seattle University",
@@ -12,21 +12,18 @@
     "to": "June 2023",
     "graduated": false,
     "gpa": "4.0",
-    "honors": "",
     "bullet-points": [
-        "Graduate Representative - Seattle University ACM"
-    ],
-    "image-path": "assets/images/su-logo.jpg",
-    "references": []
+      "Graduate Representative - Seattle University ACM"
+    ]
   },
   {
     "level": "Undergraduate",
     "degree": "Bachelor of Science",
     "majors": [
-        "Computer Science"
+      "Computer Science"
     ],
     "minors": [
-        "Data Science"
+      "Data Science"
     ],
     "institution": "Seattle University",
     "location": "Seattle, WA",
@@ -34,13 +31,12 @@
     "to": "June 2022",
     "graduated": true,
     "gpa": "3.953",
-    "honors": "Summa Cum Laude",
     "bullet-points": [
-        "Outstanding Computer Science Undergraduate Student Award 2022",
-        "President's List 8x, Dean's List 9x"
-    ],
-    "image-path": "assets/images/su-logo.jpg",
-    "references": []
+      "Outstanding Computer Science Undergraduate Student Award 2022",
+      "Summa Cum Laude",
+      "President's List 8x",
+      "Dean's List 9x"
+    ]
   },
   {
     "level": "Undergraduate",
@@ -53,10 +49,7 @@
     "to": "June 2019",
     "graduated": false,
     "gpa": "3.74",
-    "honors": "",
-    "bullet-points": [],
-    "image-path": "assets/images/evcc-logo.jpg",
-    "references": []
+    "bullet-points": []
   },
   {
     "level": "High School",
@@ -69,9 +62,6 @@
     "to": "June 2019",
     "graduated": true,
     "gpa": "3.71",
-    "honors": "",
-    "bullet-points": [],
-    "image-path": "assets/images/gfsd-logo.jpg",
-    "references": []
+    "bullet-points": []
   }
 ]

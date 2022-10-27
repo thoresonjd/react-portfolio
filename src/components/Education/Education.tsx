@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Card, CardContent, CardMedia, Typography, Zoom } from '@mui/material';
+import { Card, CardContent, Typography, Zoom } from '@mui/material';
 import SchoolIcon from '@mui/icons-material/School';
 import { 
   Timeline, 
@@ -8,8 +8,7 @@ import {
   TimelineSeparator,
   TimelineDot,
   TimelineConnector,
-  TimelineContent,
-  TimelineOppositeContent
+  TimelineContent
 } from '@mui/lab';
 import { useEducationStyles } from './education-styles'; 
 import education from '../../db/education.json';
@@ -26,31 +25,23 @@ export const Education: React.FC = () => {
       <Typography variant='h4' className={classes.title}>
         education
       </Typography>
-      <Timeline className={classes.educationTimeline} position='alternate'>
+      <Timeline className={classes.educationTimeline}>
         {education.map((edu, eIndex) => (
           <Zoom key={eIndex} in={true} style={{transitionDelay: `${transitionDelay * eIndex}ms`}}>
-            <TimelineItem>
-              <TimelineOppositeContent className={classes.content}>
-                <Typography className={classes.timeFrame}>
-                  {`${edu.from} - ${edu.to}`}
-                </Typography>
-              </TimelineOppositeContent>
+            <TimelineItem className={classes.timelineItem}>
               <TimelineSeparator>
-                <TimelineConnector className={classes.timelineConnector} />
                 <TimelineDot className={classes.timelineDot}>
                   <SchoolIcon className={classes.icon} fontSize='large' />
                 </TimelineDot>
                 <TimelineConnector className={classes.timelineConnector} />
               </TimelineSeparator>
-              <TimelineContent className={classes.content}>
-                <Card className={eIndex % 2 === 0 ? classes.educationCardRHS : classes.educationCardLHS}>
-                  <CardMedia
-                    className={classes.image}
-                    component='img'
-                    image={require(`../../${edu['image-path']}`)}
-                    alt='education'
-                  />
+              <TimelineContent className={classes.educationContent}>
+                <Card className={classes.educationCard}>
                   <CardContent>
+                    <Typography className={classes.educationTimeframe}>
+                      {`${edu.from} - ${edu.to}`}
+                    </Typography>
+                    <br />
                     <Typography className={classes.educationHeaderText}>{edu.institution}</Typography>
                     <Typography className={classes.educationHeaderText}>{edu.degree}</Typography>
                     {edu.majors.length > 0 ? (
@@ -68,11 +59,7 @@ export const Education: React.FC = () => {
                         GPA: {edu.gpa}
                       </Typography>
                     ) : <></>}
-                    {edu.honors !== '' ? (
-                      <Typography className={classes.educationBodyText}>
-                        Honors: {edu.honors}
-                      </Typography>
-                    ) : <></>}
+                    {edu['bullet-points'].length > 0 ? <br /> : <></>}
                     {edu['bullet-points'].map((bullet, bIndex) => (
                       <span key={bIndex} style={{display: 'flex'}}>
                         <Typography className={classes.educationBodyText}>•&nbsp;</Typography>
