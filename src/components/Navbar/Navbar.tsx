@@ -10,7 +10,7 @@ export const Navbar: React.FC = () => {
   return (
     <NavigationBar className={classes.navbar} expand='lg'>
       <Container>
-        <NavigationBar.Brand href='/'>
+        <NavigationBar.Brand>
           <img
             className={classes.image}
             src={brand}
