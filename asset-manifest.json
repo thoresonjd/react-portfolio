@@ -1,22 +1,16 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.d3e7b01e.css",
-    "main.js": "/react-portfolio/static/js/main.fbf1d27e.js",
+    "main.js": "/react-portfolio/static/js/main.03d2c8c8.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/this-is-fine.png": "/react-portfolio/static/media/this-is-fine.53b667ffefea856019e6.png",
-    "static/media/thd-logo.png": "/react-portfolio/static/media/thd-logo.fd5f64d12f2864878896.png",
     "static/media/justin-jitter.gif": "/react-portfolio/static/media/justin-jitter.f9ba1359ccf0f935b0a6.gif",
     "static/media/exulgor-jitter.gif": "/react-portfolio/static/media/exulgor-jitter.1f247a8543f4a199989c.gif",
     "static/media/resume.pdf": "/react-portfolio/static/media/resume.0387ab094c821cce361f.pdf",
-    "static/media/votegrity-branding-dark.jpg": "/react-portfolio/static/media/votegrity-branding-dark.7dcb75124cd7bf610b5e.jpg",
     "static/media/press-start-2p-regular.ttf": "/react-portfolio/static/media/press-start-2p-regular.21503c6a5385ab41dde9.ttf",
-    "static/media/evcc-logo.jpg": "/react-portfolio/static/media/evcc-logo.ba569ee4113fbeeabecd.jpg",
     "static/media/exulgor-drawing.png": "/react-portfolio/static/media/exulgor-drawing.2bef19387385ae7e0cd5.png",
-    "static/media/su-logo.jpg": "/react-portfolio/static/media/su-logo.4d0558aa2230f4f26d14.jpg",
-    "static/media/tmo-logo.jpg": "/react-portfolio/static/media/tmo-logo.508d90a1811b03aba830.jpg",
     "static/media/alien.jpg": "/react-portfolio/static/media/alien.9e18e077542eefb84c5d.jpg",
     "static/media/press-start-regular.ttf": "/react-portfolio/static/media/press-start-regular.f22a5be077b22a25731a.ttf",
-    "static/media/gfsd-logo.jpg": "/react-portfolio/static/media/gfsd-logo.cb27ad2c68679cb9b183.jpg",
     "static/media/press-start-k.ttf": "/react-portfolio/static/media/press-start-k.688e28425c92b8b6e3e3.ttf",
     "static/media/gitlab.svg": "/react-portfolio/static/media/gitlab.a207b55957056446a203.svg",
     "static/media/github.svg": "/react-portfolio/static/media/github.32c86c728b100fe87961.svg",
@@ -26,11 +20,11 @@
     "static/media/soundcloud.svg": "/react-portfolio/static/media/soundcloud.9e071a5294ed50cc3d41.svg",
     "index.html": "/react-portfolio/index.html",
     "main.d3e7b01e.css.map": "/react-portfolio/static/css/main.d3e7b01e.css.map",
-    "main.fbf1d27e.js.map": "/react-portfolio/static/js/main.fbf1d27e.js.map",
+    "main.03d2c8c8.js.map": "/react-portfolio/static/js/main.03d2c8c8.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3e7b01e.css",
-    "static/js/main.fbf1d27e.js"
+    "static/js/main.03d2c8c8.js"
   ]
 }
