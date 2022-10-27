@@ -9,8 +9,7 @@ import {
   TimelineSeparator,
   TimelineDot,
   TimelineConnector,
-  TimelineContent,
-  TimelineOppositeContent
+  TimelineContent
 } from '@mui/lab';
 import { useProjectsStyles } from './projects-styles'; 
 import projects from '../../db/projects.json';
@@ -27,35 +26,34 @@ export const Projects: React.FC = () => {
       <Typography variant='h4' className={classes.title}>
         Projects
       </Typography>
-      <Timeline className={classes.projectsTimeline} position='alternate'>
+      <Timeline className={classes.projectsTimeline}>
         {projects.map((proj, pIndex) => (
           <Zoom key={pIndex} in={true} style={{transitionDelay: `${transitionDelay * pIndex}ms`}}>
-            <TimelineItem>
-              <TimelineOppositeContent className={classes.content}>
-                <Typography className={classes.timeFrame}>
-                  {proj.from === proj.to ? '' : `${proj.from} -`} {proj.to}
-                </Typography>
-              </TimelineOppositeContent>
+            <TimelineItem className={classes.timelineItem}>
               <TimelineSeparator>
-                <TimelineConnector className={classes.timelineConnector} />
                 <TimelineDot className={classes.timelineDot}>
                   <BuildIcon className={classes.icon} fontSize='large' />
                 </TimelineDot>
                 <TimelineConnector className={classes.timelineConnector} />
               </TimelineSeparator>
-              <TimelineContent className={classes.content}>
-                <Card className={pIndex % 2 === 0 ? classes.projectsCardRHS : classes.projectsCardLHS}>
+              <TimelineContent className={classes.projectContent}>
+                <Card className={classes.projectCard}>
                   <CardContent>
+                    <Typography className={classes.projectTimeframe}>
+                      {proj.from === proj.to ? '' : `${proj.from} -`} {proj.to}
+                    </Typography>                
                     {proj.ref ? (
-                      <Link href={proj.ref} underline='none'>
-                        <Typography className={classes.linkText}>
-                          {proj.title}&nbsp;
-                          <LinkIcon fontSize='small'/>
-                        </Typography>
-                      </Link>
+                      <span style={{display: 'flex'}}>
+                        <LinkIcon fontSize='small'/>&nbsp;
+                        <Link href={proj.ref} underline='none'>
+                          <Typography className={classes.linkText}>
+                            {proj.title}
+                          </Typography>
+                        </Link>
+                      </span>                    
                     ) : (
                       <Typography className={classes.projectHeaderText}>{proj.title}</Typography>
-                    )}
+                    )}                            
                     {proj['bullet-points'].map((bullet, bIndex) => (
                       <span key={bIndex} style={{display: 'flex'}}>
                         <Typography className={classes.projectBodyText}>•&nbsp;</Typography>

@@ -10,44 +10,41 @@ export const useProjectsStyles: Function = makeStyles(() => ({
     padding: '30px 0'
   },
   projectsTimeline: {
-    minWidth: '100vh',
-    overflow: 'auto'
+    overflow: 'auto',
+    margin: '0 auto',
+    display: 'flex',
+    width: 'fit-content'
   },
-  timelineConnector: {
-    backgroundColor: `${colors.Lime} !important`,
+  timelineItem: {
+    width: 'fit-content',
+    '&::before': {
+      maxWidth: 0
+    }
   },
   timelineDot: {
     backgroundColor: `${colors.Transparent} !important`,
     boxShadow: 'none !important'
   },
+  timelineConnector: {
+    backgroundColor: `${colors.Lime} !important`,
+  },
   icon: {
     color: colors.Lime
   },
-  content: {
-    overflow: 'auto'
+  projectContent: {
+    overflow: 'auto',
+    display: 'flex',
+    width: 'fit-content'
   },
-  timeFrame: {
+  projectCard: {
+    display: 'flex',
+    background: `${colors.Transparent} !important`,
+    border: `2px solid ${colors.Lime}`
+  },
+  projectTimeframe: {
     fontFamily: 'press-start !important',
-    fontSize: '0.75rem !important',
-    color: colors.Lime,
-    margin: 0,
-    position: 'relative',
-    top: '50%',
-    transform: 'translateY(-50%)'
-  },
-  projectsCardRHS: {
-    display: 'inline-block',
-    width: '750px',
-    border: `2px solid ${colors.Lime}`,
-    background: `${colors.Transparent} !important`
-  },
-  projectsCardLHS: {
-    display: 'inline-block',
-    width: '750px',
-    margin: '0 0 0 auto',
-    textAlign: 'left',
-    border: `2px solid ${colors.Lime}`,
-    background: `${colors.Transparent} !important`
+    fontSize: '0.5rem !important',
+    color: colors.White
   },
   projectHeaderText: {
     fontFamily: 'press-start !important',

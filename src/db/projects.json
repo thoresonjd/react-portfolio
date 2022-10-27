@@ -4,7 +4,7 @@
     "for": "Personal",
     "from": "August 2022",
     "to": "Present",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "Designing and creating my own personal portfolio website in React",
       "React, TypeScript, NodeJS, GitHub, VS Code"
@@ -16,7 +16,7 @@
     "for": "Personal",
     "from": "July 2022",
     "to": "July 2022",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "Created a template to easily construct, customize, and publicize a personal portfolio",
       "Markdown, GitHub, VS Code"
@@ -28,7 +28,7 @@
     "for": "Votegrity | Seattle University Senior Capstone Project",
     "from": "September 2021",
     "to": "June 2022",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "Created net new election administration tool",
       "Project Manager, Scrum Master, DevOps, collaborated with a team to design and integrate a new admin tool",
@@ -42,7 +42,7 @@
     "for": "Seattle University Course",
     "from": "April 2022",
     "to": "May 2022",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "Utilizes a RESTful API to process image transformations",
       "Created with emphasis on architectural design patterns",
@@ -55,7 +55,7 @@
     "for": "Seattle University ACM",
     "from": "February 2022",
     "to": "February 2022",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "2nd place - HackSU 2022",
       "Analyzed finance articles via web scraping and NLP",
@@ -69,7 +69,7 @@
     "for": "Seattle University Course",
     "from": "February 2022",
     "to": "February 2022",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "Implements K-means clustering in Spark via RDDs",
       "Apache Spark, RDDs, Python, VS Code"
@@ -81,7 +81,7 @@
     "for": "Personal",
     "from": "January 2022",
     "to": "January 2022",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "Windows shortcuts with hotkey commands",
       "Python, VS Code"
@@ -93,7 +93,7 @@
     "for": "Seattle University Course",
     "from": "September 2021",
     "to": "December 2021",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "Created a computer graphics simulation of an illusion of a cube passing through a portal",
       "C++, GLSL, OpenGL, Visual Studio"
@@ -105,7 +105,7 @@
     "for": "Seattle University ACM",
     "from": "October 2021",
     "to": "November 2021",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "3rd Place - Personal Projects Competition SU ACM",
       "Mobile application that transforms 2D images into 3D models where pixel depth is dependent on colorblindness type",
@@ -119,7 +119,7 @@
     "for": "Seattle University Course",
     "from": "March 2021",
     "to": "June 2021",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "Database design that functions as the underlying structure of a hypothetical online learning scheduling service",
       "MySQL, PHP, HTML/CSS"
@@ -131,7 +131,7 @@
     "for": "Seattle University Course",
     "from": "January 2021",
     "to": "March 2021",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "SaaS application that provides a convenient way to schedule events across different time zones",
       "TypeScript, NodeJS, Angular, MongoDB, WebStorm"
@@ -143,7 +143,7 @@
     "for": "Personal",
     "from": "June 2019",
     "to": "June 2019",
-    "description": "desc",
+    "description": "",
     "bullet-points": [
       "A simple program animating an ASCII rocket ship launch",
       "My first personal project, and one of my first programs",
