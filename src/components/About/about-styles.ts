@@ -5,19 +5,18 @@ export const useAboutStyles: Function = makeStyles(() => ({
   aboutBox: {
     textAlign: 'center',
   },
-  image: {
-    height: '30vmin !important',
-    width: '30vmin !important',
+  avatar: {
+    height: '40vmin !important',
+    width: '40vmin !important',
     margin: '2.5vh auto'
   },
   name: {
-    marginTop: '5vh',
+    marginTop: '2.5vh',
     height: '40px'
   },
   linksBox: {
-    width: '300px',
-    margin: '2.5vh auto',
-    padding: '10px'
+    width: 'fit-content',
+    margin: '2.5vh auto'
   },
   icon: {
     display: 'flex',

@@ -14,12 +14,12 @@ export const About: React.FC = () => {
       <Helmet>
         <title>About</title>
       </Helmet>
-      <div className={classes.aboutBox}> 
+      <div className={classes.aboutBox}>
         <Zoom in={true}>
           <Avatar
             src={require(`../../${about['avatar-path']}`)}
             alt='avatar'
-            className={classes.image}
+            className={classes.avatar}
           />
         </Zoom>
         <Zoom in={true}>
