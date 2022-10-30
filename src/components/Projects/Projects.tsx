@@ -45,7 +45,7 @@ export const Projects: React.FC = () => {
                     {proj.ref ? (
                       <span style={{display: 'flex'}}>
                         <LinkIcon fontSize='small'/>&nbsp;
-                        <Link href={proj.ref} underline='none'>
+                        <Link href={proj.ref} target='_blank' underline='none'>
                           <Typography className={classes.linkText}>
                             {proj.title}
                           </Typography>

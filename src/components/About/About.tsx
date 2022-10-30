@@ -38,7 +38,7 @@ export const About: React.FC = () => {
                     <img className={classes.icon} alt='icon' src={require(`../../${link['icon-path']}`)} />
                   </Icon>
                   {link.ref ? (
-                    <Link href={link.ref} underline='none'>
+                    <Link href={link.ref} target='_blank' underline='none'>
                       <div className={classes.linkText}>&nbsp;{link.value}</div>
                     </Link>
                   ):(
