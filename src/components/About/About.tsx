@@ -50,7 +50,6 @@ export const About: React.FC = () => {
           </List>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

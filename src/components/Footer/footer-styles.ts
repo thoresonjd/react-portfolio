@@ -9,7 +9,7 @@ export const useFooterStyles: Function = makeStyles(() => ({
   copyright: {
     color: colors.Lime,
     fontFamily: 'press-start !important',
-    fontSize: '1rem',
-    padding: '2.5vh 0'
+    fontSize: '1rem !important',
+    padding: '2.5vh 2.5vw'
   }
 }));
