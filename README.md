@@ -1,3 +1,3 @@
 # React Portfolio
 
-https://thoresonjd.github.io/react-portfolio/
+https://thoresonjd.github.io/react-portfolio/#/
