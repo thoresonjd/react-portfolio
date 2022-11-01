@@ -16,7 +16,8 @@
           "mode": "repulse"
         },
         "onHover": {
-          "mode": "bubble"
+          "enable": true,
+          "mode": ["grab", "bubble"]
         }
       },
       "modes": {
@@ -32,11 +33,12 @@
           "distance": 200
         },
         "bubble": {
-          "distance": 400,
+          "distance": 200,
           "duration": 0.3,
           "mix": false,
           "opacity": 1,
-          "size": 4,
+          "color": "ff00ff",
+          "size": 10,
           "divs": {
             "distance": 200,
             "duration": 0.4,
@@ -52,11 +54,12 @@
           "radius": 60
         },
         "grab": {
-          "distance": 400,
+          "distance": 200,
           "links": {
             "blink": false,
             "consent": false,
-            "opacity": 0.5
+            "opacity": 1,
+            "color": "ff00ff"
           }
         },
         "push": {
@@ -86,8 +89,8 @@
         },
         "trail": {
           "delay": 1,
-          "pauseOnStop": false,
-          "quantity": 1
+          "quantity": 1,
+          "pauseOnStop": true
         },
         "light": {
           "area": {
