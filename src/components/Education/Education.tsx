@@ -41,7 +41,6 @@ export const Education: React.FC = () => {
                     <Typography className={classes.educationTimeframe}>
                       {`${edu.from} - ${edu.to}`}
                     </Typography>
-                    <br />
                     <Typography className={classes.educationHeaderText}>{edu.institution}</Typography>
                     <Typography className={classes.educationHeaderText}>{edu.degree}</Typography>
                     {edu.majors.length > 0 ? (
@@ -59,7 +58,6 @@ export const Education: React.FC = () => {
                         GPA: {edu.gpa}
                       </Typography>
                     ) : <></>}
-                    {edu['bullet-points'].length > 0 ? <br /> : <></>}
                     {edu['bullet-points'].map((bullet, bIndex) => (
                       <span key={bIndex} style={{display: 'flex'}}>
                         <Typography className={classes.educationBodyText}>•&nbsp;</Typography>

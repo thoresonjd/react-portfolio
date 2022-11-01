@@ -63,8 +63,7 @@ export const useNavbarStyles: Function = makeStyles(() => ({
     transition: 'color 0.3s, background-size 0.3s',
     '&:hover': {
       color: colors.Black,
-      backgroundSize: '100% 100%',
-      cursor: 'pointer'
+      backgroundSize: '100% 100%'
     },
     '&:active': {
       color: colors.Black,

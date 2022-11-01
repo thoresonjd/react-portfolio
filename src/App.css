@@ -13,6 +13,12 @@ html, body, #root, .App {
   src: url(./assets/fonts/press-start-2p-regular.ttf);
 }
 
+/* Cursors from https://www.cursors-4u.com */
+
+a, button {
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym57.cur), auto !important;
+}
+
 /* Body */
 
 body {

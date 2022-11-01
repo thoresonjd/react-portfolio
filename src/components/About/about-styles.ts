@@ -42,8 +42,7 @@ export const useAboutStyles: Function = makeStyles(() => ({
     transition: 'background-size 0.3s',
     '&:hover': {
       color: colors.Lime,
-      backgroundSize: '100% 1px',
-      cursor: 'pointer'
+      backgroundSize: '100% 1px'
     },
     '&:active': {
       color: colors.Green,
