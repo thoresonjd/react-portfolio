@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d3e7b01e.css",
-    "main.js": "/react-portfolio/static/js/main.7d3d8e19.js",
+    "main.css": "/react-portfolio/static/css/main.ae13ae1d.css",
+    "main.js": "/react-portfolio/static/js/main.b03031d0.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/this-is-fine.png": "/react-portfolio/static/media/this-is-fine.53b667ffefea856019e6.png",
     "static/media/justin-jitter.gif": "/react-portfolio/static/media/justin-jitter.f9ba1359ccf0f935b0a6.gif",
@@ -19,12 +19,12 @@
     "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.d00e61750cfc790d4184.svg",
     "static/media/soundcloud.svg": "/react-portfolio/static/media/soundcloud.9e071a5294ed50cc3d41.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.d3e7b01e.css.map": "/react-portfolio/static/css/main.d3e7b01e.css.map",
-    "main.7d3d8e19.js.map": "/react-portfolio/static/js/main.7d3d8e19.js.map",
+    "main.ae13ae1d.css.map": "/react-portfolio/static/css/main.ae13ae1d.css.map",
+    "main.b03031d0.js.map": "/react-portfolio/static/js/main.b03031d0.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3e7b01e.css",
-    "static/js/main.7d3d8e19.js"
+    "static/css/main.ae13ae1d.css",
+    "static/js/main.b03031d0.js"
   ]
 }
