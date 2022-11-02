@@ -1,7 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Typography, Avatar, List, ListItem, Icon, Link, Zoom, Fade } from '@mui/material';
-import Footer from '../Footer';
 import { useAboutStyles } from './about-styles';
 import about from '../../db/about.json';
 
