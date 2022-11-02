@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://thoresonjd.github.io/react-portfolio/",
+  "homepage": "https://exulgor.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
