@@ -9,11 +9,7 @@ export const Home: React.FC = () => {
   return (
     <div className={classes.container}>
       <Zoom in={true}>
-        <img
-          className={classes.name}
-          src={name}
-          alt='name'
-        />
+        <img className={classes.name} src={name} alt='name' />
       </Zoom>
     </div>
   );

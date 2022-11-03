@@ -22,11 +22,11 @@ export const Experience: React.FC = () => {
       <Helmet>
         <title>Experience</title>
       </Helmet>
-      <Typography variant='h4' className={classes.title}>
+      <Typography className={classes.title} variant='h4'>
         Experience
       </Typography>
       <Timeline className={classes.experienceTimeline}>
-        {experience.map((exp, eIndex) => (
+        {experience.map((exp: any, eIndex: number) => (
           <Zoom key={eIndex} in={true} style={{transitionDelay: `${transitionDelay * eIndex}ms`}}>
             <TimelineItem className={classes.timelineItem}>
               <TimelineSeparator>
@@ -41,9 +41,8 @@ export const Experience: React.FC = () => {
                     <Typography className={classes.experienceTimeframe}>{exp.from} - {exp.to}</Typography>
                     <Typography className={classes.experienceHeaderText}>{exp.position}</Typography>
                     <Typography className={classes.experienceHeaderText}>{exp.employer}</Typography>
-                    {/* <Typography className={classes.experienceHeaderText}>{exp.type}</Typography> */}
-                    {exp['bullet-points'].map((bullet, bIndex) => (
-                      <span key={bIndex} style={{display: 'flex'}}>
+                    {exp['bullet-points'].map((bullet: any, bIndex: number) => (
+                      <span className={classes.bulletPoint} key={bIndex}>
                         <Typography className={classes.experienceBodyText}>•&nbsp;</Typography>
                         <Typography className={classes.experienceBodyText}>{bullet}</Typography>
                       </span>

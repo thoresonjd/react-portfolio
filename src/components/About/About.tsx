@@ -30,7 +30,7 @@ export const About: React.FC = () => {
         </Zoom>
         <div className={classes.linksBox}>
           <List className={classes.linksList}>
-            {about.links.map((link, lIndex) => (
+            {about.links.map((link: any, lIndex: number) => (
               <Fade key={lIndex} in={true} style={{transitionDelay: `${transitionDelay * lIndex}ms`}}>
                 <ListItem>
                   <Icon>

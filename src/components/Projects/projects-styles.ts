@@ -78,5 +78,8 @@ export const useProjectsStyles: Function = makeStyles(() => ({
       backgroundSize: '100% 2px',
       backgroundImage: `linear-gradient(${colors.Green} 0 0)`
     }
+  },
+  bulletPoint: {
+    display: 'flex'
   }
 }));

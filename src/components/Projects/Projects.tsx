@@ -23,11 +23,11 @@ export const Projects: React.FC = () => {
       <Helmet>
         <title>Projects</title>
       </Helmet>
-      <Typography variant='h4' className={classes.title}>
+      <Typography className={classes.title} variant='h4'>
         Projects
       </Typography>
       <Timeline className={classes.projectsTimeline}>
-        {projects.map((proj, pIndex) => (
+        {projects.map((proj: any, pIndex: number) => (
           <Zoom key={pIndex} in={true} style={{transitionDelay: `${transitionDelay * pIndex}ms`}}>
             <TimelineItem className={classes.timelineItem}>
               <TimelineSeparator>
@@ -43,7 +43,7 @@ export const Projects: React.FC = () => {
                       {proj.from === proj.to ? '' : `${proj.from} -`} {proj.to}
                     </Typography>                
                     {proj.ref ? (
-                      <span style={{display: 'flex'}}>
+                      <span className={classes.bulletPoint}>
                         <LinkIcon fontSize='small'/>&nbsp;
                         <Link href={proj.ref} target='_blank' underline='none'>
                           <Typography className={classes.linkText}>
@@ -54,8 +54,8 @@ export const Projects: React.FC = () => {
                     ) : (
                       <Typography className={classes.projectHeaderText}>{proj.title}</Typography>
                     )}                            
-                    {proj['bullet-points'].map((bullet, bIndex) => (
-                      <span key={bIndex} style={{display: 'flex'}}>
+                    {proj['bullet-points'].map((bullet: any, bIndex: number) => (
+                      <span className={classes.bulletPoint} key={bIndex}>
                         <Typography className={classes.projectBodyText}>•&nbsp;</Typography>
                         <Typography className={classes.projectBodyText}>{bullet}</Typography>
                       </span>

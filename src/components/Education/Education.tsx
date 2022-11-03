@@ -22,11 +22,11 @@ export const Education: React.FC = () => {
       <Helmet>
         <title>Education</title>
       </Helmet>
-      <Typography variant='h4' className={classes.title}>
+      <Typography className={classes.title} variant='h4'>
         education
       </Typography>
       <Timeline className={classes.educationTimeline}>
-        {education.map((edu, eIndex) => (
+        {education.map((edu: any, eIndex: number) => (
           <Zoom key={eIndex} in={true} style={{transitionDelay: `${transitionDelay * eIndex}ms`}}>
             <TimelineItem className={classes.timelineItem}>
               <TimelineSeparator>
@@ -58,8 +58,8 @@ export const Education: React.FC = () => {
                         GPA: {edu.gpa}
                       </Typography>
                     ) : <></>}
-                    {edu['bullet-points'].map((bullet, bIndex) => (
-                      <span key={bIndex} style={{display: 'flex'}}>
+                    {edu['bullet-points'].map((bullet: any, bIndex: number) => (
+                      <span className={classes.bulletPoint} key={bIndex}>
                         <Typography className={classes.educationBodyText}>•&nbsp;</Typography>
                         <Typography className={classes.educationBodyText}>{bullet}</Typography>
                       </span>

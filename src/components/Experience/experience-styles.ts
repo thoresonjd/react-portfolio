@@ -55,5 +55,8 @@ export const useExperienceStyles: Function = makeStyles(() => ({
     fontFamily: 'press-start !important',
     fontSize: '0.66rem !important',
     color: colors.White,
+  },
+  bulletPoint: {
+    display: 'flex'
   }
 }));
