@@ -3,11 +3,12 @@
     "title": "React Portfolio",
     "for": "Personal",
     "from": "August 2022",
-    "to": "Present",
+    "to": "October 2022",
     "description": "",
     "bullet-points": [
-      "Designing and creating my own personal portfolio website in React",
-      "React, TypeScript, NodeJS, GitHub, VS Code"
+      "Created, designed, and codified my own personal portfolio website",
+      "Configured custom domain w/ GitHub Pages",
+      "React, TypeScript, NodeJS, GitHub Pages, VS Code"
     ],
     "ref": "https://github.com/thoresonjd/react-portfolio"
   },
