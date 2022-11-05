@@ -51,11 +51,6 @@ export const useProjectsStyles: Function = makeStyles(() => ({
     fontSize: '0.9rem !important',
     color: colors.White,
   },
-  projectBodyText: {
-    fontFamily: 'press-start !important',
-    fontSize: '0.75rem !important',
-    color: colors.White,
-  },
   linkText: {
     fontFamily: 'press-start !important',
     fontSize: '0.9rem !important',
@@ -78,8 +73,5 @@ export const useProjectsStyles: Function = makeStyles(() => ({
       backgroundSize: '100% 2px',
       backgroundImage: `linear-gradient(${colors.Green} 0 0)`
     }
-  },
-  bulletPoint: {
-    display: 'flex'
   }
 }));

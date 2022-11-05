@@ -11,6 +11,7 @@ import {
   TimelineConnector,
   TimelineContent
 } from '@mui/lab';
+import Bullet from '../Bullet';
 import { useProjectsStyles } from './projects-styles'; 
 import projects from '../../db/projects.json';
 
@@ -54,12 +55,7 @@ export const Projects: React.FC = () => {
                     ) : (
                       <Typography className={classes.projectHeaderText}>{proj.title}</Typography>
                     )}                            
-                    {proj['bullet-points'].map((bullet: any, bIndex: number) => (
-                      <span className={classes.bulletPoint} key={bIndex}>
-                        <Typography className={classes.projectBodyText}>•&nbsp;</Typography>
-                        <Typography className={classes.projectBodyText}>{bullet}</Typography>
-                      </span>
-                    ))}
+                    <Bullet points={proj['bullet-points']} />
                   </CardContent>
                 </Card>
               </TimelineContent>
