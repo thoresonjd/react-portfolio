@@ -1,5 +1,5 @@
 import { makeStyles } from '@mui/styles';
-import { colors } from '../../theme';
+import { colors } from '../theme';
 
 export const useTimelineStyles: Function = makeStyles(() => ({
   timelineTitle: {
@@ -46,9 +46,37 @@ export const useTimelineStyles: Function = makeStyles(() => ({
     fontSize: '0.5rem !important',
     color: colors.White
   },
-  experienceHeaderText: {
+  timelineItemHeader: {
     fontFamily: 'press-start !important',
     fontSize: '0.75rem !important',
     color: colors.White
+  },
+  timelineBodyText: {
+    fontFamily: 'press-start !important',
+    fontSize: '0.66rem !important',
+    color: colors.White,
+  },
+  timelineItemLinkText: {
+    fontFamily: 'press-start !important',
+    fontSize: '0.9rem !important',
+    color: colors.White,
+    
+    // Animation
+    display: 'inline-block',
+    backgroundColor: colors.Transparent,
+    backgroundImage: `linear-gradient(${colors.Lime} 0 0)`,
+    backgroundPosition: '0 100%',
+    backgroundSize: '0 2px',
+    backgroundRepeat: 'no-repeat',
+    transition: 'color 0.3s, background-size 0.3s',
+    '&:hover': {
+      color: colors.Lime,
+      backgroundSize: '100% 2px'
+    },
+    '&:active': {
+      color: colors.Lime,
+      backgroundSize: '100% 2px',
+      backgroundImage: `linear-gradient(${colors.Green} 0 0)`
+    }
   }
 }));
