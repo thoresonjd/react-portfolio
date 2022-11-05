@@ -2,7 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 import { Helmet } from 'react-helmet-async';
 import { Container, Typography } from '@mui/material';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 
 export const Music: React.FC = () => {
   const classes: any = useStyles();

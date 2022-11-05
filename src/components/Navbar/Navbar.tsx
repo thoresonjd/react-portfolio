@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar as NavigationBar, Nav, Container } from 'react-bootstrap';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 import routes from './routes.json';
 import brand from '../../assets/images/exulgor-drawing.png';
 

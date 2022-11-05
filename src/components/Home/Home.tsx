@@ -1,6 +1,6 @@
 import React from 'react';
 import { Zoom } from '@mui/material';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 import name from '../../assets/gifs/justin-jitter.gif';
 
 export const Home: React.FC = () => {

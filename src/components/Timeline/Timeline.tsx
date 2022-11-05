@@ -9,7 +9,7 @@ import {
   TimelineConnector,
   TimelineContent
 } from '@mui/lab';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 
 interface Props {
   title: string,

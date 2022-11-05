@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { Typography, Link } from '@mui/material';
 import LinkIcon from '@mui/icons-material/Link';
 import Bullet from '../Bullet';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 
 interface Props {
   projectItem: any

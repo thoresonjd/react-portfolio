@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography } from '@mui/material';
 import Bullet from '../Bullet';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 
 interface Props {
   educationItem: any

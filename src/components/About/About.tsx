@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Typography, Avatar, List, ListItem, Icon, Link, Zoom, Fade } from '@mui/material';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 import about from '../../db/about.json';
 
 export const About: React.FC = () => {

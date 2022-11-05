@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 
 export const Footer: React.FC = () => {
   const classes: any = useStyles();

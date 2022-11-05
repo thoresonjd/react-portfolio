@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Document, Page, pdfjs } from 'react-pdf';
 import resume from '../../assets/pdfs/resume.pdf';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 

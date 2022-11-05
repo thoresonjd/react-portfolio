@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography } from '@mui/material';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 
 interface Props {
   points: []

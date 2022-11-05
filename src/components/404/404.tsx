@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Box, Typography } from '@mui/material';
-import { useStyles } from '../../theme/styles';
+import { useStyles } from '../../theme';
 import thisIsFine from '../../assets/images/this-is-fine.png';
 
 export const NotFound: React.FC = () => {
