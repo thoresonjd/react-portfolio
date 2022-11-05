@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Card, CardContent, Typography, Zoom } from '@mui/material';
 import { 
@@ -9,7 +9,7 @@ import {
   TimelineConnector,
   TimelineContent
 } from '@mui/lab';
-import { useStyles } from '../../theme/styles'
+import { useStyles } from '../../theme/styles';
 
 interface Props {
   title: string,

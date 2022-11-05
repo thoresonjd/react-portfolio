@@ -19,9 +19,9 @@ export const Navbar: React.FC = () => {
           <span></span>
         </NavigationBar.Toggle>
         <NavigationBar.Collapse id='basic-navbar-nav'>
-          <Nav className={classes.toolbar}>
+          <Nav style={{ margin: 'auto' }}>
             {routes.map((route: any, rIndex: number) => (
-              <Nav.Item className={classes.navItem} key={rIndex}>
+              <Nav.Item style={{ margin: 'auto' }} key={rIndex}>
                 <Nav.Link as={Link} to={route.to}>
                   <button className={classes.button}>{route.name}</button>
                 </Nav.Link>

@@ -1,5 +1,5 @@
-import { colors } from './Colors';
-import { theme } from './Theme';
+import { colors } from './colors';
+import { theme } from './theme';
 
 export {
   colors,

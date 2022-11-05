@@ -10,9 +10,6 @@ export const useStyles: Function = makeStyles(() => ({
     transition: 'all 0.3s ease-out 0s !important',
     padding: '1rem 2rem !important'
   },
-  toolbar: {
-    margin: 'auto'
-  },
   brand: {
     height: '3em !important'
   },
@@ -44,9 +41,6 @@ export const useStyles: Function = makeStyles(() => ({
         transform: 'translateY(-4.5px) rotate(-135deg) !important'
       }
     }
-  },
-  navItem: {
-    margin: 'auto'
   },
   button: {
     textTransform: 'lowercase',

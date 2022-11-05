@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Typography } from '@mui/material';
 import Bullet from '../Bullet';
 import { useStyles } from '../../theme/styles';

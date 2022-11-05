@@ -23,5 +23,5 @@ export const Resume: React.FC = () => {
         <Page pageNumber={1} scale={scale} />
       </Document>
     </>
-  )
+  );
 }
