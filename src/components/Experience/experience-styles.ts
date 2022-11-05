@@ -50,13 +50,5 @@ export const useExperienceStyles: Function = makeStyles(() => ({
     fontFamily: 'press-start !important',
     fontSize: '0.75rem !important',
     color: colors.White
-  },
-  experienceBodyText: {
-    fontFamily: 'press-start !important',
-    fontSize: '0.66rem !important',
-    color: colors.White,
-  },
-  bulletPoint: {
-    display: 'flex'
   }
 }));

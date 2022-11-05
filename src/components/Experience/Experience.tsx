@@ -10,6 +10,7 @@ import {
   TimelineConnector,
   TimelineContent
 } from '@mui/lab';
+import Bullet from '../Bullet';
 import { useExperienceStyles } from './experience-styles'; 
 import experience from '../../db/experience.json';
 
@@ -41,12 +42,7 @@ export const Experience: React.FC = () => {
                     <Typography className={classes.experienceTimeframe}>{exp.from} - {exp.to}</Typography>
                     <Typography className={classes.experienceHeaderText}>{exp.position}</Typography>
                     <Typography className={classes.experienceHeaderText}>{exp.employer}</Typography>
-                    {exp['bullet-points'].map((bullet: any, bIndex: number) => (
-                      <span className={classes.bulletPoint} key={bIndex}>
-                        <Typography className={classes.experienceBodyText}>•&nbsp;</Typography>
-                        <Typography className={classes.experienceBodyText}>{bullet}</Typography>
-                      </span>
-                    ))}
+                    <Bullet points={exp['bullet-points']} />
                   </CardContent>
                 </Card>
               </TimelineContent>
