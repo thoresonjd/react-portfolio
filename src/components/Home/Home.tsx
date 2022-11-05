@@ -1,15 +1,15 @@
 import React from 'react';
 import { Zoom } from '@mui/material';
-import { useHomeStyles } from './home-styles';
+import { useStyles } from '../../theme/styles';
 import name from '../../assets/gifs/justin-jitter.gif';
 
 export const Home: React.FC = () => {
-  const classes: any = useHomeStyles();
+  const classes: any = useStyles();
 
   return (
-    <div className={classes.container}>
+    <div className={classes.homeContainer}>
       <Zoom in={true}>
-        <img className={classes.name} src={name} alt='name' />
+        <img className={classes.homeName} src={name} alt='name' />
       </Zoom>
     </div>
   );

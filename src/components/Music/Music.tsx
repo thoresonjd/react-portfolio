@@ -2,18 +2,18 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 import { Helmet } from 'react-helmet-async';
 import { Container, Typography } from '@mui/material';
-import { useMusicStyles } from './music-styles';
+import { useStyles } from '../../theme/styles';
 
 export const Music: React.FC = () => {
-  const classes: any = useMusicStyles();
+  const classes: any = useStyles();
 
   return (
     <>
       <Helmet>
         <title>Music</title>
       </Helmet>
-      <Container className={classes.container}>
-        <Typography className={classes.title}>
+      <Container className={classes.musicContainer}>
+        <Typography className={classes.musicTitle}>
           Listen to some of my music! :)
         </Typography>
         <ReactPlayer

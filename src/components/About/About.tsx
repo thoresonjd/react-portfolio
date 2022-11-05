@@ -1,11 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Typography, Avatar, List, ListItem, Icon, Link, Zoom, Fade } from '@mui/material';
-import { useAboutStyles } from './about-styles';
+import { useStyles } from '../../theme/styles';
 import about from '../../db/about.json';
 
 export const About: React.FC = () => {
-  const classes: any = useAboutStyles();
+  const classes: any = useStyles();
   const transitionDelay: number = 50;
 
   return (
@@ -23,7 +23,7 @@ export const About: React.FC = () => {
         </Zoom>
         <Zoom in={true}>
           <img
-            className={classes.name}
+            className={classes.aboutName}
             alt='name'
             src={require(`../../${about['name-gif-path']}`)}
           />
@@ -34,11 +34,11 @@ export const About: React.FC = () => {
               <Fade key={lIndex} in={true} style={{transitionDelay: `${transitionDelay * lIndex}ms`}}>
                 <ListItem>
                   <Icon>
-                    <img className={classes.icon} alt='icon' src={require(`../../${link['icon-path']}`)} />
+                    <img className={classes.linkIcon} alt='icon' src={require(`../../${link['icon-path']}`)} />
                   </Icon>
                   {link.ref ? (
                     <Link href={link.ref} target='_blank' underline='none'>
-                      <div className={classes.linkText}>&nbsp;{link.value}</div>
+                      <div className={classes.aboutLinkText}>&nbsp;{link.value}</div>
                     </Link>
                   ):(
                     <Typography>&nbsp;{link.value}</Typography>

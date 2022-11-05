@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar as NavigationBar, Nav, Container } from 'react-bootstrap';
-import { useNavbarStyles } from './navbar-styles';
+import { useStyles } from '../../theme/styles';
 import routes from './routes.json';
 import brand from '../../assets/images/exulgor-drawing.png';
 
 export const Navbar: React.FC = () => {
-  const classes: any = useNavbarStyles();
+  const classes: any = useStyles();
 
   return (
     <NavigationBar className={classes.navbar} expand='lg'>
       <Container>
         <NavigationBar.Brand>
-          <img className={classes.image} src={brand} alt='brand' />
+          <img className={classes.brand} src={brand} alt='brand' />
         </NavigationBar.Brand>
         <NavigationBar.Toggle className={classes.navbarToggler} aria-controls='basic-navbar-nav'>
           <span></span>

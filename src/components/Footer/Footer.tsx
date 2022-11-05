@@ -1,9 +1,9 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import { useFooterStyles } from './footer-styles';
+import { useStyles } from '../../theme/styles';
 
 export const Footer: React.FC = () => {
-  const classes: any = useFooterStyles();
+  const classes: any = useStyles();
   const year: number = new Date().getFullYear();
 
   return (

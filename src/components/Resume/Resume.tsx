@@ -2,12 +2,12 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Document, Page, pdfjs } from 'react-pdf';
 import resume from '../../assets/pdfs/resume.pdf';
-import { useResumeStyles } from './resume-styles';
+import { useStyles } from '../../theme/styles';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export const Resume: React.FC = () => {
-  const classes: any = useResumeStyles();
+  const classes: any = useStyles();
   const scale: number = 1.5;
 
   return (

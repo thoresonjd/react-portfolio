@@ -9,7 +9,7 @@ import {
   TimelineConnector,
   TimelineContent
 } from '@mui/lab';
-import { useTimelineStyles } from '../../styles/timeline-styles'
+import { useStyles } from '../../theme/styles'
 
 interface Props {
   title: string,
@@ -19,7 +19,7 @@ interface Props {
 }
 
 export const Timeline: React.FC<Props> = (props) => {
-  const classes: any = useTimelineStyles();
+  const classes: any = useStyles();
   const transitionDelay: number = 50;
 
   return (

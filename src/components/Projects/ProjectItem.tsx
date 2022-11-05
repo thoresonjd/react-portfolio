@@ -2,14 +2,14 @@ import React from 'react'
 import { Typography, Link } from '@mui/material';
 import LinkIcon from '@mui/icons-material/Link';
 import Bullet from '../Bullet';
-import { useTimelineStyles } from '../../styles/timeline-styles';
+import { useStyles } from '../../theme/styles';
 
 interface Props {
   projectItem: any
 }
 
 export const ProjectItem: React.FC<Props> = (props) => {
-  const classes = useTimelineStyles();
+  const classes = useStyles();
 
   return (
     <>
@@ -20,7 +20,7 @@ export const ProjectItem: React.FC<Props> = (props) => {
         <span style={{display: 'flex'}}>
           <LinkIcon fontSize='small'/>&nbsp;
           <Link href={props.projectItem.ref} target='_blank' underline='none'>
-            <Typography className={classes.timelineItemLinkText}>
+            <Typography className={classes.projectLinkText}>
               {props.projectItem.title}
             </Typography>
           </Link>
