@@ -8,6 +8,7 @@
 </div>
 
 [![pages-build-deployment](https://github.com/thoresonjd/react-portfolio/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://github.com/thoresonjd/react-portfolio/actions/workflows/pages/pages-build-deployment)
+[![Code Climate](https://codeclimate.com/github/thoresonjd/react-portfolio/badges/gpa.svg)](https://codeclimate.com/github/thoresonjd/react-portfolio)
 ![](https://img.shields.io/github/stars/thoresonjd/react-portfolio?logo=github&style=social)
 
 ## Created by

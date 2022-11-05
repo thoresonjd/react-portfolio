@@ -12,9 +12,7 @@ export const EducationItem: React.FC<Props> = (props) => {
 
   return (
     <>
-      <Typography className={classes.timelineItemTimeframe}>
-        {`${props.educationItem.from} - ${props.educationItem.to}`}
-      </Typography>
+      <Typography className={classes.timelineItemTimeframe}>{props.educationItem.from - props.educationItem.to}</Typography>
       <Typography className={classes.timelineItemHeader}>{props.educationItem.institution}</Typography>
       <Typography className={classes.timelineItemHeader}>{props.educationItem.degree}</Typography>
       {props.educationItem.majors.length > 0 ? (
