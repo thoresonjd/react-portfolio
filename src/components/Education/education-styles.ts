@@ -55,8 +55,5 @@ export const useEducationStyles: Function = makeStyles(() => ({
     fontFamily: 'press-start !important',
     fontSize: '0.66rem !important',
     color: colors.White,
-  },
-  bulletPoint: {
-    display: 'flex'
   }
 }));

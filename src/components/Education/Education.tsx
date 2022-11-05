@@ -10,6 +10,7 @@ import {
   TimelineConnector,
   TimelineContent
 } from '@mui/lab';
+import Bullet from '../Bullet';
 import { useEducationStyles } from './education-styles'; 
 import education from '../../db/education.json';
 
@@ -58,12 +59,7 @@ export const Education: React.FC = () => {
                         GPA: {edu.gpa}
                       </Typography>
                     ) : <></>}
-                    {edu['bullet-points'].map((bullet: any, bIndex: number) => (
-                      <span className={classes.bulletPoint} key={bIndex}>
-                        <Typography className={classes.educationBodyText}>•&nbsp;</Typography>
-                        <Typography className={classes.educationBodyText}>{bullet}</Typography>
-                      </span>
-                    ))}
+                    <Bullet points={edu['bullet-points']} />
                   </CardContent>
                 </Card>
               </TimelineContent>
