@@ -31,4 +31,4 @@ My personal portfolio website portraying elements of my background including edu
 ![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Usage
-Permission is granted, to any that seek usage of this software, to fork and modify it insofar that the creator, myself, Justin Thoreson, shall be recognized through proper attribution. Please reference this software and write my name in the documentation. Please read the [license](LICENSE) for further details.
+Permission is granted, to any that seek usage of this software, to fork and modify it under the condition that the creator, myself, Justin Thoreson, shall be recognized through proper attribution. Please cite my name and provide a reference to the original copy of this software in the formal documentation. See the [license](LICENSE) for further details. Thanks! :)
