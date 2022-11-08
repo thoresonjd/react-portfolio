@@ -128,7 +128,7 @@ export const useStyles: Function = makeStyles(() => ({
   },
   timelineItemHeader: {
     fontFamily: 'press-start !important',
-    fontSize: '0.75rem !important',
+    fontSize: '0.9rem !important',
     color: colors.White
   },
   bodyText: {
