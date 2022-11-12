@@ -7,7 +7,7 @@ import projects from '../../db/projects.json';
 export const Projects: React.FC = () => {
   return (
     <Timeline
-      title='projects'
+      title='Projects'
       data={projects}
       icon={BuildIcon}
       element={(timelineItem: any) => 

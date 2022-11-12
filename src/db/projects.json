@@ -7,7 +7,8 @@
     "description": "",
     "bullet-points": [
       "Created, designed, and codified my own personal portfolio website",
-      "Configured custom domain w/ GitHub Pages",
+      "Deployed build to the web w/ GitHub Pages",
+      "Configured custom domain via GoDaddy",
       "React, TypeScript, NodeJS, GitHub Pages, VS Code"
     ],
     "ref": "https://github.com/thoresonjd/react-portfolio"

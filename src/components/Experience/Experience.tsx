@@ -7,7 +7,7 @@ import experience from '../../db/experience.json';
 export const Experience: React.FC = () => {
   return (
     <Timeline
-      title='experience'
+      title='Experience'
       data={experience}
       icon={WorkIcon}
       element={(timelineItem: any) => 

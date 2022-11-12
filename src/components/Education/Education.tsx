@@ -7,7 +7,7 @@ import education from '../../db/education.json';
 export const Education: React.FC = () => {
   return (
     <Timeline 
-      title='education'
+      title='Education'
       data={education}
       icon={SchoolIcon}
       element={(timelineItem: any) => 

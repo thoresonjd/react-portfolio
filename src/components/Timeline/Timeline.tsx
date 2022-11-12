@@ -25,7 +25,7 @@ export const Timeline: React.FC<Props> = (props) => {
   return (
     <>
       <Helmet>
-        <title>Experience</title>
+        <title>{props.title}</title>
       </Helmet>
       <Typography className={classes.timelineTitle} variant='h4'>
         {props.title}
