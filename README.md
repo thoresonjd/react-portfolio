@@ -18,6 +18,9 @@ Justin Thoreson a.k.a. Exulgor
 ## Description
 My personal portfolio website portraying elements of my background including education, experience, and projects.
 
+## Style 
+The scanlines and flickering provide the illusion that the website is being displayed on a retro cathode-ray tube monitor. Furthermore, the colors lime, black, and white are influenced by the appearences of many command lines. The font, transitions, and animations are meant to convey a style akin to that of a video game; the background particles specifically liven the video game style by achieving an outer space effect.
+
 ## Tools & Technologies
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
