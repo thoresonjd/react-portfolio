@@ -10,7 +10,7 @@
     "location": "Seattle, WA",
     "from": "March 2022",
     "to": "June 2023",
-    "graduated": false,
+    "status": "currently attending",
     "gpa": "4.0",
     "bullet-points": [
       "Graduate Representative - Seattle University ACM",
@@ -31,7 +31,7 @@
     "location": "Seattle, WA",
     "from": "September 2019",
     "to": "June 2022",
-    "graduated": true,
+    "status": "graduated",
     "gpa": "3.953",
     "bullet-points": [
       "Outstanding Computer Science Undergraduate Student Award 2022",
@@ -51,7 +51,7 @@
     "location": "Everett, WA",
     "from": "September 2017",
     "to": "June 2019",
-    "graduated": false,
+    "status": "transfered",
     "gpa": "3.74",
     "bullet-points": [
       "Running Start full-time as a high school upperclassman",
@@ -67,7 +67,7 @@
     "location": "Granite Falls, WA",
     "from": "September 2015",
     "to": "June 2019",
-    "graduated": true,
+    "status": "graduated",
     "gpa": "3.71",
     "bullet-points": [
       "Running Start full-time as a high school upperclassman"
