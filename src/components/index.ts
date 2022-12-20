@@ -2,6 +2,7 @@ import Router from './Router';
 import Navbar from './Navbar';
 import Home from './Home';
 import Education from './Education';
+import Courses from './Courses';
 import Experience from './Experience';
 import Projects from './Projects';
 import Resume from './Resume';
@@ -16,6 +17,7 @@ export {
   Navbar,
   Home,
   Education,
+  Courses,
   Experience,
   Projects,
   Resume,
