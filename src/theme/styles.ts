@@ -126,7 +126,7 @@ export const useStyles: Function = makeStyles(() => ({
     fontSize: '0.5rem !important',
     color: colors.White
   },
-  timelineItemHeader: {
+  itemHeader: {
     fontFamily: 'press-start !important',
     fontSize: '0.9rem !important',
     color: colors.White
@@ -161,6 +161,12 @@ export const useStyles: Function = makeStyles(() => ({
       backgroundSize: '100% 2px',
       backgroundImage: `linear-gradient(${colors.Green} 0 0)`
     }
+  },
+
+  /*** Courses ***/
+  courseTable: {
+    maxWidth: 'fit-content',
+    margin: '0 auto'
   },
 
   /*** Resume ***/

@@ -1,31 +1,32 @@
 import React from 'react';
-import { Table, TableContainer, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
-import { Paper } from '@mui/material';
+import { Table, TableContainer, TableBody, TableCell, TableHead, TableRow, Paper } from '@mui/material';
 import courses from '../../db/courses.json';
+import { useStyles } from '../../theme';
+
+const columns: string[] = ["Institution", "Number", "Name", "Quarter", "Year", "Grade"];
 
 export const Courses: React.FC = () => {
+  const classes: any = useStyles();
+
   return (
-    <TableContainer component={Paper}>
-      <Table>
+    <TableContainer>
+      <Table className={classes.courseTable}>
         <TableHead>
           <TableRow>
-            <TableCell>Institution</TableCell>
-            <TableCell>Number</TableCell>
-            <TableCell>Name</TableCell>
-            <TableCell>Quarter</TableCell>
-            <TableCell>Year</TableCell>
-            <TableCell>Grade</TableCell>
+            {columns.map((col: string, colIndex: number) => (
+              <TableCell className={classes.itemHeader} key={colIndex}>{col}</TableCell>
+            ))}
           </TableRow>
         </TableHead>
         <TableBody>
-          {courses.map((course: any, cIndex: number) => (
-            <TableRow key={cIndex}>
-              <TableCell>{course.institution}</TableCell>
-              <TableCell>{course.number}</TableCell>
-              <TableCell>{course.name}</TableCell>
-              <TableCell>{course.quarter}</TableCell>
-              <TableCell>{course.year}</TableCell>
-              <TableCell>{course.grade}</TableCell>
+          {courses.map((course: any, courseIndex: number) => (
+            <TableRow key={courseIndex}>
+              <TableCell className={classes.bodyText}>{course.institution}</TableCell>
+              <TableCell className={classes.bodyText}>{course.number}</TableCell>
+              <TableCell className={classes.bodyText}>{course.name}</TableCell>
+              <TableCell className={classes.bodyText}>{course.quarter}</TableCell>
+              <TableCell className={classes.bodyText}>{course.year}</TableCell>
+              <TableCell className={classes.bodyText}>{course.grade}</TableCell>
             </TableRow>
           ))}
         </TableBody>
