@@ -164,6 +164,10 @@ export const useStyles: Function = makeStyles(() => ({
   },
 
   /*** Courses ***/
+  
+  courseContainer: {
+    maxHeight: '75vh'
+  },
   courseTable: {
     maxWidth: 'fit-content',
     margin: '0 auto'

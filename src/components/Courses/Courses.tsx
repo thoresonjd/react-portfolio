@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, TableContainer, TableBody, TableCell, TableHead, TableRow, Paper } from '@mui/material';
+import { Table, TableContainer, TableBody, TableCell, TableHead, TableRow, Fade } from '@mui/material';
 import courses from '../../db/courses.json';
 import { useStyles } from '../../theme';
 
@@ -7,9 +7,10 @@ const columns: string[] = ["Institution", "Number", "Name", "Quarter", "Year", "
 
 export const Courses: React.FC = () => {
   const classes: any = useStyles();
+  const transitionDelay: number = 25;
 
   return (
-    <TableContainer>
+    <TableContainer className={classes.courseContainer}>
       <Table className={classes.courseTable}>
         <TableHead>
           <TableRow>
@@ -20,14 +21,16 @@ export const Courses: React.FC = () => {
         </TableHead>
         <TableBody>
           {courses.map((course: any, courseIndex: number) => (
-            <TableRow key={courseIndex}>
-              <TableCell className={classes.bodyText}>{course.institution}</TableCell>
-              <TableCell className={classes.bodyText}>{course.number}</TableCell>
-              <TableCell className={classes.bodyText}>{course.name}</TableCell>
-              <TableCell className={classes.bodyText}>{course.quarter}</TableCell>
-              <TableCell className={classes.bodyText}>{course.year}</TableCell>
-              <TableCell className={classes.bodyText}>{course.grade}</TableCell>
-            </TableRow>
+            <Fade key={courseIndex} in={true} style={{ transitionDelay: `${transitionDelay * courseIndex}ms` }}>
+              <TableRow>
+                <TableCell className={classes.bodyText}>{course.institution}</TableCell>
+                <TableCell className={classes.bodyText}>{course.number}</TableCell>
+                <TableCell className={classes.bodyText}>{course.name}</TableCell>
+                <TableCell className={classes.bodyText}>{course.quarter}</TableCell>
+                <TableCell className={classes.bodyText}>{course.year}</TableCell>
+                <TableCell className={classes.bodyText}>{course.grade}</TableCell>
+              </TableRow>
+            </Fade>
           ))}
         </TableBody>
       </Table>
