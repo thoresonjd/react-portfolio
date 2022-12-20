@@ -9,7 +9,7 @@ interface Props {
 }
 
 export const ProjectItem: React.FC<Props> = (props) => {
-  const classes = useStyles();
+  const classes: any = useStyles();
 
   return (
     <>
@@ -26,7 +26,7 @@ export const ProjectItem: React.FC<Props> = (props) => {
           </Link>
         </span>
       ) : (
-        <Typography className={classes.timelineItemHeader}>{props.projectItem.title}</Typography>
+        <Typography className={classes.itemHeader}>{props.projectItem.title}</Typography>
       )}
       <Bullet points={props.projectItem['bullet-points']} />
     </>

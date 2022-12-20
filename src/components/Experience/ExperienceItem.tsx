@@ -8,13 +8,13 @@ interface Props {
 }
 
 export const ExperienceItem: React.FC<Props> = (props) => {
-  const classes = useStyles();
+  const classes: any = useStyles();
 
   return (
     <>
       <Typography className={classes.timelineItemTimeframe}>{props.experienceItem.from} - {props.experienceItem.to}</Typography>
-      <Typography className={classes.timelineItemHeader}>{props.experienceItem.position}</Typography>
-      <Typography className={classes.timelineItemHeader}>{props.experienceItem.employer}</Typography>
+      <Typography className={classes.itemHeader}>{props.experienceItem.position}</Typography>
+      <Typography className={classes.itemHeader}>{props.experienceItem.employer}</Typography>
       <Bullet points={props.experienceItem['bullet-points']} />
     </>
   );

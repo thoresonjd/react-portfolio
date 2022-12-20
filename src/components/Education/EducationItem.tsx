@@ -8,13 +8,13 @@ interface Props {
 }
 
 export const EducationItem: React.FC<Props> = (props) => {
-  const classes = useStyles();
+  const classes: any = useStyles();
 
   return (
     <>
       <Typography className={classes.timelineItemTimeframe}>{props.educationItem.from} - {props.educationItem.to}</Typography>
-      <Typography className={classes.timelineItemHeader}>{props.educationItem.institution}</Typography>
-      <Typography className={classes.timelineItemHeader}>{props.educationItem.degree}</Typography>
+      <Typography className={classes.itemHeader}>{props.educationItem.institution}</Typography>
+      <Typography className={classes.itemHeader}>{props.educationItem.degree}</Typography>
       {props.educationItem.majors.length > 0 ? (
         <Typography className={classes.bodyText}>
           Major(s): {props.educationItem.majors.join(', ')}
