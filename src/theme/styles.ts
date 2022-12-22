@@ -166,11 +166,38 @@ export const useStyles: Function = makeStyles(() => ({
   /*** Courses ***/
   
   courseContainer: {
-    maxHeight: '75vh'
-  },
-  courseTable: {
     maxWidth: 'fit-content',
+    maxHeight: '75vh',
     margin: '0 auto'
+  },
+  courseLink: {
+    textAlign: 'center',
+    marginBottom: '3vh'
+  },
+  coursesButton: {
+    fontFamily: 'press-start !important',
+    fontSize: '0.75rem',
+    color: colors.White,
+    border: 'none',
+    margin: '0 auto',
+    
+    // Animation
+    display: 'inline-block',
+    backgroundColor: colors.Transparent,
+    backgroundImage: `linear-gradient(${colors.Lime} 0 0)`,
+    backgroundPosition: '0 100%',
+    backgroundSize: '0 2px',
+    backgroundRepeat: 'no-repeat',
+    transition: 'background-size 0.3s',
+    '&:hover': {
+      color: colors.Lime,
+      backgroundSize: '100% 2px'
+    },
+    '&:active': {
+      color: colors.Green,
+      backgroundSize: '100% 2px',
+      backgroundImage: `linear-gradient(${colors.Green} 0 0)`
+    }
   },
 
   /*** Resume ***/
@@ -232,16 +259,16 @@ export const useStyles: Function = makeStyles(() => ({
     backgroundColor: colors.Transparent,
     backgroundImage: `linear-gradient(${colors.Lime} 0 0)`,
     backgroundPosition: '10px 100%',
-    backgroundSize: '0 1px',
+    backgroundSize: '0 2px',
     backgroundRepeat: 'no-repeat',
     transition: 'background-size 0.3s',
     '&:hover': {
       color: colors.Lime,
-      backgroundSize: '100% 1px'
+      backgroundSize: '100% 2px'
     },
     '&:active': {
       color: colors.Green,
-      backgroundSize: '100% 1px',
+      backgroundSize: '100% 2px',
       backgroundImage: `linear-gradient(${colors.Green} 0 0)`
     }
   },

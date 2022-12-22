@@ -1,8 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Table, TableContainer, TableBody, TableCell, TableHead, TableRow, Fade, Typography } from '@mui/material';
-import courses from '../../db/courses.json';
 import { useStyles } from '../../theme';
+import courses from '../../db/courses.json';
 
 const columns: string[] = ['Institution', 'Number', 'Name', 'Quarter', 'Year', 'Grade'];
 
@@ -20,7 +20,7 @@ export const Courses: React.FC = () => {
         {title}
       </Typography>
       <TableContainer className={classes.courseContainer}>
-        <Table className={classes.courseTable}>
+        <Table>
           <TableHead>
             <TableRow>
               {columns.map((col: string, colIndex: number) => (
