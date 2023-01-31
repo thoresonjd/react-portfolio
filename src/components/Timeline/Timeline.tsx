@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, Typography, Zoom } from '@mui/material';
+import { Card, CardContent, Zoom } from '@mui/material';
 import { 
   Timeline as TimelineMUI, 
   TimelineItem,
