@@ -67,18 +67,6 @@
     "ref": "https://github.com/a-wallen/stm-toolkit"
   },
   {
-    "title": "K-means via Spark",
-    "for": "Seattle University Course",
-    "from": "February 2022",
-    "to": "February 2022",
-    "description": "",
-    "bullet-points": [
-      "Implements K-means clustering in Spark via RDDs",
-      "Apache Spark, RDDs, Python, VS Code"
-    ],
-    "ref": "https://github.com/thoresonjd/k-means_spark"
-  },
-  {
     "title": "WinPyTools",
     "for": "Personal",
     "from": "January 2022",
