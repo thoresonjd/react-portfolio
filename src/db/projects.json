@@ -1,7 +1,32 @@
 [
   {
+    "title": "DBMS Relation Manager",
+    "from": "January 2023",
+    "to": "March 2023",
+    "description": "",
+    "bullet-points": [
+        "Codified key RDBMS features and requirements",
+        "Implemented six milestones across three sprints",
+        "Utilized open source software for SQL parsing and file management",
+        "C++, Make, Valgrind, Git"
+    ],
+    "ref": ""
+  },
+  {
+    "title": "K-means Clustering on MNIST Dataset Using MPI",
+    "from": "February 2023",
+    "to": "February 2023",
+    "description": "",
+    "bullet-points": [
+      "Clustered MNIST images via euclidean distance of greyscale pixel values",
+      "Parallized k-means clustering via OpenMPI",
+      "Visualized MNIST clusters via generating HTML output file",
+      "C++, OpenMPI, HTML, Make, Valgrind, VS Code"
+    ],
+    "ref": "https://github.com/thoresonjd/mnist-kmeans-mpi"
+  },
+  {
     "title": "React Portfolio",
-    "for": "Personal",
     "from": "August 2022",
     "to": "November 2022",
     "description": "",
@@ -15,7 +40,6 @@
   },
   {
     "title": "Markdown Portfolio",
-    "for": "Personal",
     "from": "July 2022",
     "to": "July 2022",
     "description": "",
@@ -27,10 +51,9 @@
   },
   {
     "title": "Votegrity SaaS Solution",
-    "for": "Votegrity | Seattle University Senior Capstone Project",
     "from": "September 2021",
     "to": "June 2022",
-    "description": "",
+    "description": "Seattle University Senior Capstone Project",
     "bullet-points": [
       "Created net new election administration tool",
       "Project Manager, Scrum Master, DevOps, collaborated with a team to design and integrate a new admin tool",
@@ -41,7 +64,6 @@
   },
   {
     "title": "Image Processor API",
-    "for": "Seattle University Course",
     "from": "April 2022",
     "to": "May 2022",
     "description": "",
@@ -54,10 +76,9 @@
   },
   {
     "title": "Predicting Stock Market w/ Sentiment Analysis",
-    "for": "Seattle University ACM",
     "from": "February 2022",
     "to": "February 2022",
-    "description": "",
+    "description": "HackSU - Seattle University ACM Hackathon",
     "bullet-points": [
       "2nd place - HackSU 2022",
       "Analyzed finance articles via web scraping and NLP",
@@ -68,7 +89,6 @@
   },
   {
     "title": "WinPyTools",
-    "for": "Personal",
     "from": "January 2022",
     "to": "January 2022",
     "description": "",
@@ -80,7 +100,6 @@
   },
   {
     "title": "Portal Illusion",
-    "for": "Seattle University Course",
     "from": "September 2021",
     "to": "December 2021",
     "description": "",
@@ -92,10 +111,9 @@
   },
   {
     "title": "Depth Spectrum",
-    "for": "Seattle University ACM",
     "from": "October 2021",
     "to": "November 2021",
-    "description": "",
+    "description": "Seattle University ACM Personal Projects Competition",
     "bullet-points": [
       "3rd Place - Personal Projects Competition SU ACM",
       "Mobile application that transforms 2D images into 3D models where pixel depth is dependent on colorblindness type",
@@ -106,7 +124,6 @@
   },
   {
     "title": "Online Learning Database",
-    "for": "Seattle University Course",
     "from": "March 2021",
     "to": "June 2021",
     "description": "",
@@ -118,7 +135,6 @@
   },
   {
     "title": "Global Calendar",
-    "for": "Seattle University Course",
     "from": "January 2021",
     "to": "March 2021",
     "description": "",
@@ -130,7 +146,6 @@
   },
   {
     "title": "ASCII Rocket Launch",
-    "for": "Personal",
     "from": "June 2019",
     "to": "June 2019",
     "description": "",
