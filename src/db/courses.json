@@ -149,6 +149,14 @@
     "name": "Physical Database Design & Optimization",
     "quarter": "Winter",
     "year": 2023,
+    "grade": "A"
+  },
+  {
+    "institution": "Seattle University",
+    "number": "CPSC 5510",
+    "name": "Computer Networks",
+    "quarter": "Spring",
+    "year": 2023,
     "grade": "TBD"
   },
   {
@@ -165,7 +173,7 @@
     "name": "Parallel Computing",
     "quarter": "Winter",
     "year": 2023,
-    "grade": "TBD"
+    "grade": "A"
   },
   {
     "institution": "Seattle University",
@@ -189,7 +197,7 @@
     "name": "Ethics & Professional Issues in Computing",
     "quarter": "Winter",
     "year": 2023,
-    "grade": "TBD"
+    "grade": "A"
   },
   {
     "institution": "Seattle University",
