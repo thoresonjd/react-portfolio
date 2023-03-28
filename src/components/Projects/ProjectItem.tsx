@@ -28,6 +28,7 @@ export const ProjectItem: React.FC<Props> = (props) => {
       ) : (
         <Typography className={classes.itemHeader}>{props.projectItem.title}</Typography>
       )}
+      <Typography className={classes.bodyText}>{props.projectItem.description}</Typography>
       <Bullet points={props.projectItem['bullet-points']} />
     </>
   );
