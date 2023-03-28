@@ -18,8 +18,8 @@
     "to": "February 2023",
     "description": "",
     "bullet-points": [
-      "Clustered MNIST images via euclidean distance of greyscale pixel values",
-      "Parallized k-means clustering via OpenMPI",
+      "Clustered MNIST images via Euclidean distance of greyscale pixel values",
+      "Parallized k-means clustering via MPI",
       "Visualized MNIST clusters via generating HTML output file",
       "C++, OpenMPI, HTML, Make, Valgrind, VS Code"
     ],
@@ -32,7 +32,7 @@
     "description": "",
     "bullet-points": [
       "Created, designed, and codified my own personal portfolio website",
-      "Deployed build to the web w/ GitHub Pages",
+      "Deployed site build to the web via GitHub Pages",
       "Configured custom domain via GoDaddy",
       "React, TypeScript, NodeJS, GitHub Pages, VS Code"
     ],
@@ -53,7 +53,7 @@
     "title": "Votegrity SaaS Solution",
     "from": "September 2021",
     "to": "June 2022",
-    "description": "Seattle University Senior Capstone Project",
+    "description": "Senior Capstone Project - Seattle University | Sponsor: Tom Thomas – Votegrity CEO",
     "bullet-points": [
       "Created net new election administration tool",
       "Project Manager, Scrum Master, DevOps, collaborated with a team to design and integrate a new admin tool",
@@ -75,14 +75,14 @@
     "ref": "https://github.com/thoresonjd/image-processor-api"
   },
   {
-    "title": "Predicting Stock Market w/ Sentiment Analysis",
+    "title": "Predicting Stock Market with Sentiment Analysis",
     "from": "February 2022",
     "to": "February 2022",
     "description": "HackSU - Seattle University ACM Hackathon",
     "bullet-points": [
       "2nd place - HackSU 2022",
       "Analyzed finance articles via web scraping and NLP",
-      "Compared sentiment analysis score w/ stock price changes",
+      "Compared sentiment analysis score to stock price changes",
       "Python, VS Code"
     ],
     "ref": "https://github.com/a-wallen/stm-toolkit"
@@ -113,7 +113,7 @@
     "title": "Depth Spectrum",
     "from": "October 2021",
     "to": "November 2021",
-    "description": "Seattle University ACM Personal Projects Competition",
+    "description": "Personal Projects Competition - Seattle University ACM",
     "bullet-points": [
       "3rd Place - Personal Projects Competition SU ACM",
       "Mobile application that transforms 2D images into 3D models where pixel depth is dependent on colorblindness type",
