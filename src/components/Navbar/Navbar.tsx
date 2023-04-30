@@ -5,7 +5,7 @@ import { useStyles } from '../../theme';
 import routes from './routes.json';
 import brand from '../../assets/images/exulgor-drawing.png';
 
-export const Navbar: React.FC = () => {
+export const Navbar: React.FC = (): JSX.Element => {
   const classes: any = useStyles();
 
   return (

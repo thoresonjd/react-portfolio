@@ -7,7 +7,7 @@ import { ExperienceItem } from './ExperienceItem';
 import { useStyles } from '../../theme';
 import experience from '../../db/experience.json';
 
-export const Experience: React.FC = () => {
+export const Experience: React.FC = (): JSX.Element => {
   const title: string = 'Experience';
   const classes: any = useStyles();
 

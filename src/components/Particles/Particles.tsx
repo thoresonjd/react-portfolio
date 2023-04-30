@@ -4,7 +4,7 @@ import { loadFull } from 'tsparticles';
 import { ISourceOptions, Engine } from 'tsparticles-engine';
 import particlesConfig from './particles-config.json';
 
-export const Particles: React.FC = () => {
+export const Particles: React.FC = (): JSX.Element => {
 
   const initParticles = useCallback(async (engine: Engine) => {
     await loadFull(engine);

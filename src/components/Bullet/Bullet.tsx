@@ -6,7 +6,7 @@ interface Props {
   points: []
 }
 
-export const Bullet: React.FC<Props> = (props) => {
+export const Bullet: React.FC<Props> = (props: Props): JSX.Element => {
   const classes: any = useStyles();
 
   return (

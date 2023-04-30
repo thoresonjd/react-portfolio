@@ -8,7 +8,7 @@ import { EducationItem } from './EducationItem';
 import { useStyles } from '../../theme';
 import education from '../../db/education.json';
 
-export const Education: React.FC = () => {
+export const Education: React.FC = (): JSX.Element => {
   const title: string = 'Education';
   const classes: any = useStyles();
 

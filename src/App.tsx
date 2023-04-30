@@ -6,7 +6,7 @@ import { theme } from './theme'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const App: React.FC = () => {
+const App: React.FC = (): JSX.Element => {
   return (
     <HelmetProvider>
       <Helmet>

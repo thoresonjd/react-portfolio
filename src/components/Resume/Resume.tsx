@@ -6,7 +6,7 @@ import { useStyles } from '../../theme';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-export const Resume: React.FC = () => {
+export const Resume: React.FC = (): JSX.Element => {
   const classes: any = useStyles();
   const scale: number = 1.5;
 

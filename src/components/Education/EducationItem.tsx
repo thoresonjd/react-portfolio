@@ -7,7 +7,7 @@ interface Props {
   educationItem: any
 }
 
-export const EducationItem: React.FC<Props> = (props) => {
+export const EducationItem: React.FC<Props> = (props: Props): JSX.Element => {
   const classes: any = useStyles();
 
   return (

@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import { Container, Typography } from '@mui/material';
 import { useStyles } from '../../theme';
 
-export const Music: React.FC = () => {
+export const Music: React.FC = (): JSX.Element => {
   const classes: any = useStyles();
 
   return (

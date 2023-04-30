@@ -16,7 +16,7 @@ interface Props {
   element: any
 }
 
-export const Timeline: React.FC<Props> = (props) => {
+export const Timeline: React.FC<Props> = (props: Props): JSX.Element => {
   const classes: any = useStyles();
   const transitionDelay: number = 50;
 

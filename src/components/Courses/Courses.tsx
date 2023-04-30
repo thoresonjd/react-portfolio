@@ -6,7 +6,7 @@ import courses from '../../db/courses.json';
 
 const columns: string[] = ['Institution', 'Number', 'Name', 'Quarter', 'Year', 'Grade'];
 
-export const Courses: React.FC = () => {
+export const Courses: React.FC = (): JSX.Element => {
   const title = 'Courses';
   const classes: any = useStyles();
   const transitionDelay: number = 25;

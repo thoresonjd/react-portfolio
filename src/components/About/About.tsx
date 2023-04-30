@@ -4,7 +4,7 @@ import { Typography, Avatar, List, ListItem, Icon, Link, Zoom, Fade } from '@mui
 import { useStyles } from '../../theme';
 import about from '../../db/about.json';
 
-export const About: React.FC = () => {
+export const About: React.FC = (): JSX.Element => {
   const classes: any = useStyles();
   const transitionDelay: number = 50;
 

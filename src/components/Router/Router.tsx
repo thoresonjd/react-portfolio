@@ -13,7 +13,7 @@ import {
   NotFound
 } from '../';
 
-export const Router: React.FC = () => {
+export const Router: React.FC = (): JSX.Element => {
   return (
     <HashRouter>
       <Navbar />

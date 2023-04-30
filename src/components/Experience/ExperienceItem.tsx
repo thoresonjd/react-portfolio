@@ -7,7 +7,7 @@ interface Props {
   experienceItem: any
 }
 
-export const ExperienceItem: React.FC<Props> = (props) => {
+export const ExperienceItem: React.FC<Props> = (props: Props): JSX.Element => {
   const classes: any = useStyles();
 
   return (

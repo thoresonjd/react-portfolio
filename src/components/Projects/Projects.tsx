@@ -7,7 +7,7 @@ import { ProjectItem } from './ProjectItem';
 import { useStyles } from '../../theme';
 import projects from '../../db/projects.json';
 
-export const Projects: React.FC = () => {
+export const Projects: React.FC = (): JSX.Element => {
   const title: string = 'Projects';
   const classes: any = useStyles();
 

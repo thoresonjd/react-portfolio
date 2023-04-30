@@ -4,7 +4,7 @@ import { Box, Typography } from '@mui/material';
 import { useStyles } from '../../theme';
 import thisIsFine from '../../assets/images/this-is-fine.png';
 
-export const NotFound: React.FC = () => {
+export const NotFound: React.FC = (): JSX.Element => {
   const classes: any = useStyles();
 
   return (

@@ -8,7 +8,7 @@ interface Props {
   projectItem: any
 }
 
-export const ProjectItem: React.FC<Props> = (props) => {
+export const ProjectItem: React.FC<Props> = (props: Props): JSX.Element => {
   const classes: any = useStyles();
 
   return (
