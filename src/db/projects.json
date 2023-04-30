@@ -1,14 +1,27 @@
 [
   {
+    "title": "Web Proxy",
+    "from": "April 2023",
+    "to": "April 2023",
+    "description": "",
+    "bullet-points": [
+      "Implemented HTTP request forwarding to origin servers via TCP connections",
+      "Codified web page caching for successful HTTP responses",
+      "Created and parsed HTTP requests and responses",
+      "Python, Git, Telnet, VS Code"
+    ],
+    "ref": "https://github.com/thoresonjd/web-proxy-python"
+  },
+  {
     "title": "DBMS Relation Manager",
     "from": "January 2023",
     "to": "March 2023",
     "description": "",
     "bullet-points": [
-        "Codified key RDBMS features and requirements",
-        "Implemented six milestones across three sprints",
-        "Utilized open source software for SQL parsing and file management",
-        "C++, Make, Valgrind, Git"
+      "Codified key RDBMS features and requirements",
+      "Implemented six milestones across three sprints",
+      "Utilized open source software for SQL parsing and file management",
+      "C++, Make, Valgrind, Git"
     ],
     "ref": ""
   },
