@@ -8,7 +8,7 @@
       "Implemented HTTP request forwarding to origin servers via TCP connections",
       "Codified web page caching for successful HTTP responses",
       "Created and parsed HTTP requests and responses",
-      "Python, Git, Telnet, VS Code"
+      "Python, Git, VS Code"
     ],
     "ref": "https://github.com/thoresonjd/web-proxy-python"
   },
@@ -21,7 +21,7 @@
       "Codified key RDBMS features and requirements",
       "Implemented six milestones across three sprints",
       "Utilized open source software for SQL parsing and file management",
-      "C++, Make, Valgrind, Git"
+      "C++, Make, Valgrind, Git, VS Code"
     ],
     "ref": ""
   },

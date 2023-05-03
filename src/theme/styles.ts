@@ -170,11 +170,18 @@ export const useStyles: Function = makeStyles(() => ({
     maxHeight: '75vh',
     margin: '0 auto'
   },
-  courseLink: {
+
+  /*** Resume ***/
+
+  resume: {
+    display: 'flex',
+    justifyContent: 'center'
+  },
+  center: {
     textAlign: 'center',
     marginBottom: '3vh'
   },
-  coursesButton: {
+  whiteTextButton: {
     fontFamily: 'press-start !important',
     fontSize: '0.75rem',
     color: colors.White,
@@ -198,13 +205,6 @@ export const useStyles: Function = makeStyles(() => ({
       backgroundSize: '100% 2px',
       backgroundImage: `linear-gradient(${colors.Green} 0 0)`
     }
-  },
-
-  /*** Resume ***/
-
-  resume: {
-    display: 'flex',
-    justifyContent: 'center'
   },
 
   /*** Music ***/

@@ -15,6 +15,11 @@ export const Resume: React.FC = (): JSX.Element => {
       <Helmet>
         <title>Resume</title>
       </Helmet>
+      <div className={classes.center}>
+        <a href={resume} download='resume' target='_blank' rel="noreferrer">
+          <button className={classes.whiteTextButton}>Download resume</button>
+        </a>
+      </div>
       <Document
         className={classes.resume}
         file={resume}

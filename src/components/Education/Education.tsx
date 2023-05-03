@@ -20,9 +20,9 @@ export const Education: React.FC = (): JSX.Element => {
       <Typography className={classes.timelineTitle} variant='h4'>
         {title}
       </Typography>
-      <div className={classes.courseLink}>
+      <div className={classes.center}>
         <Link to={'/courses'}>
-          <button className={classes.coursesButton}>Click here to see relevant courses taken</button>
+          <button className={classes.whiteTextButton}>Click here to see relevant courses taken</button>
         </Link>
       </div>
       <Timeline
