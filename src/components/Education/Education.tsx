@@ -22,7 +22,7 @@ export const Education: React.FC = (): JSX.Element => {
       </Typography>
       <div className={classes.center}>
         <Link to={'/courses'}>
-          <button className={classes.whiteTextButton}>Click here to see relevant courses taken</button>
+          <div className={`${classes.bodyText} ${classes.textButton}`}>Click here to see relevant courses taken</div>
         </Link>
       </div>
       <Timeline

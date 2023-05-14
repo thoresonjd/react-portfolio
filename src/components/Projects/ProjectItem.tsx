@@ -20,7 +20,7 @@ export const ProjectItem: React.FC<Props> = (props: Props): JSX.Element => {
         <span style={{ display: 'flex' }}>
           <LinkIcon fontSize='small' />&nbsp;
           <Link href={props.projectItem.ref} target='_blank' underline='none'>
-            <Typography className={classes.projectLinkText}>
+            <Typography className={`${classes.itemHeader} ${classes.textButton}`}>
               {props.projectItem.title}
             </Typography>
           </Link>

@@ -52,7 +52,8 @@ export const About: React.FC = (): JSX.Element => {
                   </Icon>
                   {link.ref ? (
                     <Link href={link.ref} target='_blank' underline='none'>
-                      <div className={classes.aboutLinkText}>&nbsp;{link.value}</div>
+                      &nbsp;&nbsp;
+                      <div className={`${classes.bodyText} ${classes.textButton}`}>{link.value}</div>
                     </Link>
                   ):(
                     <Typography>&nbsp;{link.value}</Typography>
