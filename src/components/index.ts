@@ -13,17 +13,17 @@ import Footer from './Footer';
 import Particles from './Particles';
 
 export {
-  Router,
-  Navbar,
-  Home,
-  Education,
-  Courses,
-  Experience,
-  Projects,
-  Resume,
-  Music,
-  About,
-  NotFound,
-  Footer,
-  Particles
-}
+	Router,
+	Navbar,
+	Home,
+	Education,
+	Courses,
+	Experience,
+	Projects,
+	Resume,
+	Music,
+	About,
+	NotFound,
+	Footer,
+	Particles
+};

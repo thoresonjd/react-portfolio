@@ -8,62 +8,62 @@ import alias from '../../assets/gifs/exulgor-jitter.gif';
 import about from '../../db/about.json';
 
 export const About: React.FC = (): JSX.Element => {
-  const classes: any = useStyles();
-  const transitionDelay: number = 50;
+	const classes: any = useStyles();
+	const transitionDelay: number = 50;
 
-  return (
-    <>
-      <Helmet>
-        <title>About</title>
-      </Helmet>
-      <div className={classes.aboutBox}>
-        <Zoom in={true}>
-          <Avatar
-            className={classes.avatar}
-            src={avatar}
-            alt='avatar'
-          />
-        </Zoom>
-        <Zoom in={true}>
-          <img
-            className={classes.aboutName}
-            alt='name'
-            src={name}
-          />
-        </Zoom>
-        <div className={classes.bodyText}>a.k.a</div>      
-        <Zoom in={true}>
-          <img
-            className={classes.aboutName}
-            alt='alias'
-            src={alias}
-          />
-        </Zoom>
-        <div className={classes.aboutDescriptionBox}>
-          <div className={classes.bodyText}>{about.description}</div>
-        </div>      
-        <div className={classes.linksBox}>
-          <List className={classes.linksList}>
-            {about.links.map((link: any, lIndex: number) => (
-              <Fade key={lIndex} in={true} style={{transitionDelay: `${transitionDelay * lIndex}ms`}}>
-                <ListItem>
-                  <Icon>
-                    <img className={classes.linkIcon} alt='icon' src={require(`../../${link['icon-path']}`)} />
-                  </Icon>
-                  {link.ref ? (
-                    <Link href={link.ref} target='_blank' underline='none'>
+	return (
+		<>
+			<Helmet>
+				<title>About</title>
+			</Helmet>
+			<div className={classes.aboutBox}>
+				<Zoom in={true}>
+					<Avatar
+						className={classes.avatar}
+						src={avatar}
+						alt='avatar'
+					/>
+				</Zoom>
+				<Zoom in={true}>
+					<img
+						className={classes.aboutName}
+						alt='name'
+						src={name}
+					/>
+				</Zoom>
+				<div className={classes.bodyText}>a.k.a</div>
+				<Zoom in={true}>
+					<img
+						className={classes.aboutName}
+						alt='alias'
+						src={alias}
+					/>
+				</Zoom>
+				<div className={classes.aboutDescriptionBox}>
+					<div className={classes.bodyText}>{about.description}</div>
+				</div>
+				<div className={classes.linksBox}>
+					<List className={classes.linksList}>
+						{about.links.map((link: any, lIndex: number) => (
+							<Fade key={lIndex} in={true} style={{transitionDelay: `${transitionDelay * lIndex}ms`}}>
+								<ListItem>
+									<Icon>
+										<img className={classes.linkIcon} alt='icon' src={require(`../../${link['icon-path']}`)} />
+									</Icon>
+									{link.ref ? (
+										<Link href={link.ref} target='_blank' underline='none'>
                       &nbsp;&nbsp;
-                      <div className={`${classes.bodyText} ${classes.textButton}`}>{link.value}</div>
-                    </Link>
-                  ):(
-                    <Typography>&nbsp;{link.value}</Typography>
-                  )}
-                </ListItem>
-              </Fade>
-            ))}
-          </List>
-        </div>
-      </div>
-    </>
-  );
-}
+											<div className={`${classes.bodyText} ${classes.textButton}`}>{link.value}</div>
+										</Link>
+									):(
+										<Typography>&nbsp;{link.value}</Typography>
+									)}
+								</ListItem>
+							</Fade>
+						))}
+					</List>
+				</div>
+			</div>
+		</>
+	);
+};

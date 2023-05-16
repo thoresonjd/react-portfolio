@@ -8,24 +8,24 @@ import { useStyles } from '../../theme';
 import projects from '../../db/projects.json';
 
 export const Projects: React.FC = (): JSX.Element => {
-  const title: string = 'Projects';
-  const classes: any = useStyles();
+	const title: string = 'Projects';
+	const classes: any = useStyles();
 
-  return (
-    <>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-      <Typography className={classes.timelineTitle} variant='h4'>
-        {title}
-      </Typography>
-      <Timeline
-        data={projects}
-        icon={BuildIcon}
-        element={(timelineItem: any) => 
-          <ProjectItem projectItem={timelineItem} />
-        }
-      />
-    </>
-  );
-}
+	return (
+		<>
+			<Helmet>
+				<title>{title}</title>
+			</Helmet>
+			<Typography className={classes.timelineTitle} variant='h4'>
+				{title}
+			</Typography>
+			<Timeline
+				data={projects}
+				icon={BuildIcon}
+				element={(timelineItem: any) =>
+					<ProjectItem projectItem={timelineItem} />
+				}
+			/>
+		</>
+	);
+};

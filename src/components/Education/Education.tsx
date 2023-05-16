@@ -9,29 +9,29 @@ import { useStyles } from '../../theme';
 import education from '../../db/education.json';
 
 export const Education: React.FC = (): JSX.Element => {
-  const title: string = 'Education';
-  const classes: any = useStyles();
+	const title: string = 'Education';
+	const classes: any = useStyles();
 
-  return (
-    <>
-      <Helmet>
-        <title>{title}</title>
-      </Helmet>
-      <Typography className={classes.timelineTitle} variant='h4'>
-        {title}
-      </Typography>
-      <div className={classes.center}>
-        <Link to={'/courses'}>
-          <div className={`${classes.bodyText} ${classes.textButton}`}>Click here to see relevant courses taken</div>
-        </Link>
-      </div>
-      <Timeline
-        data={education}
-        icon={SchoolIcon}
-        element={(timelineItem: any) => 
-          <EducationItem educationItem={timelineItem} />
-        }
-      />
-    </>
-  );
-}
+	return (
+		<>
+			<Helmet>
+				<title>{title}</title>
+			</Helmet>
+			<Typography className={classes.timelineTitle} variant='h4'>
+				{title}
+			</Typography>
+			<div className={classes.center}>
+				<Link to={'/courses'}>
+					<div className={`${classes.bodyText} ${classes.textButton}`}>Click here to see relevant courses taken</div>
+				</Link>
+			</div>
+			<Timeline
+				data={education}
+				icon={SchoolIcon}
+				element={(timelineItem: any) =>
+					<EducationItem educationItem={timelineItem} />
+				}
+			/>
+		</>
+	);
+};

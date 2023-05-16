@@ -3,7 +3,7 @@ import { useStyles } from './styles';
 import { theme } from './theme';
 
 export {
-  colors,
-  useStyles,
-  theme
-}
+	colors,
+	useStyles,
+	theme
+};
