@@ -1,172 +1,172 @@
 [
-  {
-    "title": "Web Proxy",
-    "from": "April 2023",
-    "to": "April 2023",
-    "description": "",
-    "bullet-points": [
-      "Implemented HTTP request forwarding to origin servers via TCP connections",
-      "Codified web page caching for successful HTTP responses",
-      "Created and parsed HTTP requests and responses",
-      "Python, Git, VS Code"
-    ],
-    "ref": "https://github.com/thoresonjd/web-proxy-python"
-  },
-  {
-    "title": "DBMS Relation Manager",
-    "from": "January 2023",
-    "to": "March 2023",
-    "description": "",
-    "bullet-points": [
-      "Codified key RDBMS features and requirements",
-      "Implemented six milestones across three sprints",
-      "Utilized open source software for SQL parsing and file management",
-      "C++, Make, Valgrind, Git, VS Code"
-    ],
-    "ref": ""
-  },
-  {
-    "title": "K-means Clustering on MNIST Dataset Using MPI",
-    "from": "February 2023",
-    "to": "February 2023",
-    "description": "",
-    "bullet-points": [
-      "Clustered MNIST images via Euclidean distance of greyscale pixel values",
-      "Parallized k-means clustering via MPI",
-      "Visualized MNIST clusters via generating HTML output file",
-      "C++, OpenMPI, HTML, Make, Valgrind, VS Code"
-    ],
-    "ref": "https://github.com/thoresonjd/mnist-kmeans-mpi"
-  },
-  {
-    "title": "React Portfolio",
-    "from": "August 2022",
-    "to": "November 2022",
-    "description": "",
-    "bullet-points": [
-      "Created, designed, and codified my own personal portfolio website",
-      "Deployed site build to the web via GitHub Pages",
-      "Configured custom domain via GoDaddy",
-      "React, TypeScript, NodeJS, GitHub Pages, VS Code"
-    ],
-    "ref": "https://github.com/thoresonjd/react-portfolio"
-  },
-  {
-    "title": "Markdown Portfolio",
-    "from": "July 2022",
-    "to": "July 2022",
-    "description": "",
-    "bullet-points": [
-      "Created a template to easily construct, customize, and publicize a personal portfolio",
-      "Markdown, GitHub, VS Code"
-    ],
-    "ref": "https://github.com/thoresonjd/markdown-portfolio"
-  },
-  {
-    "title": "Votegrity SaaS Solution",
-    "from": "September 2021",
-    "to": "June 2022",
-    "description": "Senior Capstone Project - Seattle University | Sponsor: Tom Thomas – Votegrity CEO",
-    "bullet-points": [
-      "Created net new election administration tool",
-      "Collaborated with a team to design election admin tool",
-      "Codified election creation functionality for election administrators",
-      "React, JavaScript, NodeJS, VS Code, Agile, Scrum"
-    ],
-    "ref": ""
-  },
-  {
-    "title": "Image Processor API",
-    "from": "April 2022",
-    "to": "May 2022",
-    "description": "",
-    "bullet-points": [
-      "Utilizes a RESTful API to process image transformations",
-      "Created with emphasis on architectural design patterns",
-      "C#, Python, TypeScript, React, Flask, REST, VS Code"
-    ],
-    "ref": "https://github.com/thoresonjd/image-processor-api"
-  },
-  {
-    "title": "Predicting Stock Market with Sentiment Analysis",
-    "from": "February 2022",
-    "to": "February 2022",
-    "description": "HackSU - Seattle University ACM Hackathon",
-    "bullet-points": [
-      "2nd place - HackSU 2022",
-      "Analyzed finance articles via web scraping and NLP",
-      "Compared sentiment analysis score to stock price changes",
-      "Python, VS Code"
-    ],
-    "ref": "https://github.com/a-wallen/stm-toolkit"
-  },
-  {
-    "title": "WinPyTools",
-    "from": "January 2022",
-    "to": "January 2022",
-    "description": "",
-    "bullet-points": [
-      "Windows shortcuts with hotkey commands",
-      "Python, VS Code"
-    ],
-    "ref": "https://github.com/thoresonjd/WinPyTools"
-  },
-  {
-    "title": "Portal Illusion",
-    "from": "September 2021",
-    "to": "December 2021",
-    "description": "",
-    "bullet-points": [
-      "Created a computer graphics simulation of an illusion of a cube passing through a portal",
-      "C++, GLSL, OpenGL, Visual Studio"
-    ],
-    "ref": "https://github.com/thoresonjd/ComputerGraphics/tree/main/Apps/PortalIllusion"
-  },
-  {
-    "title": "Depth Spectrum",
-    "from": "October 2021",
-    "to": "November 2021",
-    "description": "Personal Projects Competition - Seattle University ACM",
-    "bullet-points": [
-      "3rd Place - Personal Projects Competition SU ACM",
-      "Mobile application that transforms 2D images into 3D models where pixel depth is dependent on colorblindness type",
-      "Fullstack, designed UX/UI and created camera functionality for image processing",
-      "Dart, Flutter, VS Code"
-    ],
-    "ref": "https://github.com/varelandrew/DepthSpectrum"
-  },
-  {
-    "title": "Online Learning Database",
-    "from": "March 2021",
-    "to": "June 2021",
-    "description": "",
-    "bullet-points": [
-      "Database design that functions as the underlying structure of a hypothetical online learning scheduling service",
-      "MySQL, PHP, HTML/CSS"
-    ],
-    "ref": "https://github.com/thoresonjd/online-learning-database"
-  },
-  {
-    "title": "Global Calendar",
-    "from": "January 2021",
-    "to": "March 2021",
-    "description": "",
-    "bullet-points": [
-      "SaaS application that provides a convenient way to schedule events across different time zones",
-      "TypeScript, NodeJS, Angular, MongoDB, WebStorm"
-    ],
-    "ref": "https://github.com/Alex-Sheardown/Global-Calendar"
-  },
-  {
-    "title": "ASCII Rocket Launch",
-    "from": "June 2019",
-    "to": "June 2019",
-    "description": "",
-    "bullet-points": [
-      "A simple program animating an ASCII rocket ship launch",
-      "My first personal project, and one of my first programs",
-      "C++, Visual Studio"
-    ],
-    "ref": "https://github.com/thoresonjd/ascii-rocket-launch"
-  }
+	{
+		"title": "Web Proxy",
+		"from": "April 2023",
+		"to": "April 2023",
+		"description": "",
+		"bullet-points": [
+			"Implemented HTTP request forwarding to origin servers via TCP connections",
+			"Codified web page caching for successful HTTP responses",
+			"Created and parsed HTTP requests and responses",
+			"Python, Git, VS Code"
+		],
+		"ref": "https://github.com/thoresonjd/web-proxy-python"
+	},
+	{
+		"title": "DBMS Relation Manager",
+		"from": "January 2023",
+		"to": "March 2023",
+		"description": "",
+		"bullet-points": [
+			"Codified key RDBMS features and requirements",
+			"Implemented six milestones across three sprints",
+			"Utilized open source software for SQL parsing and file management",
+			"C++, Make, Valgrind, Git, VS Code"
+		],
+		"ref": ""
+	},
+	{
+		"title": "K-means Clustering on MNIST Dataset Using MPI",
+		"from": "February 2023",
+		"to": "February 2023",
+		"description": "",
+		"bullet-points": [
+			"Clustered MNIST images via Euclidean distance of greyscale pixel values",
+			"Parallized k-means clustering via MPI",
+			"Visualized MNIST clusters via generating HTML output file",
+			"C++, OpenMPI, HTML, Make, Valgrind, VS Code"
+		],
+		"ref": "https://github.com/thoresonjd/mnist-kmeans-mpi"
+	},
+	{
+		"title": "React Portfolio",
+		"from": "August 2022",
+		"to": "November 2022",
+		"description": "",
+		"bullet-points": [
+			"Created, designed, and codified my own personal portfolio website",
+			"Deployed site build to the web via GitHub Pages",
+			"Configured custom domain via GoDaddy",
+			"React, TypeScript, NodeJS, GitHub Pages, VS Code"
+		],
+		"ref": "https://github.com/thoresonjd/react-portfolio"
+	},
+	{
+		"title": "Markdown Portfolio",
+		"from": "July 2022",
+		"to": "July 2022",
+		"description": "",
+		"bullet-points": [
+			"Created a template to easily construct, customize, and publicize a personal portfolio",
+			"Markdown, GitHub, VS Code"
+		],
+		"ref": "https://github.com/thoresonjd/markdown-portfolio"
+	},
+	{
+		"title": "Votegrity SaaS Solution",
+		"from": "September 2021",
+		"to": "June 2022",
+		"description": "Senior Capstone Project - Seattle University | Sponsor: Tom Thomas – Votegrity CEO",
+		"bullet-points": [
+			"Created net new election administration tool",
+			"Collaborated with a team to design election admin tool",
+			"Codified election creation functionality for election administrators",
+			"React, JavaScript, NodeJS, VS Code, Agile, Scrum"
+		],
+		"ref": ""
+	},
+	{
+		"title": "Image Processor API",
+		"from": "April 2022",
+		"to": "May 2022",
+		"description": "",
+		"bullet-points": [
+			"Utilizes a RESTful API to process image transformations",
+			"Created with emphasis on architectural design patterns",
+			"C#, Python, TypeScript, React, Flask, REST, VS Code"
+		],
+		"ref": "https://github.com/thoresonjd/image-processor-api"
+	},
+	{
+		"title": "Predicting Stock Market with Sentiment Analysis",
+		"from": "February 2022",
+		"to": "February 2022",
+		"description": "HackSU - Seattle University ACM Hackathon",
+		"bullet-points": [
+			"2nd place - HackSU 2022",
+			"Analyzed finance articles via web scraping and NLP",
+			"Compared sentiment analysis score to stock price changes",
+			"Python, VS Code"
+		],
+		"ref": "https://github.com/a-wallen/stm-toolkit"
+	},
+	{
+		"title": "WinPyTools",
+		"from": "January 2022",
+		"to": "January 2022",
+		"description": "",
+		"bullet-points": [
+			"Windows shortcuts with hotkey commands",
+			"Python, VS Code"
+		],
+		"ref": "https://github.com/thoresonjd/WinPyTools"
+	},
+	{
+		"title": "Portal Illusion",
+		"from": "September 2021",
+		"to": "December 2021",
+		"description": "",
+		"bullet-points": [
+			"Created a computer graphics simulation of an illusion of a cube passing through a portal",
+			"C++, GLSL, OpenGL, Visual Studio"
+		],
+		"ref": "https://github.com/thoresonjd/ComputerGraphics/tree/main/Apps/PortalIllusion"
+	},
+	{
+		"title": "Depth Spectrum",
+		"from": "October 2021",
+		"to": "November 2021",
+		"description": "Personal Projects Competition - Seattle University ACM",
+		"bullet-points": [
+			"3rd Place - Personal Projects Competition SU ACM",
+			"Mobile application that transforms 2D images into 3D models where pixel depth is dependent on colorblindness type",
+			"Fullstack, designed UX/UI and created camera functionality for image processing",
+			"Dart, Flutter, VS Code"
+		],
+		"ref": "https://github.com/varelandrew/DepthSpectrum"
+	},
+	{
+		"title": "Online Learning Database",
+		"from": "March 2021",
+		"to": "June 2021",
+		"description": "",
+		"bullet-points": [
+			"Database design that functions as the underlying structure of a hypothetical online learning scheduling service",
+			"MySQL, PHP, HTML/CSS"
+		],
+		"ref": "https://github.com/thoresonjd/online-learning-database"
+	},
+	{
+		"title": "Global Calendar",
+		"from": "January 2021",
+		"to": "March 2021",
+		"description": "",
+		"bullet-points": [
+			"SaaS application that provides a convenient way to schedule events across different time zones",
+			"TypeScript, NodeJS, Angular, MongoDB, WebStorm"
+		],
+		"ref": "https://github.com/Alex-Sheardown/Global-Calendar"
+	},
+	{
+		"title": "ASCII Rocket Launch",
+		"from": "June 2019",
+		"to": "June 2019",
+		"description": "",
+		"bullet-points": [
+			"A simple program animating an ASCII rocket ship launch",
+			"My first personal project, and one of my first programs",
+			"C++, Visual Studio"
+		],
+		"ref": "https://github.com/thoresonjd/ascii-rocket-launch"
+	}
 ]

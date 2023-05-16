@@ -1,42 +1,42 @@
 {
-  "name": "Justin Thoreson",
-  "description": "Software Engineer with an MS and a BS in Computer Science. Currently interested in networks, systems, graphics, and security. Hobbies include long walks, working out, moviegoing, and coding. :)",
-  "links": [
-    {
-      "title": "E-Mail",
-      "value": "thoresonjd@gmail.com",
-      "ref": "mailto:thoresonjd@gmail.com",
-      "icon-path": "assets/icons/mail.svg"
-    },
-    {
-      "title": "LinkedIn",
-      "value": "justinthoreson",
-      "ref": "https://www.linkedin.com/in/justinthoreson/",
-      "icon-path": "assets/icons/linkedin.svg"
-    },
-    {
-      "title": "GitHub",
-      "value": "thoresonjd",
-      "ref": "https://github.com/thoresonjd",
-      "icon-path": "assets/icons/github.svg"
-    },
-    {
-      "title": "GitLab",
-      "value": "thoresonjd",
-      "ref": "https://gitlab.com/thoresonjd",
-      "icon-path": "assets/icons/gitlab.svg"
-    },
-    {
-      "title": "Instagram",
-      "value": "exulgor",
-      "ref": "https://instagram.com/exulgor",
-      "icon-path": "assets/icons/instagram.svg"
-    },
-    {
-      "title": "SoundCloud",
-      "value": "exulgor",
-      "ref": "https://soundcloud.com/exulgor",
-      "icon-path": "assets/icons/soundcloud.svg"
-    }
-  ]
+	"name": "Justin Thoreson",
+	"description": "Software Engineer with an MS and a BS in Computer Science. Currently interested in networks, systems, graphics, and security. Hobbies include long walks, working out, moviegoing, and coding. :)",
+	"links": [
+		{
+			"title": "E-Mail",
+			"value": "thoresonjd@gmail.com",
+			"ref": "mailto:thoresonjd@gmail.com",
+			"icon-path": "assets/icons/mail.svg"
+		},
+		{
+			"title": "LinkedIn",
+			"value": "justinthoreson",
+			"ref": "https://www.linkedin.com/in/justinthoreson/",
+			"icon-path": "assets/icons/linkedin.svg"
+		},
+		{
+			"title": "GitHub",
+			"value": "thoresonjd",
+			"ref": "https://github.com/thoresonjd",
+			"icon-path": "assets/icons/github.svg"
+		},
+		{
+			"title": "GitLab",
+			"value": "thoresonjd",
+			"ref": "https://gitlab.com/thoresonjd",
+			"icon-path": "assets/icons/gitlab.svg"
+		},
+		{
+			"title": "Instagram",
+			"value": "exulgor",
+			"ref": "https://instagram.com/exulgor",
+			"icon-path": "assets/icons/instagram.svg"
+		},
+		{
+			"title": "SoundCloud",
+			"value": "exulgor",
+			"ref": "https://soundcloud.com/exulgor",
+			"icon-path": "assets/icons/soundcloud.svg"
+		}
+	]
 }

@@ -1,77 +1,77 @@
 [
-  {
-    "level": "Graduate",
-    "degree": "Master of Science",
-    "majors": [
-      "Computer Science"
-    ],
-    "minors": [],
-    "institution": "Seattle University",
-    "location": "Seattle, WA",
-    "from": "June 2022",
-    "to": "June 2023",
-    "status": "currently attending",
-    "gpa": "4.0",
-    "bullet-points": [
-      "Graduate Representative - Seattle University ACM",
-      "Dean's Honor Roll x2",
-      "First-generation college student",
-      "Fast Track student"
-    ]
-  },
-  {
-    "level": "Undergraduate",
-    "degree": "Bachelor of Science",
-    "majors": [
-      "Computer Science"
-    ],
-    "minors": [
-      "Data Science"
-    ],
-    "institution": "Seattle University",
-    "location": "Seattle, WA",
-    "from": "September 2019",
-    "to": "June 2022",
-    "status": "graduated",
-    "gpa": "3.953",
-    "bullet-points": [
-      "Outstanding Computer Science Undergraduate Student Award 2022",
-      "Summa Cum Laude",
-      "President's List x8",
-      "Dean's List x9",
-      "First-generation college student",
-      "Fast Track student"
-    ]
-  },
-  {
-    "level": "Undergraduate",
-    "degree": "",
-    "majors": [],
-    "minors": [],
-    "institution": "Everett Community College",
-    "location": "Everett, WA",
-    "from": "September 2017",
-    "to": "June 2019",
-    "status": "transfered",
-    "gpa": "3.74",
-    "bullet-points": [
-      "Running Start full-time as a high school upperclassman",
-      "Transferred credits to Seattle University"
-    ]
-  },
-  {
-    "level": "High School",
-    "degree": "High School Diploma",
-    "majors": [],
-    "minors": [],
-    "institution": "Granite Falls High School",
-    "location": "Granite Falls, WA",
-    "from": "September 2015",
-    "to": "June 2019",
-    "status": "graduated",
-    "gpa": "3.71",
-    "bullet-points": [
-      "Running Start full-time as a high school upperclassman"
-    ]
-  }
+	{
+		"level": "Graduate",
+		"degree": "Master of Science",
+		"majors": [
+			"Computer Science"
+		],
+		"minors": [],
+		"institution": "Seattle University",
+		"location": "Seattle, WA",
+		"from": "June 2022",
+		"to": "June 2023",
+		"status": "currently attending",
+		"gpa": "4.0",
+		"bullet-points": [
+			"Graduate Representative - Seattle University ACM",
+			"Dean's Honor Roll x2",
+			"First-generation college student",
+			"Fast Track student"
+		]
+	},
+	{
+		"level": "Undergraduate",
+		"degree": "Bachelor of Science",
+		"majors": [
+			"Computer Science"
+		],
+		"minors": [
+			"Data Science"
+		],
+		"institution": "Seattle University",
+		"location": "Seattle, WA",
+		"from": "September 2019",
+		"to": "June 2022",
+		"status": "graduated",
+		"gpa": "3.953",
+		"bullet-points": [
+			"Outstanding Computer Science Undergraduate Student Award 2022",
+			"Summa Cum Laude",
+			"President's List x8",
+			"Dean's List x9",
+			"First-generation college student",
+			"Fast Track student"
+		]
+	},
+	{
+		"level": "Undergraduate",
+		"degree": "",
+		"majors": [],
+		"minors": [],
+		"institution": "Everett Community College",
+		"location": "Everett, WA",
+		"from": "September 2017",
+		"to": "June 2019",
+		"status": "transfered",
+		"gpa": "3.74",
+		"bullet-points": [
+			"Running Start full-time as a high school upperclassman",
+			"Transferred credits to Seattle University"
+		]
+	},
+	{
+		"level": "High School",
+		"degree": "High School Diploma",
+		"majors": [],
+		"minors": [],
+		"institution": "Granite Falls High School",
+		"location": "Granite Falls, WA",
+		"from": "September 2015",
+		"to": "June 2019",
+		"status": "graduated",
+		"gpa": "3.71",
+		"bullet-points": [
+			"Running Start full-time as a high school upperclassman"
+		]
+	}
 ]
