@@ -33,6 +33,7 @@ The scanlines and flickering provide the illusion that the website is being disp
 ![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![ESLint](https://camo.githubusercontent.com/0fb62d704898141bf5a5dfb5acc68901ecf35372bccde7bb9e5ca0164fb6e38d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f65736c696e742d3341333344313f7374796c653d666f722d7468652d6261646765266c6f676f3d65736c696e74266c6f676f436f6c6f723d7768697465)
 ![GoDaddy](https://img.shields.io/badge/GoDaddy-1adddb?style=for-the-badge)
 
 ## Usage
