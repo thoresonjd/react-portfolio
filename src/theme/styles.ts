@@ -121,7 +121,7 @@ export const useStyles: any = makeStyles(() => ({
 		background: `${colors.Transparent} !important`,
 		border: `2px solid ${colors.Lime}`
 	},
-	timelineItemTimeframe: {
+	itemTimeframe: {
 		fontFamily: 'press-start !important',
 		fontSize: '0.5rem !important',
 		color: colors.White
@@ -194,7 +194,9 @@ export const useStyles: any = makeStyles(() => ({
 	},
 	linksList: {
 		overflowY: 'auto',
-		maxHeight: '50vh'
+		maxHeight: '50vh',
+		border: `3px solid ${colors.White}`,
+		borderRadius: '10px'
 	},
 
 	/*** Footer ***/
