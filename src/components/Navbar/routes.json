@@ -20,10 +20,6 @@
         "to": "/awards"
     },
 	{
-		"name": "resume",
-		"to": "/resume"
-	},
-	{
 		"name": "music",
 		"to": "/music"
 	},

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 import { Typography } from '@mui/material';
 import SchoolIcon from '@mui/icons-material/School';
 import Timeline from '../Timeline';
@@ -22,7 +22,7 @@ export const Education: React.FC = (): JSX.Element => {
 			</Typography>
 			<div className={classes.center}>
 				<Link to={'/courses'}>
-					<div className={`${classes.bodyText} ${classes.textButton}`}>Click here to see relevant courses taken</div>
+					<div className={`${classes.bodyText} ${classes.textButton}`}>See courses taken</div>
 				</Link>
 			</div>
 			<Timeline

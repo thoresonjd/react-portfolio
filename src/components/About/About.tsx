@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Typography, Avatar, List, ListItem, Icon, Link, Zoom, Fade } from '@mui/material';
+import { Link } from 'react-router-dom';
+import { Typography, Avatar, List, ListItem, Icon, Link as MuiLink, Zoom, Fade } from '@mui/material';
 import { useStyles } from '../../theme';
 import avatar from '../../assets/images/alien-lime.png';
 import name from '../../assets/gifs/justin-jitter.gif';
@@ -39,6 +40,11 @@ export const About: React.FC = (): JSX.Element => {
 						src={alias}
 					/>
 				</Zoom>
+				<div className={classes.center}>
+					<Link to={'/resume'}>
+						<div className={`${classes.bodyText} ${classes.textButton}`}>See resume</div>
+					</Link>
+				</div>
 				<div className={classes.aboutDescriptionBox}>
 					<div className={classes.bodyText}>{about.description}</div>
 				</div>
@@ -51,10 +57,10 @@ export const About: React.FC = (): JSX.Element => {
 										<img className={classes.linkIcon} alt='icon' src={require(`../../${link['icon-path']}`)} />
 									</Icon>
 									{link.ref ? (
-										<Link href={link.ref} target='_blank' underline='none'>
+										<MuiLink href={link.ref} target='_blank' underline='none'>
                                             &nbsp;&nbsp;
 											<div className={`${classes.bodyText} ${classes.textButton}`}>{link.value}</div>
-										</Link>
+										</MuiLink>
 									):(
 										<Typography>&nbsp;{link.value}</Typography>
 									)}
