@@ -1,0 +1,32 @@
+[
+    {
+        "date": "May 2023",
+        "title": "Award for Research and Collaboration in STEM",
+        "issuer": "Seattle University's Graduate Student Council",
+        "description": "In recognition of outstanding contributions and accomplishments in STEM while pursuing a graduate degree"    
+    },
+    {
+        "date": "June 2022",
+        "title": "Outstanding Computer Science Undergraduate Student Award 2022",
+        "issuer": "Seattle University's Department of Computer Science",
+        "description": "In recognition of academic excellence, engagement, and leadership on campus, and service to the community, and practical learning through internship and research experiences"    
+    },
+    {
+        "date": "June 2022",
+        "title": "Summa Cum Laude",
+        "issuer": "Seattle University",
+        "description": "For graduating with a 3.9 GPA or above as an undergraduate student"
+    },
+    {
+        "date": "February 2022",
+        "title": "2nd Place HackSU 2022",
+        "issuer": "Seattle University ACM",
+        "description": ""    
+    },
+    {
+        "date": "November 2021",
+        "title": "3rd Place Personal Projects Competition",
+        "issuer": "Seattle University ACM",
+        "description": ""    
+    }
+]

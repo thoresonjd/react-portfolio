@@ -15,6 +15,10 @@
 		"name": "projects",
 		"to": "/projects"
 	},
+    {
+        "name": "awards",
+        "to": "/awards"
+    },
 	{
 		"name": "resume",
 		"to": "/resume"

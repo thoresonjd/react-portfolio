@@ -12,7 +12,7 @@ export const ExperienceItem: React.FC<Props> = (props: Props): JSX.Element => {
 
 	return (
 		<>
-			<Typography className={classes.timelineItemTimeframe}>{props.experienceItem.from} - {props.experienceItem.to}</Typography>
+			<Typography className={classes.itemTimeframe}>{props.experienceItem.from} - {props.experienceItem.to}</Typography>
 			<Typography className={classes.itemHeader}>{props.experienceItem.position}</Typography>
 			<Typography className={classes.itemHeader}>{props.experienceItem.employer}</Typography>
 			<Bullet points={props.experienceItem['bullet-points']} />

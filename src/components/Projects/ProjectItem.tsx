@@ -13,7 +13,7 @@ export const ProjectItem: React.FC<Props> = (props: Props): JSX.Element => {
 
 	return (
 		<>
-			<Typography className={classes.timelineItemTimeframe}>
+			<Typography className={classes.itemTimeframe}>
 				{props.projectItem.from === props.projectItem.to ? '' : `${props.projectItem.from} -`} {props.projectItem.to}
 			</Typography>
 			{props.projectItem.ref ? (
