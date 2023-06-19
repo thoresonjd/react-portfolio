@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.a04f9a62.css",
-    "main.js": "/static/js/main.a3e84f2d.js",
+    "main.js": "/static/js/main.e0f0dfca.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/this-is-fine.png": "/static/media/this-is-fine.53b667ffefea856019e6.png",
     "static/media/justin-jitter.gif": "/static/media/justin-jitter.f9ba1359ccf0f935b0a6.gif",
     "static/media/exulgor-jitter.gif": "/static/media/exulgor-jitter.1f247a8543f4a199989c.gif",
-    "static/media/resume.pdf": "/static/media/resume.4739b2bd75467af20b3f.pdf",
+    "static/media/resume.pdf": "/static/media/resume.e33acc7c4d8562b81b57.pdf",
     "static/media/press-start-2p-regular.ttf": "/static/media/press-start-2p-regular.21503c6a5385ab41dde9.ttf",
     "static/media/alien-lime.png": "/static/media/alien-lime.86a657e80b5146bb76c2.png",
     "static/media/exulgor-drawing.png": "/static/media/exulgor-drawing.2bef19387385ae7e0cd5.png",
@@ -20,11 +20,11 @@
     "static/media/soundcloud.svg": "/static/media/soundcloud.9e071a5294ed50cc3d41.svg",
     "index.html": "/index.html",
     "main.a04f9a62.css.map": "/static/css/main.a04f9a62.css.map",
-    "main.a3e84f2d.js.map": "/static/js/main.a3e84f2d.js.map",
+    "main.e0f0dfca.js.map": "/static/js/main.e0f0dfca.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a04f9a62.css",
-    "static/js/main.a3e84f2d.js"
+    "static/js/main.e0f0dfca.js"
   ]
 }
