@@ -8,9 +8,9 @@
 		"to": "Present",
 		"decription": "",
 		"bullet-points": [
-			"Implementing functionality for election administration tool",
-			"Designed and codified UI for election administration tool",
-			"Instantiated new virtual machine by upgrading existing software from scratch",
+			"Configured backend functionality to election administration tool frontend",
+			"Modified and polished UI previously implemented during Senior Capstone Project",
+			"Instantiated new virtual machine from scratch by upgrading existing software",
 			"React, JavaScript, Python, Azure, VS Code"
 		]
 	},
@@ -24,7 +24,7 @@
 		"decription": "",
 		"bullet-points": [
 			"Codified architecture for scalable and automated API authentication and authorization assessment tool",
-			"Configured multi-project CI/CD pipeline via YAML",
+			"Configured multi-project CI/CD pipeline via YAML that helps several teams test APIs for authorization",
 			"Submitted patent application for API assessment tool",
 			"TypeScript, NodeJS, SQL, Postman, VS Code, GitLab"
 		]
@@ -38,7 +38,7 @@
 		"to": "June 2022",
 		"decription": "",
 		"bullet-points": [
-			"Algorithms and Java programming courses",
+			"Algorithms and programming boot camp courses",
 			"Tutored and graded 100+ students, formulated grading rubrics alongside several other TAs",
 			"Provided constructive feedback to 100+ students via tutoring and grading",
 			"Java, IntelliJ, Vim, Emacs, GitHub"
