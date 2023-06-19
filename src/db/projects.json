@@ -18,9 +18,9 @@
 		"to": "March 2023",
 		"description": "",
 		"bullet-points": [
-			"Codified key RDBMS features and requirements",
-			"Implemented six milestones across three sprints",
-			"Utilized open source software for SQL parsing and file management",
+			"Codified key Relational Database Management System (RDBMS) features and requirements",
+			"Utilized open-source software for SQL parsing and file management",
+			"Debugged C++ errors and memory leaks via Valgrind",
 			"C++, Make, Valgrind, Git, VS Code"
 		],
 		"ref": ""
@@ -31,9 +31,9 @@
 		"to": "February 2023",
 		"description": "",
 		"bullet-points": [
-			"Clustered MNIST images via Euclidean distance of greyscale pixel values",
-			"Parallized k-means clustering via MPI",
-			"Visualized MNIST clusters via generating HTML output file",
+			"Clustered images of handwritten digits via Euclidean distance of greyscale pixel values",
+			"Optimized clustering of images via parallelization using Message Passing Interface (MPI)",
+			"Visualized similar digits via generating dynamic HTML output file",
 			"C++, OpenMPI, HTML, Make, Valgrind, VS Code"
 		],
 		"ref": "https://github.com/thoresonjd/mnist-kmeans-mpi"
@@ -47,7 +47,7 @@
 			"Created, designed, and codified my own personal portfolio website",
 			"Deployed site build to the web via GitHub Pages",
 			"Configured custom domain via GoDaddy",
-			"React, TypeScript, NodeJS, GitHub Pages, VS Code"
+			"React, TypeScript, NodeJS, GitHub, VS Code"
 		],
 		"ref": "https://github.com/thoresonjd/react-portfolio"
 	},
@@ -66,12 +66,12 @@
 		"title": "Votegrity SaaS Solution",
 		"from": "September 2021",
 		"to": "June 2022",
-		"description": "Senior Capstone Project - Seattle University | Sponsor: Tom Thomas – Votegrity CEO",
+		"description": "Senior Capstone Project - Seattle University | Sponsor: Tom Thomas - Votegrity CEO",
 		"bullet-points": [
-			"Created net new election administration tool",
-			"Collaborated with a team to design election admin tool",
-			"Codified election creation functionality for election administrators",
-			"React, JavaScript, NodeJS, VS Code, Agile, Scrum"
+			"Collaborated with capstone team to design an election administration UI",
+			"Communicated with sponsor to create UI wireframes",
+			"Codified election administration UI by establishing foundation for critical functionality",
+			"React, JavaScript, NodeJS, VS Code, Figma"
 		],
 		"ref": ""
 	},
@@ -81,7 +81,7 @@
 		"to": "May 2022",
 		"description": "",
 		"bullet-points": [
-			"Utilizes a RESTful API to process image transformations",
+			"Utilized a RESTful API to process image transformations",
 			"Created with emphasis on architectural design patterns",
 			"C#, Python, TypeScript, React, Flask, REST, VS Code"
 		],
@@ -118,9 +118,11 @@
 		"description": "",
 		"bullet-points": [
 			"Created a computer graphics simulation of an illusion of a cube passing through a portal",
-			"C++, GLSL, OpenGL, Visual Studio"
+			"Utilized custom computer graphics framework",
+            "Implemented shaders, textures, particles, and audio output",
+            "C++, GLSL, OpenGL, Visual Studio"
 		],
-		"ref": "https://github.com/thoresonjd/ComputerGraphics/tree/main/Apps/PortalIllusion"
+		"ref": "https://github.com/thoresonjd/cpsc5700/tree/main/Apps/PortalIllusion"
 	},
 	{
 		"title": "Depth Spectrum",
@@ -130,7 +132,7 @@
 		"bullet-points": [
 			"3rd Place - Personal Projects Competition SU ACM",
 			"Mobile application that transforms 2D images into 3D models where pixel depth is dependent on colorblindness type",
-			"Fullstack, designed UX/UI and created camera functionality for image processing",
+			"Designed UX/UI and created camera functionality for image processing",
 			"Dart, Flutter, VS Code"
 		],
 		"ref": "https://github.com/varelandrew/DepthSpectrum"
@@ -155,7 +157,7 @@
 			"SaaS application that provides a convenient way to schedule events across different time zones",
 			"TypeScript, NodeJS, Angular, MongoDB, WebStorm"
 		],
-		"ref": "https://github.com/Alex-Sheardown/Global-Calendar"
+		"ref": "https://github.com/thoresonjd/Global-Calendar"
 	},
 	{
 		"title": "ASCII Rocket Launch",
