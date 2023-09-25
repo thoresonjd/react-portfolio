@@ -1,4 +1,14 @@
 [
+    {
+        "title": "Plants vs. Zombies I, Zombie Bungee Glitch AutoHotkey",
+        "from": "September 2023",
+        "to": "September 2023",
+        "description": "AutoHotkey script exploiting the Bungee Zombie glitch in the I, Zombie puzzle game mode in Plants vs. Zombies: Game of the Year Edition.",
+        "bullet-points": [
+
+        ],
+        "ref": "https://github.com/thoresonjd/pvz-izombie-bungee-glitch-autohotkey"
+    },
 	{
 		"title": "Web Proxy",
 		"from": "April 2023",
