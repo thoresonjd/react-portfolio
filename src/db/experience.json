@@ -14,6 +14,21 @@
 			"React, JavaScript, Python, Azure, VS Code"
 		]
 	},
+    {
+        "position": "Graduate Representative",
+        "employer": "Seattle University Association for Computing Machinery Student Chapter",
+        "type": "Club leadership",
+        "location": "Seattle, WA",
+        "from": "June 2022",
+        "to": "June 2023",
+        "description": "",
+        "bullet-points": [
+            "Facilitated club hackathon, personal projects competition, and other gatherings",
+            "Lead joint club events in collaboration with representatives from other clubs",
+            "Provided academic and career related assistance and advice to fellow computer science students",
+            "Moderated social media and communication channels"
+        ]
+    },
 	{
 		"position": "Software Engineer Intern",
 		"employer": "T-Mobile",
