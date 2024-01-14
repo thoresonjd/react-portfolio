@@ -1,5 +1,18 @@
 [
     {
+        "title": "Password Manager",
+        "from": "December 2023",
+        "to": "January 2024",
+        "description": "",
+        "bullet-points": [
+            "Generated passwords conforming to length and character requirements",
+            "Logged input to ensure reproducibility of passwords if forgotten",
+            "Rendered simple graphical user interface for ease of use",
+            "Python, Git, VS Code"
+        ],
+        "ref": ""
+    },
+    {
         "title": "Plants vs. Zombies I, Zombie Bungee Glitch AutoHotkey",
         "from": "September 2023",
         "to": "September 2023",
