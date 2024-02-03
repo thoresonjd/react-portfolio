@@ -1,21 +1,19 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Table, TableContainer, TableBody, TableCell, TableHead, TableRow, Fade, Typography } from '@mui/material';
+import TabTitle from '../TabTitle';
 import { useStyles } from '../../theme';
 import courses from '../../db/courses.json';
 
 const columns: string[] = ['Institution', 'Number', 'Name', 'Quarter', 'Year', 'Grade'];
 
 export const Courses: React.FC = (): JSX.Element => {
-	const title: string = 'Courses';
 	const classes: any = useStyles();
+	const title: string = 'Courses';
 	const transitionDelay: number = 25;
 
 	return (
 		<>
-			<Helmet>
-				<title>{title}</title>
-			</Helmet>
+			<TabTitle title={title} />
 			<Typography className={classes.timelineTitle} variant='h4'>
 				{title}
 			</Typography>

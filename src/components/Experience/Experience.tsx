@@ -1,21 +1,19 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Typography } from '@mui/material';
 import WorkIcon from '@mui/icons-material/Work';
+import TabTitle from '../TabTitle';
 import Timeline from '../Timeline';
 import { ExperienceItem } from './ExperienceItem';
 import { useStyles } from '../../theme';
 import experience from '../../db/experience.json';
 
 export const Experience: React.FC = (): JSX.Element => {
-	const title: string = 'Experience';
 	const classes: any = useStyles();
+	const title: string = 'Experience';
 
 	return (
 		<>
-			<Helmet>
-				<title>{title}</title>
-			</Helmet>
+			<TabTitle title={title} />
 			<Typography className={classes.timelineTitle} variant='h4'>
 				{title}
 			</Typography>

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { Typography, Avatar, List, ListItem, Icon, Link as MuiLink, Zoom, Fade } from '@mui/material';
+import TabTitle from '../TabTitle';
 import { useStyles } from '../../theme';
 import avatar from '../../assets/images/alien-lime.png';
 import name from '../../assets/gifs/justin-jitter.gif';
@@ -10,13 +10,12 @@ import about from '../../db/about.json';
 
 export const About: React.FC = (): JSX.Element => {
 	const classes: any = useStyles();
+	const title: string = 'About';
 	const transitionDelay: number = 50;
 
 	return (
 		<>
-			<Helmet>
-				<title>About</title>
-			</Helmet>
+			<TabTitle title={title} />
 			<div className={classes.aboutBox}>
 				<Zoom in={true}>
 					<Avatar

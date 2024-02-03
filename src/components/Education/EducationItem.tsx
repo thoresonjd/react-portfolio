@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography } from '@mui/material';
-import Bullet from '../Bullet';
+import BulletedList from '../BulletedList';
 import { useStyles } from '../../theme';
 
 interface Props {
@@ -30,7 +30,7 @@ export const EducationItem: React.FC<Props> = (props: Props): JSX.Element => {
                     GPA: {props.educationItem.gpa}
 				</Typography>
 			) : <></>}
-			<Bullet points={props.educationItem['bullet-points']} />
+			<BulletedList items={props.educationItem['bullet-points']} />
 		</>
 	);
 };

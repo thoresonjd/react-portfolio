@@ -1,17 +1,16 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Box, Typography } from '@mui/material';
+import TabTitle from '../TabTitle';
 import { useStyles } from '../../theme';
 import thisIsFine from '../../assets/images/this-is-fine.png';
 
 export const NotFound: React.FC = (): JSX.Element => {
 	const classes: any = useStyles();
+	const title: string = '404 Not Found';
 
 	return (
 		<>
-			<Helmet>
-				<title>404 Not Found</title>
-			</Helmet>
+			<TabTitle title={title} />
 			<Box className={classes.errorBox}>
 				<Typography className={classes.notFoundTitle}>404</Typography>
 				<Typography className={classes.notFoundSubtitle}>Not Found</Typography>

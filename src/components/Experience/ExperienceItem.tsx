@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography } from '@mui/material';
-import Bullet from '../Bullet';
+import BulletedList from '../BulletedList';
 import { useStyles } from '../../theme';
 
 interface Props {
@@ -15,7 +15,7 @@ export const ExperienceItem: React.FC<Props> = (props: Props): JSX.Element => {
 			<Typography className={classes.itemTimeframe}>{props.experienceItem.from} - {props.experienceItem.to}</Typography>
 			<Typography className={classes.itemHeader}>{props.experienceItem.position}</Typography>
 			<Typography className={classes.itemHeader}>{props.experienceItem.employer}</Typography>
-			<Bullet points={props.experienceItem['bullet-points']} />
+			<BulletedList items={props.experienceItem['bullet-points']} />
 		</>
 	);
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Link } from '@mui/material';
 import LinkIcon from '@mui/icons-material/Link';
-import Bullet from '../Bullet';
+import BulletedList from '../BulletedList';
 import { useStyles } from '../../theme';
 
 interface Props {
@@ -29,7 +29,7 @@ export const ProjectItem: React.FC<Props> = (props: Props): JSX.Element => {
 				<Typography className={classes.itemHeader}>{props.projectItem.title}</Typography>
 			)}
 			<Typography className={classes.bodyText}>{props.projectItem.description}</Typography>
-			<Bullet points={props.projectItem['bullet-points']} />
+			<BulletedList items={props.projectItem['bullet-points']} />
 		</>
 	);
 };
