@@ -4,7 +4,7 @@ import { useStyles } from '../../theme';
 
 interface Props {
     text: string,
-    key: number
+    index: number
 }
 
 export const BulletPoint: React.FC<Props> = (props: Props): JSX.Element => {
@@ -13,7 +13,7 @@ export const BulletPoint: React.FC<Props> = (props: Props): JSX.Element => {
 	const spacing = '\u00A0';
 
 	return (
-		<span className={classes.bulletPoint} key={props.key}>
+		<span className={classes.bulletPoint} key={props.index}>
 			<Typography className={classes.bodyText}>
 				{bullet}{spacing}{props.text}
 			</Typography>
