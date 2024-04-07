@@ -180,8 +180,13 @@ export const useStyles: any = makeStyles(() => ({
 		height: '40px'
 	},
 	aboutDescriptionBox: {
-		display: 'flex',
-		margin: '2.5vh 20vw'
+		display: 'inline-flex',
+		overflowY: 'auto',
+		maxHeight: '35vh',
+		margin: '2.5vh 25vw',
+		padding: '1.5vh 1.5vw',
+		border: `3px solid ${colors.White}`,
+		borderRadius: '10px'
 	},
 	linksBox: {
 		width: 'fit-content',
