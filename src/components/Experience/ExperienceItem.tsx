@@ -15,6 +15,7 @@ export const ExperienceItem: React.FC<Props> = (props: Props): JSX.Element => {
 			<Typography className={classes.itemTimeframe}>{props.experienceItem.from} - {props.experienceItem.to}</Typography>
 			<Typography className={classes.itemHeader}>{props.experienceItem.position}</Typography>
 			<Typography className={classes.itemHeader}>{props.experienceItem.employer}</Typography>
+			<Typography className={classes.bodyText}>{props.experienceItem.description}</Typography>
 			<BulletedList items={props.experienceItem['bullet-points']} />
 		</>
 	);
