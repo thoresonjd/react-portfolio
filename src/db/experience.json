@@ -1,12 +1,22 @@
 [
 	{
+		"position": "Associate Network Engineer, SDET",
+		"employer": "Nintendo",
+		"type": "Contract",
+		"location": "Redmond, WA",
+		"from": "March 2024",
+		"to": "Present",
+		"description": "Engineering for Nintendo Technology Development, contracted through TEKsystems",
+		"bullet-points": []
+	},
+    {
 		"position": "Software Engineer",
 		"employer": "Votegrity",
 		"type": "Part-time",
 		"location": "Remote",
 		"from": "July 2022",
 		"to": "October 2023",
-		"decription": "",
+		"description": "",
 		"bullet-points": [
 			"Configured backend functionality to election administration tool frontend",
 			"Modified and polished UI previously implemented during Senior Capstone Project",
