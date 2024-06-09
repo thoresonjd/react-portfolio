@@ -1,5 +1,13 @@
 [
     {
+        "title": "Schrodle",
+        "from": "February 2024",
+        "to": "May 2024",
+        "description": "Schrodle is a game that is inspired by Wordle and the Schrödinger's Cat thought experiment.",
+        "bullet-points": [],
+        "ref": "https://github.com/thoresonjd/schrodle"
+    },
+    {
         "title": "Password Manager",
         "from": "December 2023",
         "to": "January 2024",
@@ -10,16 +18,14 @@
             "Rendered simple graphical user interface for ease of use",
             "Python, Git, VS Code"
         ],
-        "ref": ""
+        "ref": "https://github.com/thoresonjd/password-manager"
     },
     {
         "title": "Plants vs. Zombies I, Zombie Bungee Glitch AutoHotkey",
         "from": "September 2023",
         "to": "September 2023",
         "description": "AutoHotkey script exploiting the Bungee Zombie glitch in the I, Zombie puzzle game mode in Plants vs. Zombies: Game of the Year Edition.",
-        "bullet-points": [
-
-        ],
+        "bullet-points": [],
         "ref": "https://github.com/thoresonjd/pvz-izombie-bungee-glitch-autohotkey"
     },
 	{
